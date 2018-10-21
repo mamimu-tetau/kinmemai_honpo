@@ -19,7 +19,7 @@ html {
 * {
     background-repeat: no-repeat;
     padding: 0;
-    margin: 0;a
+    margin: 0;
 }
 audio:not([controls]) {
     display: none;
@@ -61,6 +61,17 @@ a:active,
 a:hover {
     outline-width: 0;
 }
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
 code,
 kbd,
 pre,
@@ -99,7 +110,7 @@ input {
     width: auto;
 }
 [type="search"] {
-    -webkit-appearance: textfield;
+    appearance: none;
 }
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
@@ -133,17 +144,20 @@ button:-moz-focusring,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-    outline: 1px dotted ButtonText;
+    outline: none;
 }
 button,
 html [type="button"],
 [type="reset"],
-[type="submit"] {
-    -webkit-appearance: none;
+[type="submit"],
+[type="search"] {
+    appearance: none;
+    outline: none;
 }
 button,
 select {
     text-transform: none;
+    appearance: none;
 }
 button,
 input,
@@ -179,8 +193,7 @@ legend {
     opacity: 0.54;
 }
 [type="search"] {
-    -webkit-appearance: textfield;
-    outline-offset: -2px;
+    outline-offset: 0;
 }
 img {
     border-style: none;

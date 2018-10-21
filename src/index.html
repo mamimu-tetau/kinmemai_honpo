@@ -7,9 +7,7 @@
 <meta name="viewport" content="width=device-width">
 <title></title>
 <script src="/assets/js/jquery-3.3.1.min.js"></script>
-<script src="/assets/js/load.js"></script>
 <!--[if lt IE 9]><script src="/assets/js/html5shiv.js"></script><![endif]-->
-<link rel="stylesheet" media="all" href="/assets/css/default.css" />
 <link href="//fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
 <link rel="stylesheet" media="all" href="/assets/css/fontawesome-all.min.css" />
 <link rel="stylesheet" media="all" href="/assets/css/style.css" />
@@ -20,10 +18,37 @@
 <body>
 
 
-<div class="wrapper" id="wrap">
+
 
     <div role="banner" id="header" class="md_header">
         <header>
+            <div class="md_gnav__trigger" id="gnav__trigger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="txt">メニュー</span>
+            </div>
+            <div class="l_row">
+                <div class="md_header__gnav">
+                    <h1 class="md_header__logo">
+                        <a href="/">
+                            <img src="/assets/images/icn_logo.svg" alt="金芽米本舗（きんめまいほんぽ）" width="188">
+                        </a>
+                    </h1>
+                    <nav class="md_header__nav">
+                        <a href="#" class="fz_14 serif icon_nav shopping">お買い物ガイド</a>
+                        <a href="#" class="fz_14 serif icon_nav cart">カートを見る</a>
+                        <div class="md_header__search">
+                            <form id="form1" action="サイトURL" method="get">
+                                <input id="sbox1" id="s" name="s" type="search" placeholder="検索" />
+                                <button type="submit" id="sbtn2" class="icon_search"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                        <a href="#" class="md_nav__phone head"><img src="/assets/images/icn_phone.svg" alt="お問い合わせ電話番号0120617550" width="246"></a>
+                        <a href="#" class="md_nav__contact"><img src="/assets/images/btn_contact.svg" alt="お問い合わせ" width="165"></a>
+                    </nav>
+                </div>
+            </div>
         </header>
     </div>
 
@@ -32,6 +57,16 @@
     </main>
 
 
+    <nav class="md_bottomNav__wrap">
+        <div class="l_row">
+            <ul class="md_bottomNav">
+                <li><a href=""><img src="/assets/images/foot_lplink_01.png" alt="金芽米とは"></a></li>
+                <li><a href=""><img src="/assets/images/foot_lplink_02.png" alt="東洋ライスという会社"></a></li>
+                <li><a href=""><img src="/assets/images/foot_lplink_03.png" alt="人も自然もすこやかに"></a></li>
+                <li><a href=""><img src="/assets/images/foot_lplink_04.png" alt="土作りから精米まで"></a></li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="md_footer" id="footer" role="contentinfo">
         <footer>
