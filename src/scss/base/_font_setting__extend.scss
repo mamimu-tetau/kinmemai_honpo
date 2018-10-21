@@ -13,9 +13,11 @@
 /*-----------------------------------------------
  __letterspacing centering
 -----------------------------------------------*/
+%lt0 {letter-spacing: 0;text-indent: 0;}
 %lt1 {letter-spacing: .1em;text-indent: .1em;}
 %lt2 {letter-spacing: .2em;text-indent: .2em;}
 %lt3 {letter-spacing: .3em;text-indent: .3em;}
+%lt4 {letter-spacing: .4em;text-indent: .4em;}
 
 /*-----------------------------------------------
  __fontsize

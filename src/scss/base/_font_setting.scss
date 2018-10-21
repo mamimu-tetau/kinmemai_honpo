@@ -47,9 +47,11 @@ a:hover {color: $link-color;}
 /*-----------------------------------------------
  __letterspacing centering
 -----------------------------------------------*/
+.lt0 {@extend %lt0;}
 .lt1 {@extend %lt1;}
 .lt2 {@extend %lt2;}
 .lt3 {@extend %lt3;}
+.lt4 {@extend %lt4;}
 
 /*-----------------------------------------------
  __fontsize

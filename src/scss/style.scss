@@ -32,7 +32,30 @@ __common
 -----------------------------------------------*/
 body {
 }
-
+.md_contact__phone {
+    &.pt_lrg {
+        padding-top: 100px;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        span {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            img {
+                padding: 0 5px;
+            }
+        }
+    }
+}
 
 /*-----------------------------------------------
 __layout
@@ -49,7 +72,11 @@ __layout
         padding-left: 5%;
     }
 }
-
+.l_innerWidth {
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+}
 /*-----------------------------------------------
 __header
 -----------------------------------------------*/
@@ -357,7 +384,290 @@ __footer
     align-items: flex-end;
 }
 
+/*-----------------------------------------------
+__page common
+-----------------------------------------------*/
+.md_hero {
+    height: 60vh;
+    max-height: 700px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center center;
+    &.vision {
+        background-image: url(../images/md_hero__vision.jpg);
+    }
+}
 
+
+/*-----------------------------------------------
+__page vision
+-----------------------------------------------*/
+.pg_visionIntro__ttl {
+    text-align: center;
+    padding: 100px 0 300px 0;
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        top: -8%;
+        left: 50%;
+        width: 548px;
+        height: 428px;
+        background: url(../images/bg_vison_01.png) top center no-repeat;
+        background-size: cover;
+        z-index: 0;
+        transform: translateX(-90%);
+    }
+    span {
+        font-size: 50px;
+        display: inline-block;
+        box-sizing: border-box;
+        position: relative;
+        z-index: 1;
+        &:after {
+            content: '';
+            position: absolute;
+            top: -50px;
+            right: -100px;
+            background: url(../images/icn_quote.png) top center no-repeat;
+            background-size: cover;
+            width: 72px;
+            height: 54px;
+        }
+    }
+}
+.pg_visionSec {
+    padding: 100px 0;
+    &.slogan {
+        padding-top: 40px;
+    }
+    &.commit {
+        padding-bottom: 15vw;
+        background: url(../images/pg_vision_bg01.jpg) bottom center no-repeat;
+        background-size: cover;
+    }
+    &.otherstory {
+        li {
+            position: relative;
+            padding: 20px 0 40px 0;
+            margin-bottom: 20px;
+            color: $c3;
+            overflow: hidden;
+            &:after {
+                content: '';
+                position: absolute;
+                top: 45px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url(../images/bg_suisai__seem01.jpg) bottom center repeat;
+                background-size: cover;
+                z-index: -1;
+            }
+            .l_flex {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+        .otherstory_ttl {
+            margin-bottom: 40px;
+            span {
+                display: inline-block;
+                box-sizing: border-box;
+                position: relative;
+                padding: 0 .75em;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    bottom: -5px;
+                    left: 0;
+                    height: 1px;
+                    background: $c3;
+                    border-bottom: 1px solid $c3;
+                    width: 100%;
+                    z-index: 1;
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    bottom: -18px;
+                    left: 50%;
+                    width: 20px;
+                    height: 14px;
+                    background: url(../images/bg_arrow__bottom.svg) 0 0 no-repeat;
+                    transform: translateX(-50%);
+                    z-index: 2;
+                }
+            }
+        }
+        .otherstory_thumb {
+            flex: 0 1 25%;
+            img {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                display: block;
+            }
+        }
+        .otherstory_summary {
+            flex: 1;
+            padding-right: 20px;
+            text-align: justify;
+        }
+    }
+    &.issue {
+        background: url(../images/pg_vision_bg02.jpg) bottom center no-repeat;
+        background-size: cover;
+    }
+}
+
+.pg_visionSec__ttl {
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        background-size: cover;
+        width: 300px;
+        height: 80px;
+        transform: translateX(-50%);
+    }
+    &.slogan:before {
+        background: url(../images/pg_vision_01.svg) bottom center no-repeat;
+    }
+    &.commit:before {
+        background: url(../images/pg_vision_02.svg) bottom center no-repeat;
+    }
+    &.issue:before {
+        background: url(../images/pg_vision_03.svg) bottom center no-repeat;
+    }
+    &.possibility:before {
+        background: url(../images/pg_vision_03.svg) bottom center no-repeat;
+    }
+    span {
+        font-size: 40px;
+        display: inline-block;
+        box-sizing: border-box;
+        padding-bottom: 1em;
+    }
+}
+.pg_visionSec__summary {
+    letter-spacing: .05em;
+    text-align: justify;
+    small {
+        display: block;
+    }
+    p {
+        margin-bottom: 2em;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.pg_vision__item {
+    background: url(../images/bg_vison_03.jpg) 0 0 repeat;
+    margin-top: 100px;
+    padding: 60px 0;
+}
+.pg_vision__itemInnr {
+    max-width: 860px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    .l_img {
+        flex: 0 1 60%;
+        box-sizing: border-box;
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            top: -120px;
+            left: 2%;
+            background: url(../images/icn_ourrec.png) 0 0 repeat;
+            background-size: cover;
+            width: 200px;
+            height: 210px;
+        }
+        img {
+            padding-left: 25%;
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            position: relative;
+            z-index: 1;
+        }
+    }
+    .l_txt {
+        flex: 0 1 40%;
+    }
+}
+.pg_vision__itemTxt {
+    padding-top: 30px;
+    padding-left: 5%;
+    .itemttl {
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .ttl {
+        text-align: center;
+        margin-bottom: 30px;
+        span {
+            background: $c1;
+            display: inline-block;
+            box-sizing: border-box;
+            color: #fff;
+            white-space: nowrap;
+            line-height: 1;
+            padding: .3em 1em;
+            border-radius: 1em;
+        }
+    }
+}
+.pg_vision__itemLink {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 40px 0;
+    a {
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background: $c1;
+        border-radius: 10px;
+        display: block;
+        padding: 8px;
+        line-height: 1;
+        span {
+            border: 1px solid #fff;
+            display: block;
+            border-radius: 6px;
+            padding: .6em 0;
+            position: relative;
+            &:after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                background: url(../images/icn_arrow__3.svg) 0 0 repeat;
+                background-size: cover;
+                width: 42px;
+                height: 20px;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}
 
 
 
