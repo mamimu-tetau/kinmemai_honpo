@@ -915,5 +915,201 @@ __header
 /*-----------------------------------------------
 __footer
 -----------------------------------------------*/
+.md_footer {
+  margin-top: 80px;
+  padding: 40px 0;
+  background: #f1efea;
+  color: #383c3c;
+}
+
+.md_footerGuide__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.md_footerGuide__wrap > li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 48.5%;
+          flex: 0 1 48.5%;
+  margin-bottom: 3%;
+  background: #fff;
+}
+
+.md_footerGuide {
+  padding: 20px 6%;
+}
+
+.md_footerGuide .guide_line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.md_footerGuide .guide_note {
+  padding-top: .75em;
+}
+
+.md_footerGuide .guide_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.md_footerGuide .guide_list > li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 48.5%;
+          flex: 0 1 48.5%;
+  margin-bottom: 3%;
+}
+
+.md_footerGuide .guide_list > li a {
+  text-decoration: none;
+  white-space: nowrap;
+  color: #383c3c;
+  border: 1px solid #e3682c;
+  display: block;
+  border-radius: 5px;
+  line-height: 1;
+  padding: .6em 0;
+  text-align: center;
+}
+
+.md_footerGuide_ttl {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.md_footerGuide_ttl span {
+  color: #6a523f;
+  position: relative;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.md_footerGuide_ttl span:before {
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: auto 44px;
+  height: 44px;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.md_footerGuide_ttl.payment span {
+  padding-left: 49px;
+}
+
+.md_footerGuide_ttl.payment span:before {
+  width: 44px;
+  background-image: url(../images/icn_foot_01.svg);
+}
+
+.md_footerGuide_ttl.shipping span {
+  padding-left: 72px;
+}
+
+.md_footerGuide_ttl.shipping span:before {
+  width: 67px;
+  background-image: url(../images/icn_foot_02.svg);
+}
+
+.md_footerGuide_ttl.contact span {
+  padding-left: 52px;
+}
+
+.md_footerGuide_ttl.contact span:before {
+  width: 47px;
+  background-image: url(../images/icn_foot_04.svg);
+}
+
+.md_footerGuide_ttl.faq span {
+  padding-left: 56px;
+}
+
+.md_footerGuide_ttl.faq span:before {
+  width: 51px;
+  background-image: url(../images/icn_foot_03.svg);
+}
+
+.md_foot__phone {
+  margin-right: 30px;
+  display: block;
+}
+
+.md_foot__phone img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.md_foot__contact {
+  display: block;
+}
+
+.md_foot__contact img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.md_foot__copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
 
 /*# sourceMappingURL=maps/style.css.map */
