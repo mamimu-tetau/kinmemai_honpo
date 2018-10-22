@@ -1073,6 +1073,81 @@ __footer
   text-align: center;
 }
 
+.md_footerGuide .guide_column {
+  color: #6a523f;
+}
+
+.md_footerGuide .guide_column:first-of-type {
+  border-bottom: 1px solid #6a523f;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.md_footerGuide .guide_column img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.md_footerGuide .guide_column .creditlogo {
+  padding: 0 5%;
+}
+
+.md_footerGuide .guide_column .daibiki_price {
+  margin: 0 auto;
+}
+
+.md_footerGuide .guide_column .shipping_company {
+  padding: 0 100px;
+}
+
+.md_footerGuide .guide_column .shipping_time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.md_footerGuide .guide_column .shipping_time p {
+  white-space: nowrap;
+}
+
+.md_footerGuide .guide_column .shipping_time img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.md_footerGuide .guide_column .shipping_time .l_1st {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.md_footerGuide .guide_column .shipping_time .l_1st .time_order {
+  padding-top: 5px;
+}
+
+.md_footerGuide .guide_column .shipping_time .l_2nd {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 75%;
+          flex: 0 1 75%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 10px;
+}
+
 .md_footerGuide_ttl {
   text-align: center;
   padding-bottom: 20px;

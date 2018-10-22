@@ -302,6 +302,54 @@ __footer
             }
         }
     }
+    .guide_column {
+        color: $c3;
+        &:first-of-type {
+            border-bottom: 1px solid $c3;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .creditlogo {
+            padding: 0 5%;
+        }
+        .daibiki_price {
+            margin: 0 auto;
+        }
+        .shipping_company {
+            padding: 0 100px;
+        }
+        .shipping_time {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            p {
+                white-space: nowrap;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+            }
+            .l_1st {
+                flex: 1;
+                .time_order {
+                    padding-top: 5px;
+                }
+            }
+            .l_2nd {
+                flex: 0 1 75%;
+                box-sizing: border-box;
+                padding-left: 10px;
+            }
+        }
+    }
 }
 .md_footerGuide_ttl {
     text-align: center;
