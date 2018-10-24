@@ -28,7 +28,7 @@
                 <span class="line"></span>
                 <span class="txt">メニュー</span>
             </div>
-            <div class="l_row">
+            <div class="md_header__wrap">
                 <div class="md_header__gnav">
                     <h1 class="md_header__logo">
                         <a href="/">
@@ -36,8 +36,8 @@
                         </a>
                     </h1>
                     <nav class="md_header__nav">
-                        <a href="#" class="fz_14 serif icon_nav shopping">お買い物ガイド</a>
-                        <a href="#" class="fz_14 serif icon_nav cart">カートを見る</a>
+                        <a href="#" class="fz_14 serif icon_nav shopping"><span>お買い物ガイド</span></a>
+                        <a href="#" class="fz_14 serif icon_nav cart"><span>カートを見る</span></a>
                         <div class="md_header__search">
                             <form id="form1" action="サイトURL" method="get">
                                 <input id="sbox1" id="s" name="s" type="search" placeholder="検索" />
@@ -143,10 +143,30 @@
     <nav class="md_bottomNav__wrap">
         <div class="l_row">
             <ul class="md_bottomNav">
-                <li><a href=""><img src="../assets/images/foot_lplink_01.png" alt="金芽米とは"></a></li>
-                <li><a href=""><img src="../assets/images/foot_lplink_02.png" alt="東洋ライスという会社"></a></li>
-                <li><a href=""><img src="../assets/images/foot_lplink_03.png" alt="人も自然もすこやかに"></a></li>
-                <li><a href=""><img src="../assets/images/foot_lplink_04.png" alt="土作りから精米まで"></a></li>
+                <li>
+                    <a href="../kinmemai/">
+                        <img src="../assets/images/foot_lplink_01.jpg" alt="金芽米">
+                        <img src="../assets/images/foot_lplink_01t.png" alt="金芽米とは" class="ttl">
+                    </a>
+                </li>
+                <li>
+                    <a href="../company/">
+                        <img src="../assets/images/foot_lplink_02.jpg" alt="東洋ライス工場">
+                        <img src="../assets/images/foot_lplink_02t.png" alt="東洋ライスという会社" class="ttl">
+                    </a>
+                </li>
+                <li>
+                    <a href="../vision/">
+                        <img src="../assets/images/foot_lplink_04.jpg" alt="すこやかに">
+                        <img src="../assets/images/foot_lplink_04t.png" alt="人も自然もすこやかに" class="ttl">
+                    </a>
+                </li>
+                <li>
+                    <a href="../process/">
+                        <img src="../assets/images/foot_lplink_03.jpg" alt="田園">
+                        <img src="../assets/images/foot_lplink_03t.png" alt="土作りから精米まで" class="ttl">
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -163,7 +183,7 @@
                                 </p>
                             </div>
                             <div class="guide_column">
-                                <img src="../assets/images/icn_foot_06.png" alt="代引き手数料無償" class="daibiki_price" width="282">
+                                <p class="fz_14 shipping_company"><img src="../assets/images/icn_foot_06.png" alt="代引き手数料無償" class="daibiki_price"></p>
                             </div>
                         </div>
                     </li>
@@ -171,12 +191,13 @@
                         <div class="md_footerGuide">
                             <h3 class="fz_18 fw700 lt1 md_footerGuide_ttl shipping"><span>配送・送料について</span></h3>
                             <div class="guide_column">
-                                <p class="fz_14 shipping_company">宅配会社<img src="../assets/images/icn_foot_06.png" alt="宅配会社"></p>
+                                <p class="fz_14 shipping_company">宅配会社<img src="../assets/images/icn_foot_06_1.png" alt="宅配会社"></p>
                             </div>
                             <div class="guide_column">
+                                <p class="fz_14">配達日・時間指定</p>
                                 <div class="shipping_time">
                                     <div class="l_1st">
-                                        <p class="fz_14">配達日・時間指定</p>
+
                                         <img src="../assets/images/icn_foot_07.png" alt="配達日指定可能・時間指定可能" class="time_order" width="120">
                                     </div>
                                     <div class="l_2nd">
@@ -209,7 +230,7 @@
                     </li>
                 </ul>
                 <section class="md_foot__copyright">
-                    <p class="fz_12 copyright">このホームページ上の写真、映像、文章、図表などの著作物を、弊社の了承なく複製、使用することを禁じます。<br>&copy; 東洋ライス株式会社 All Rights Reserved.</p>
+                    <p class="fz_12 copyright">このホームページ上の写真、映像、文章、図表などの著作物を、弊社の了承なく複製、使用することを禁じます。<span class="mark">&copy; 東洋ライス株式会社 All Rights Reserved.</span></p>
                     <a href="#" class="md_foot__logo"><img src="../assets/images/foot_logo.svg" alt="東洋ライス株式会社" width="252"></a>
                 </section>
             </footer>

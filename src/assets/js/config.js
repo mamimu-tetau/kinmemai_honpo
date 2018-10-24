@@ -1,5 +1,17 @@
 (function($) {
     $(function(){
+
+
+
+
+  $(".md_header__search input").focus(function(){
+    $(this).parents().children(".icon_nav").addClass("hide");
+  }).blur(function(){
+    $(this).parents().children(".icon_nav").removeClass("hide");
+  });
+
+
+
     //スムーズスクロール
         $('a[href^="#"]').click(function(){
             var speed = 600;

@@ -22,6 +22,8 @@ body {
     font-family:"游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Roboto, Meiryo, sans-serif;
     text-rendering: optimizeLegibility;
     color: $base_font__color;
+    font-feature-settings : "palt";
+    letter-spacing: .1em;
 }
 
 a, a:link, a:active, a:visited {text-decoration: underline;outline: none;}
@@ -52,6 +54,7 @@ a:hover {color: $link-color;}
 .lt2 {@extend %lt2;}
 .lt3 {@extend %lt3;}
 .lt4 {@extend %lt4;}
+.lt5 {@extend %lt5;}
 
 /*-----------------------------------------------
  __fontsize
