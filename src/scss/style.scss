@@ -33,8 +33,18 @@ __common
 body {
 }
 .md_contact__phone {
+    @include media(979px) {
+        text-align: center;
+    }
     &.pt_lrg {
         padding-top: 100px;
+        @include media(979px) {
+            padding: 40px 0;
+        }
+    }
+    @include media(1024px) {
+        padding-right: 5%;
+        padding-left: 5%;
     }
     a {
         text-decoration: none;
@@ -44,14 +54,24 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         align-items: stretch;
+        @include media(979px) {
+            display: inline-block;
+            box-sizing: border-box;
+        }
         span {
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
             justify-content: flex-start;
             align-items: center;
+            @include media(979px) {
+                justify-content: center;
+            }
             img {
                 padding: 0 5px;
+                @include media(979px) {
+                    padding: 5px 0;
+                }
             }
         }
     }
@@ -92,6 +112,12 @@ __header
     position: relative;
     @include media(1366px) {
         padding-right: 90px;
+    }
+    @include media(1024px) {
+        padding-bottom: 5%;
+    }
+    @include media(660px) {
+        padding-bottom: 10px;
     }
 }
 .md_header__wrap {
@@ -296,6 +322,9 @@ __header
     position: relative;
     @include media(1200px) {
         padding-bottom: 40px;
+    }
+    @include media(979px) {
+        padding-top: 0;
     }
     @include media(767px) {
         padding-bottom: 10px;
@@ -537,6 +566,10 @@ __footer
                 &:hover {
                     color: $c2;
                 }
+                @include media(480px) {
+                    padding: .8em 0;
+                    font-size: 11px;
+                }
             }
         }
     }
@@ -731,10 +764,14 @@ __page common
 -----------------------------------------------*/
 .md_hero {
     height: 60vh;
-    max-height: 700px;
+    max-height: 660px;
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center center;
+    @include media(1280px) {
+        max-height: inherit;
+        height: 50vh;
+    }
     &.vision {
         background-image: url(../images/md_hero__vision.jpg);
     }
@@ -748,6 +785,12 @@ __page vision
     text-align: center;
     padding: 100px 0 300px 0;
     position: relative;
+    @include media(979px) {
+        padding: 10% 0 30% 0;
+    }
+    @include media(660px) {
+        padding-bottom: 20%;
+    }
     &:before {
         content: '';
         position: absolute;
@@ -759,6 +802,11 @@ __page vision
         background-size: cover;
         z-index: 0;
         transform: translateX(-90%);
+        @include media(1200px) {
+            transform: translateX(-85%);
+            width: 50%;
+            background-size: 100% auto;
+        }
     }
     span {
         font-size: 50px;
@@ -766,6 +814,17 @@ __page vision
         box-sizing: border-box;
         position: relative;
         z-index: 1;
+        @include media(979px) {
+            font-size: 40px;
+        }
+        @include media(767px) {
+            font-size: 36px;
+        }
+        @include media(660px) {
+            font-size: 6vw;
+            letter-spacing: .2em;
+            text-indent: .2em;
+        }
         &:after {
             content: '';
             position: absolute;
@@ -775,26 +834,76 @@ __page vision
             background-size: cover;
             width: 72px;
             height: 54px;
+            @include media(1200px) {
+                transform: translateX(-85%);
+                width: 12%;
+                right: -28%;
+                background-size: 100% auto;
+            }
+            @include media(979px) {
+                top: -45%;
+            }
+            @include media(660px) {
+            }
         }
     }
 }
 .pg_visionSec {
     padding: 100px 0;
+    @include media(767px) {
+        padding: 80px 0;
+    }
+    @include media(480px) {
+        padding: 60px 0;
+    }
     &.slogan {
         padding-top: 40px;
     }
     &.commit {
         padding-bottom: 15vw;
-        background: url(../images/pg_vision_bg01.jpg) bottom center no-repeat;
+        background-image: url(../images/pg_vision_bg01.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-color: #e0eefb;
         background-size: cover;
+        @include media(979px) {
+            padding-bottom: 20%;
+            background-size: 1000px;
+        }
+        @include media(660px) {
+            padding-bottom: 24%;
+            background-size: 600px;
+        }
     }
     &.otherstory {
+        @include media(1280px) {
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+        @include media(1280px) {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        @include media(660px) {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
         li {
             position: relative;
             padding: 20px 0 40px 0;
             margin-bottom: 20px;
             color: $c3;
             overflow: hidden;
+            @include media(1024px) {
+                padding-right: 5%;
+                padding-left: 5%;
+                padding-bottom: 4%;
+            }
+            @include media(660px) {
+                padding-right: 8%;
+                padding-left: 8%;
+                padding-bottom: 6%;
+            }
             &:after {
                 content: '';
                 position: absolute;
@@ -811,11 +920,17 @@ __page vision
                 flex-direction: row;
                 flex-wrap: nowrap;
                 justify-content: space-between;
-                align-items: center;
+                align-items: flex-start;
+                @include media(767px) {
+                    flex-wrap: wrap;
+                }
             }
         }
         .otherstory_ttl {
             margin-bottom: 40px;
+            @include media(660px) {
+                margin-bottom: 30px;
+            }
             span {
                 display: inline-block;
                 box-sizing: border-box;
@@ -847,22 +962,54 @@ __page vision
         }
         .otherstory_thumb {
             flex: 0 1 25%;
+            @include media(979px) {
+                flex: 0 1 40%;
+            }
+            @include media(767px) {
+                flex: 0 1 100%;
+            }
             img {
                 width: 100%;
                 max-width: 100%;
                 height: auto;
                 display: block;
+                @include media(767px) {
+                    padding-top: 20px;
+                    width: 50%;
+                    margin: 0 auto;
+                }
+                @include media(600px) {
+                    width: 80%;
+                }
             }
         }
         .otherstory_summary {
+            &.pr {
+                padding-right: 20px;
+                @include media(767px) {
+                    padding-right: 0;
+                }
+            }
             flex: 1;
-            padding-right: 20px;
             text-align: justify;
+            @include media(480px) {
+                font-size: 12px;
+            }
         }
     }
     &.issue {
-        background: url(../images/pg_vision_bg02.jpg) bottom center no-repeat;
+        background-image: url(../images/pg_vision_bg02.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom center;
         background-size: cover;
+        background-color: #f2f1ed;
+        @include media(979px) {
+            background-size: 1000px;
+            background-position: bottom left;
+        }
+        @include media(660px) {
+            background-size: 600px;
+        }
     }
 }
 
@@ -870,6 +1017,17 @@ __page vision
     text-align: center;
     position: relative;
     padding-top: 100px;
+    white-space: nowrap;
+    @include media(979px) {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    @include media(767px) {
+        padding-top: 80px;
+    }
+    @include media(600px) {
+        padding-top: 60px;
+    }
     &:before {
         content: '';
         position: absolute;
@@ -879,6 +1037,14 @@ __page vision
         width: 300px;
         height: 80px;
         transform: translateX(-50%);
+        @include media(767px) {
+            width: 200px;
+            height: 60px;
+        }
+        @include media(600px) {
+            width: 160px;
+            height: 40px;
+        }
     }
     &.slogan:before {
         background: url(../images/pg_vision_01.svg) bottom center no-repeat;
@@ -897,11 +1063,30 @@ __page vision
         display: inline-block;
         box-sizing: border-box;
         padding-bottom: 1em;
+        letter-spacing: .25em;
+        text-indent: .25em;
+        @include media(979px) {
+            font-size: 30px;
+        }
+        @include media(660px) {
+            font-size: 4.5vw;
+            letter-spacing: .2em;
+            text-indent: .2em;
+        }
     }
 }
 .pg_visionSec__summary {
     letter-spacing: .1em;
     text-align: justify;
+    @include media(979px) {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    @include media(480px) {
+        font-size: 12px;
+        padding-right: 8%;
+        padding-left: 8%;
+    }
     small {
         display: block;
     }
@@ -917,6 +1102,12 @@ __page vision
     background: url(../images/bg_vison_03.jpg) 0 0 repeat;
     margin-top: 100px;
     padding: 60px 0;
+    @include media(767px) {
+        margin-top: 40px;
+    }
+    @include media(767px) {
+        padding-top: 30px;
+    }
 }
 .pg_vision__itemInnr {
     max-width: 860px;
@@ -926,10 +1117,19 @@ __page vision
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    @include media(979px) {
+        padding: 0 5%;
+    }
     .l_img {
         flex: 0 1 60%;
         box-sizing: border-box;
         position: relative;
+        @include media(979px) {
+            flex: 0 1 50%;
+        }
+        @include media(540px) {
+            flex: 0 1 100%;
+        }
         &:after {
             content: '';
             position: absolute;
@@ -939,6 +1139,23 @@ __page vision
             background-size: cover;
             width: 200px;
             height: 210px;
+            @include media(979px) {
+                width: 160px;
+                height: 170px;
+                left: -8%;
+            }
+            @include media(767px) {
+                width: 120px;
+                height: 125px;
+                top: -80px;
+                left: -3%;
+            }
+            @include media(540px) {
+                width: 80px;
+                height: 85px;
+                top: -50px;
+                left: 10%;
+            }
         }
         img {
             padding-left: 25%;
@@ -948,23 +1165,48 @@ __page vision
             display: block;
             position: relative;
             z-index: 1;
+            @include media(979px) {
+                padding-left: 10%;
+            }
+            @include media(540px) {
+                padding: 0;
+                width: 60%;
+                margin: 0 auto;
+            }
         }
     }
     .l_txt {
         flex: 0 1 40%;
+        @include media(979px) {
+            flex: 0 1 50%;
+        }
+        @include media(540px) {
+            flex: 0 1 100%;
+        }
     }
 }
 .pg_vision__itemTxt {
     padding-top: 30px;
     padding-left: 5%;
+    @include media(540px) {
+        padding-top: 0;
+        padding-left: 0;
+    }
     .itemttl {
         line-height: 1.2;
         text-align: center;
         margin-bottom: 30px;
+        @include media(540px) {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
     }
     .ttl {
         text-align: center;
         margin-bottom: 30px;
+        @include media(540px) {
+            margin-bottom: 15px;
+        }
         span {
             background: $c1;
             display: inline-block;
@@ -976,26 +1218,48 @@ __page vision
             border-radius: 1em;
         }
     }
+    p {
+        text-align: justify;
+        @include media(540px) {
+            padding-right: 3%;
+            padding-left: 3%;
+        }
+    }
 }
 .pg_vision__itemLink {
     max-width: 860px;
     margin: 0 auto;
     padding: 40px 0;
+    @include media(979px) {
+        width: 80%;
+        height: auto;
+        padding-bottom: 0;
+    }
+    @include media(600px) {
+        width: 90%;
+    }
     a {
         text-align: center;
         text-decoration: none;
-        color: #fff;
+        color: rgba(255,255,255,1);
         background: $c1;
         border-radius: 10px;
         display: block;
         padding: 8px;
         line-height: 1;
+        @include media(600px) {
+            padding: 6px;
+        }
         span {
-            border: 1px solid #fff;
+            border: 1px solid rgba(255,255,255,.6);
             display: block;
             border-radius: 6px;
             padding: .6em 0;
             position: relative;
+            @include media(600px) {
+                font-size: 16px;
+                padding: 1em 0;
+            }
             &:after {
                 content: '';
                 position: absolute;
@@ -1006,6 +1270,11 @@ __page vision
                 width: 42px;
                 height: 20px;
                 transform: translateY(-50%);
+                @include media(767px) {
+                    width: 32px;
+                    height: 14px;
+                    right: 10px;
+                }
             }
         }
     }
