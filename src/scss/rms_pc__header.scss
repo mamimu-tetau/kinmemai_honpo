@@ -1,0 +1,25 @@
+@charset "utf-8";
+@import "core/_mixin";
+@import "base/_base_setting";
+@import "base/_font_setting";
+
+
+.rms_pc__header {
+    height: 171px;
+}
+.rms_pc__headerIframe {
+    height: 171px;
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-width: 1200px;
+    margin: 0;
+    iframe {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+}
