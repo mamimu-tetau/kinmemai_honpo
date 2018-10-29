@@ -38,4 +38,69 @@
     background: #fff;
 }
 
-.rms_pc__sideNav {}
+.rms_pc__sideNav {
+    > li {
+        margin-bottom: 30px;
+    }
+}
+
+.rms_pc__sideNavTtl {
+    position: relative;
+    padding-left: 30px;
+    letter-spacing: .2em;
+    padding-bottom: 5px;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 10%;
+        left: 0;
+        background-image: url(../images/md_icon__comeg.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 19px;
+        height: 25px;
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        background-image: url(../images/side_bd.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 100%;
+    }
+}
+.rms_pc__sideNavlow {
+    > li {
+        padding: 6px 10px 5px 30px;
+        border-bottom: 1px solid #ccc;
+        a {
+            text-decoration: none;
+            color: #000;
+            display: block;
+            padding: 5px 0;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
