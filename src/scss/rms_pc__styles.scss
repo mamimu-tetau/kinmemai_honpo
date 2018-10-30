@@ -87,12 +87,25 @@
     }
 }
 
-
-
-
-
-
-
+.rms_pc__footer {
+    height: 704px;
+}
+.rms_pc__footerIframe {
+    height: 704px;
+    z-index: 9999;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-width: 1200px;
+    margin: 0;
+    iframe {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+}
 
 
 

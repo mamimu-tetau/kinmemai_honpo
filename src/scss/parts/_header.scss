@@ -5,15 +5,14 @@
 
 .md_header {
     background-image: url(../images/head_line__bg.png);
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-position: center top;
     background-size: auto 36px;
     padding-top: 40px;
     padding-bottom: 70px;
+    padding-left: 3%;
+    padding-right: 3%;
     position: relative;
-    @include media(1366px) {
-        padding-right: 90px;
-    }
     @include media(1024px) {
         padding-bottom: 5%;
     }
@@ -25,10 +24,6 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    @include media(1366px) {
-        max-width: inherit;
-        padding-left: 15px;
-    }
     @include media(660px) {
         padding-left: 10px;
     }
