@@ -130,6 +130,10 @@ __page common
         background-image: url(../images/md_hero__company.jpg);
         background-position: center center;
     }
+    &.kinmemai {
+        background-image: url(../images/md_hero__kinmemai.jpg);
+        background-position: right center;
+    }
 }
 
 .md_chapter__ttl {
@@ -191,6 +195,15 @@ __page common
     }
     &.product:before {
         background: url(../images/pg_company02.svg) bottom center no-repeat;
+    }
+    &.bigining:before {
+        background: url(../images/pg_kinmemai01.svg) bottom center no-repeat;
+    }
+    &.discovery:before {
+        background: url(../images/pg_kinmemai02.svg) bottom center no-repeat;
+    }
+    &.engineering:before {
+        background: url(../images/pg_kinmemai03.svg) bottom center no-repeat;
     }
     span {
         font-size: 40px;
@@ -492,6 +505,54 @@ __page common
     }
 }
 
+.md_chapter__img {
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    &.mt {
+        margin-top: 40px;
+    }
+    &.flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        figcaption {
+            margin-top: .75em;
+            letter-spacing: .05em;
+            line-height: 1.5;
+            text-align: justify;
+            @include media(480px) {
+                font-size: 10px;
+            }
+        }
+        .flex55 {
+            flex: 0 1 53%;
+            @include media(480px) {
+                flex: 0 1 94%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .flex45 {
+            flex: 0 1 43%;
+            @include media(480px) {
+                flex: 0 1 94%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
 
 
 
@@ -603,6 +664,9 @@ __page vision
         bottom: 5%;
         left: auto;
         right: 5%;
+    }
+    &.kinme {
+        bottom: 30px;
     }
     span {
         display: block;
@@ -736,6 +800,27 @@ __page vision
             }
             @include media(767px) {
                 flex: 0 1 100%;
+            }
+            img {
+                width: 100%;
+                max-width: 100%;
+                height: auto;
+                display: block;
+                @include media(767px) {
+                    padding-top: 20px;
+                    width: 50%;
+                    margin: 0 auto;
+                }
+                @include media(600px) {
+                    width: 80%;
+                }
+            }
+        }
+        .kinmemai_thumb {
+            flex: 0 1 50%;
+            @include media(979px) {
+            }
+            @include media(767px) {
             }
             img {
                 width: 100%;
@@ -1172,7 +1257,7 @@ __page process
 
 
 /*-----------------------------------------------
-__page process
+__page company
 -----------------------------------------------*/
 .pg_companySec {
     padding: 100px 0;
@@ -1298,6 +1383,73 @@ __page process
     }
 }
 
+
+/*-----------------------------------------------
+__page kinmemai
+-----------------------------------------------*/
+.pg_kinmeSec {
+    padding: 100px 0;
+    @include media(767px) {
+        padding: 80px 0;
+    }
+    @include media(480px) {
+        padding: 60px 0 20px 0;
+    }
+    &.bigining {
+        background-image: url(../images/pg_kinememai_bg01.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+    }
+    &.discovery {
+        padding: 20px 0 80px 0;
+    }
+    &.engineering {
+        padding: 20px 0 80px 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    &.into {
+        padding: 10% 0 15% 0;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        background-image: url(../images/pg_company_bg01.jpg);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+        @include media(767px) {
+            margin-bottom: 0px;
+        }
+        @include media(600px) {
+            padding-top: 60px;
+            padding-bottom: 25%;
+        }
+        p {
+            margin-bottom: 1em;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    &.product {
+        padding: 100px 0;
+        @include media(767px) {
+            padding: 80px 0;
+        }
+        @include media(480px) {
+            padding: 60px 0;
+        }
+    }
+}
 
 
 
