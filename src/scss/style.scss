@@ -554,7 +554,213 @@ __page common
     }
 }
 
+.pg_common__ttlWrap {
+    padding: 60px 0;
+    background: $c4;
+    @include media(767px) {
+        padding: 30px 0;
+    }
+}
+.pg_common__ttl {
+    text-align: center;
+    font-size: 36px;
+    @include media(767px) {
+        font-size: 28px;
+    }
+    @include media(480px) {
+        font-size: 20px;
+    }
+}
 
+
+/*-----------------------------------------------
+__page faq
+-----------------------------------------------*/
+.pg_faq {
+    padding-top: 40px;
+}
+.pg_faq__guide {
+    text-align: right;
+    @include media(480px) {
+        text-align: center;
+        font-size: 11px;
+    }
+    p {
+        border: 1px solid $c1;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 8px 10px;
+        padding-left: 40px;
+        position: relative;
+    }
+}
+.pg_faq__plus {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    display: block;
+    background: #eee;
+    text-align: center;
+    line-height: 24px;
+    color: #77A47B;
+    background: #EAF0EE;
+    &:before,&:after  {
+        content: '';
+        position: absolute;
+        top: 11px;
+        left: 5px;
+        background: #77A47B;
+        width: 14px;
+        height: 2px;
+    }
+    &:after {
+        top: 5px;
+        left: 11px;
+        width: 2px;
+        height: 14px;
+    }
+}
+.pg_faq__listWrap {
+    padding-top: 40px;
+    li {
+        margin-bottom: 60px;
+        @include media(600px) {
+            margin-bottom: 40px;
+        }
+    }
+}
+.pg_faq__listTtl {
+    margin-bottom: 20px;
+    @include media(480px) {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+}
+.pg_faq__contents {
+    padding: 0 5%;
+    @include media(480px) {
+        padding: 0 3%;
+    }
+    div {
+    }
+    dt {
+        position: relative;
+        padding-left: 30px;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        cursor: pointer;
+        transition: all .1s linear;
+        &:hover {
+            color: $c1;
+        }
+        div {
+            display: inline-block;
+            box-sizing: border-box;
+            position: relative;
+            padding-right: 40px;
+            @include media(767px) {
+                padding-right: 24px;
+            }
+        }
+        &:before {
+            content: 'Q.';
+            position: absolute;
+            top: 10px;
+            left: 0;
+            color: $c1;
+            font-size: 24px;
+            line-height: 1;
+            @include media(767px) {
+                top: 6px;
+            }
+        }
+    }
+    dd {
+        background: #F6F5D6;
+        padding: 1em 20px;
+        margin-bottom: 2em;
+        display: none;
+        text-align: justify;
+        p {
+            margin-bottom: 1em;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        div {
+            position: relative;
+            padding-left: 60px;
+            @include media(480px) {
+                padding-left: 30px;
+            }
+            &:before {
+                content: 'A.';
+                position: absolute;
+                top: 2px;
+                left: 30px;
+                font-size: 24px;
+                line-height: 1;
+                @include media(767px) {
+                    top: 0px;
+                }
+                @include media(480px) {
+                    left: 0px;
+                }
+            }
+        }
+    }
+}
+.pg_faq__plusDt {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    width: 24px;
+    height: 24px;
+    display: block;
+    background: #eee;
+    text-align: center;
+    line-height: 24px;
+    color: #77A47B;
+    background: #EAF0EE;
+    @include media(767px) {
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+    }
+    &:before,&:after  {
+        content: '';
+        position: absolute;
+        top: 11px;
+        left: 5px;
+        background: #77A47B;
+        width: 14px;
+        height: 2px;
+        @include media(767px) {
+            width: 10px;
+            left: 4px;
+            top: 8px;
+        }
+    }
+    &:after {
+        top: 5px;
+        left: 11px;
+        width: 2px;
+        height: 14px;
+        @include media(767px) {
+            height: 10px;
+            left: 8px;
+            top: 4px;
+        }
+    }
+    &.open {
+        &:after {
+            display: none;
+        }
+    }
+}
 
 /*-----------------------------------------------
 __page vision
