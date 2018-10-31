@@ -643,8 +643,29 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 30px;
 }
 
+@media screen and (max-width: 1100px) {
+  .rms_pc__sidebar {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
 .rms_pc__sidebar .innr {
   padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .rms_pc__sidebar .innr {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .rms_pc__sidebar .innr {
+    padding-right: 8%;
+    padding-left: 8%;
+  }
 }
 
 .rms_pc__sidebarBanner {
@@ -652,8 +673,44 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
 }
 
+@media screen and (max-width: 1100px) {
+  .rms_pc__sideNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
 .rms_pc__sideNav > li {
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+  .rms_pc__sideNav > li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 48%;
+            flex: 0 1 48%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .rms_pc__sideNav > li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
 }
 
 .rms_pc__sideNavTtl {

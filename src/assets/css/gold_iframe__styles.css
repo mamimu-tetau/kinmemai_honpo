@@ -605,6 +605,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+@media screen and (max-width: 1366px) {
+  .md_header.gold {
+    padding-right: 90px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .md_header {
     padding-bottom: 5%;
@@ -641,6 +647,12 @@ h1, h2, h3, h4, h5, h6 {
           box-sizing: border-box;
   padding-top: 4px;
   cursor: pointer;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.md_gnav__trigger:hover {
+  background: #745945;
 }
 
 @media screen and (max-width: 767px) {
@@ -837,6 +849,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 10px;
   top: 2px;
   line-height: 30px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1280px) {

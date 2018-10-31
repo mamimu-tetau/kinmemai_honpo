@@ -13,6 +13,11 @@
     padding-left: 3%;
     padding-right: 3%;
     position: relative;
+    &.gold {
+        @include media(1366px) {
+            padding-right: 90px;
+        }
+    }
     @include media(1024px) {
         padding-bottom: 5%;
     }
@@ -39,6 +44,10 @@
     box-sizing: border-box;
     padding-top: 4px;
     cursor: pointer;
+    transition: all .1s linear;
+    &:hover {
+        background: lighten($c3,3%);
+    }
     @include media(767px) {
         right: 10px;
     }
@@ -168,6 +177,7 @@
         right: 10px;
         top: 2px;
         line-height: 30px;
+        cursor: pointer;
         @include media(1280px) {
             left: 10px;
             right: auto;

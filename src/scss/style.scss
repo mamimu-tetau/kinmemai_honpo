@@ -42,6 +42,9 @@ body {
             padding: 40px 0;
         }
     }
+    &.mb {
+        margin-bottom: 20px;
+    }
     @include media(1024px) {
         padding-right: 5%;
         padding-left: 5%;
@@ -104,14 +107,25 @@ __layout
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    max-width: 1200px;
+    margin-bottom: 60px;
 }
 .l_column__side {
     flex: 0 1 350px;
+    @include media(1100px) {
+        flex: 0 1 100%;
+        order: 2;
+    }
 }
 .l_column__contents {
-    flex: 0 1 850px;
+    flex: 1;
+    @include media(1100px) {
+        flex: 0 1 100%;
+    }
 }
-
+.l_row__wrap {
+    padding: 0 5%;
+}
 
 /*-----------------------------------------------
 __header
@@ -129,6 +143,10 @@ __sidebar
 -----------------------------------------------*/
 @import "parts/_rms_pc__stylesImport";
 
+/*-----------------------------------------------
+__sidr
+-----------------------------------------------*/
+@import "parts/_sidr";
 
 /*-----------------------------------------------
 __page common
@@ -650,6 +668,11 @@ __page common
                 width: 100px;
                 height: 100px;
                 z-index: -1;
+                @include media(767px) {
+                    background-size: 60px;
+                    width: 60px;
+                    height: 60px;
+                }
             }
         }
     }
@@ -672,6 +695,10 @@ __page item
 .pg_item__gnav {
     padding-top: 20px;
     padding-bottom: 80px;
+    @include media(767px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 .pg_item__gnavList {
     display: flex;
@@ -681,6 +708,10 @@ __page item
     align-items: flex-start;
     > li {
         flex: 0 1 30%;
+        @include media(600px) {
+            flex: 0 1 100%;
+            margin-bottom: 20px;
+        }
     }
 }
 .pg_item__gnavSnav {
@@ -721,21 +752,40 @@ __page item
             padding: .5em 0;
             position: relative;
             font-size: 20px;
-            letter-spacing: .3em;
+            letter-spacing: .2em;
             text-indent: .3em;
             font-weight: bold;
             white-space: normal;
+            @include media(767px) {
+                font-size: 16px;
+            }
         }
     }
 }
 
-.pg_item__section {}
+.pg_item__section {
+    margin-bottom: 80px;
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+    @include media(767px) {
+        margin-bottom: 20px;
+    }
+}
 .pg_item__secTtl {
     font-size: 36px;
     position: relative;
     text-align: center;
     padding-bottom: 10px;
     margin-bottom: 30px;
+    @include media(767px) {
+        font-size: 28px;
+        padding-bottom: .25em;
+        margin-bottom: .75em;
+    }
+    @include media(600px) {
+        font-size: 24px;
+    }
     &:after {
         content: '';
         position: absolute;
@@ -782,6 +832,9 @@ __page item
         width: 33.333%;
         padding: 0 3%;
         margin-bottom: 6%;
+        @include media(600px) {
+            width: 50%;
+        }
     }
 }
 .pg_item__img {
@@ -821,6 +874,13 @@ __page item
         border-radius: 20px;
         margin: 0 3px;
         margin-bottom: 8px;
+        &.pac {
+            color: $c7;
+            background-color: #ddd;
+            &:hover {
+                background-color: lighten(#ddd,5%);
+            }
+        }
         &.kg2 {
             background-color: $kg2;
             &:hover {
@@ -942,6 +1002,10 @@ __page guide
 }
 .pg_guide__listTtl {
     margin-bottom: .5em;
+    a {
+        text-decoration: none;
+        color: $base_font__color;
+    }
 }
 .pg_guide__faq {
     margin-top: 60px;
@@ -1710,6 +1774,19 @@ __page vision
     @include media(600px) {
         width: 90%;
     }
+    &.guide {
+        @include media(979px) {
+            padding-bottom: 40px;
+        }
+        span {
+            font-size: 2vw;
+            @include media(600px) {
+                font-size: 16px;
+                line-height: 1.5;
+                padding: .5em 0;
+            }
+        }
+    }
     a {
         text-align: center;
         text-decoration: none;
@@ -1721,6 +1798,12 @@ __page vision
         line-height: 1;
         @include media(600px) {
             padding: 6px;
+        }
+        br {
+            display: none;
+            @include media(600px) {
+                display: block;
+            }
         }
         span {
             border: 1px solid rgba(255,255,255,.6);
