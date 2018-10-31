@@ -152,7 +152,7 @@ __page common
     }
     &.company {
         background-image: url(../images/md_hero__company.jpg);
-        background-position: center center;
+        background-position: left center;
     }
     &.kinmemai {
         background-image: url(../images/md_hero__kinmemai.jpg);
@@ -1519,6 +1519,7 @@ __page vision
             @include media(979px) {
             }
             @include media(767px) {
+                flex: 0 1 100%;
             }
             img {
                 width: 100%;
@@ -1527,7 +1528,7 @@ __page vision
                 display: block;
                 @include media(767px) {
                     padding-top: 20px;
-                    width: 50%;
+                    width: 70%;
                     margin: 0 auto;
                 }
                 @include media(600px) {

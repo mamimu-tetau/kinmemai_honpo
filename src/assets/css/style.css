@@ -1947,7 +1947,7 @@ __page common
 
 .md_hero.company {
   background-image: url(../images/md_hero__company.jpg);
-  background-position: center center;
+  background-position: left center;
 }
 
 .md_hero.kinmemai {
@@ -3896,6 +3896,14 @@ __page vision
           flex: 0 1 50%;
 }
 
+@media screen and (max-width: 767px) {
+  .pg_visionSec.otherstory .kinmemai_thumb {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+}
+
 .pg_visionSec.otherstory .kinmemai_thumb img {
   width: 100%;
   max-width: 100%;
@@ -3906,7 +3914,7 @@ __page vision
 @media screen and (max-width: 767px) {
   .pg_visionSec.otherstory .kinmemai_thumb img {
     padding-top: 20px;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
   }
 }
