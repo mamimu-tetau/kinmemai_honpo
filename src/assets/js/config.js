@@ -65,6 +65,35 @@
             var pos    = tgt.offset().top;
             $("html, body").animate({scrollTop:pos}, 600, "swing");
         }
+
+
+        //totop
+        $(window).on('load', function(){
+            if($('#footer').length){
+                var footer = $('#footer');
+                var bottomNavHeight = $('.md_bottomNav__wrap').outerHeight();
+                var footerTop = $('.md_bottomNav__wrap').position().top - bottomNavHeight;
+            }
+            $(window).scroll(function () {
+                var windowTop = $(this).scrollTop();
+                var toTop = $('#totop');
+                if (windowTop >= 300) {
+                    toTop.fadeIn('slow');
+                    if (windowTop >= footerTop) {
+                        toTop.addClass('totop');
+                    } else {
+                        toTop.removeClass('totop');
+                    }
+                } else if (windowTop < 300) {
+                    toTop.fadeOut('slow');
+                    if (windowTop >= footerTop) {
+                        toTop.removeClass('totop');
+                    }
+                }
+            })
+        })
+
+
     });
 })(jQuery);
 

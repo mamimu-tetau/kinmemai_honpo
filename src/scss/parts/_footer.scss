@@ -179,6 +179,7 @@
     padding: 40px 0;
     background: $c4;
     color: $c5;
+    position: relative;
     @include media(1366px) {
         padding: 40px;
     }
@@ -440,4 +441,45 @@
         display: block;
     }
 }
+
+
+.md_backtotop {
+    position: fixed;
+    bottom: 3%;
+    right: 5%;
+    text-align: center;
+    z-index: 9999999;
+    display: none;
+    &.totop {
+        position: absolute;
+        bottom: auto;
+        top: -25px;
+    }
+    a {
+        transition: all .1s linear;
+        background: $c1;
+        color: #fff;
+        display: block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        &:hover {
+            background: lighten($c1,3%);
+        }
+        .fas {
+            padding-left: 2px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
