@@ -222,3 +222,244 @@
         display: none;
     }
 }
+
+
+
+.pg_index__slider {
+    width: 100%;
+    .slide_img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        width: 100%;
+    }
+    .slide_caption {
+        background: none;
+    }
+    .slide_txt {
+        line-height: 1.4;
+        text-align: center;
+        color: #000;
+        @include media(480px) {
+            font-size: 24px;
+        }
+        @include media(480px) {
+            font-size: 16px;
+        }
+        &.wh {
+            color: #fff;
+            @include media(600px) {
+                font-size: 3.8vw;
+            }
+        }
+        &.left {
+            text-align: left;
+            padding: 5% 0 0 5%;
+            span {
+                text-align: left;
+            }
+        }
+        span {
+            text-align: center;
+        }
+        .dn {
+            display: none;
+        }
+    }
+}
+
+
+.sp-horizontal .sp-arrows {
+    width: 100%;
+    max-width: inherit;
+}
+
+.sp-arrow {
+    width: 40px;
+    height: 40px;
+}
+.sp-vertical .sp-arrow {
+    transform: rotate(90deg);
+}
+
+.sp-horizontal .sp-previous-arrow {
+    left: 20%;
+}
+.sp-horizontal .sp-next-arrow {
+    right: 20%;
+}
+
+.sp-previous-arrow:before,
+.sp-previous-arrow:after,
+.sp-next-arrow:before,
+.sp-next-arrow:after {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(../images/sp-arrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sp-previous-arrow:before {
+    left: -20px;
+    top: 0;
+    transform: rotate(180deg);
+}
+
+.sp-previous-arrow:after {
+    display: none;
+}
+
+.sp-next-arrow:before {
+    right: -20px;
+    top: 0;
+    transform: skew(0deg, 0deg);
+}
+
+.sp-next-arrow:after {
+    display: none;
+}
+
+
+
+
+
+.pg_index__head {
+    background: $c4;
+    margin-bottom: 80px;
+    @include media(767px) {
+        margin-bottom: 40px;
+    }
+    @include media(600px) {
+        margin-bottom: 0;
+    }
+}
+.pg_index__nav {
+    background: $c4;
+    padding: 20px 0;
+    @include media(767px) {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        li {
+            flex: 0 1 33.3%;
+            a {
+                text-decoration: none;
+                color: $base_font__color;
+                transition: all .1s linear;
+                &:hover {
+                    color: $c1;
+                    img {
+                        opacity: .9;
+                    }
+                }
+            }
+        }
+    }
+}
+.pg_index__navImg {
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        width: 234px;
+        margin: 0 auto;
+        border: 5px solid #fff;
+    }
+}
+.pg_index__navTtl {
+    margin-top: .65em;
+    text-align: center;
+    line-height: 1.5;
+    white-space: nowrap;
+    @include media(767px) {
+        font-size: 2vw;
+    }
+}
+
+.pg_index__cat {
+    padding-bottom: 80px;
+    @include media(767px) {
+        padding-bottom: 40px;
+        &.rowcut {
+            padding-bottom: 0;
+        }
+    }
+}
+
+.pg_index__catHead {
+    padding-bottom: 20px;
+    @include media(767px) {
+        padding-bottom: 0;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+.pg_index__catLink {
+    text-align: center;
+    padding-bottom: 80px;
+    @include media(767px) {
+        padding-bottom: 40px;
+    }
+    a {
+        text-align: center;
+        text-decoration: none;
+        color: rgba(255,255,255,1);
+        background: $c1;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 6px;
+        line-height: 1;
+        box-shadow: 5px 5px 10px rgba(0,0,0,.25);
+        transition: all .1s linear;
+        &:hover {
+            background: lighten($c1,5%);
+        }
+        span {
+            border: 1px solid rgba(255,255,255,.6);
+            display: block;
+            border-radius: 6px;
+            padding: .5em 80px;
+            position: relative;
+            &:after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                right: 20px;
+                background: url(../images/icn_arrow__3.svg) 0 0 repeat;
+                background-size: cover;
+                width: 42px;
+                height: 20px;
+                transform: translateY(-50%);
+                @include media(767px) {
+                    width: 32px;
+                    height: 14px;
+                    right: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

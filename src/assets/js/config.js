@@ -41,9 +41,9 @@
             // wipeRight: function() {
             // $.sidr('close', 'drawer');
             // },
-            wipeLeft: function() {
-             $.sidr('open', 'drawer');
-            },
+            // wipeLeft: function() {
+            //  $.sidr('open', 'drawer');
+            // },
             preventDefaultEvents: false
         });
 

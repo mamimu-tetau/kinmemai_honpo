@@ -125,6 +125,11 @@ __layout
 }
 .l_row__wrap {
     padding: 0 5%;
+    &.index {
+        @include media(600px) {
+            padding: 0;
+        }
+    }
 }
 
 /*-----------------------------------------------
@@ -932,6 +937,13 @@ __page item
     justify-content: center;
     align-items: stretch;
     margin-top: 40px;
+    &.index {
+        li {
+        @include media(600px) {
+            width: 33.333%;
+        }
+        }
+    }
     li {
         width: 33.333%;
         padding: 0 3%;
