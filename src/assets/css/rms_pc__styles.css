@@ -616,17 +616,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .rms_pc__footer {
-  height: 704px;
+  height: 764px;
 }
 
 .rms_pc__footerIframe {
-  height: 704px;
+  height: 764px;
   z-index: 9999;
   position: absolute;
   left: 0;
   width: 100%;
   min-width: 1200px;
   margin: 0;
+  margin-top: 22px;
 }
 
 .rms_pc__footerIframe iframe {

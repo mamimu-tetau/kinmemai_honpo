@@ -422,6 +422,8 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-end;
+    .l_txt {
+    }
     .copyright {
         @include media(979px) {
             text-align: center;
