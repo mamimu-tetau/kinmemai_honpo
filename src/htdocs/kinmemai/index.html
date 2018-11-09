@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <script src="../assets/js/jquery-3.3.1.min.js"></script>
+    <!--[if lt IE 9]><script src="../assets/js/html5shiv.js"></script><![endif]-->
+    <link href="//fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+    <link rel="stylesheet" media="all" href="../assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" media="all" href="../assets/css/style.css" />
+    <script src="../assets/js/config.js"></script>
+</head>
+
+<body>
+
+
+    <div role="banner" id="header" class="md_header gold">
+        <header>
+            <div class="md_gnav__trigger" id="drawer_trigger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="txt">メニュー</span>
+            </div>
+            <div class="md_header__wrap">
+                <div class="md_header__gnav">
+                    <h1 class="md_header__logo">
+                        <a href="/">
+                            <img src="../assets/images/icn_logo.svg" alt="金芽米本舗（きんめまいほんぽ）" width="188">
+                        </a>
+                    </h1>
+                    <nav class="md_header__nav">
+                        <a href="../guide/" class="fz_14 serif icon_nav shopping"><span>お買い物ガイド</span></a>
+                        <a href="https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001" class="fz_14 serif icon_nav cart"><span>カートを見る</span></a>
+                        <div class="md_header__search">
+                            <form method="get" action="http://esearch.rakuten.co.jp/rms/sd/esearch/vc" target="_top" accept-charset="euc-jp">
+                                <input type="hidden" name="sv" value="6">
+                                <input type="hidden" name="sid" value="363393">
+                                <input type="hidden" name="su" value="https://www.rakuten.co.jp/kinmemai-honpo/">
+                                <input type="hidden" name="sn" value="金芽米本舗">
+                                <input type="search" placeholder="検索" name="sitem" class="formtext">
+                                <input type="hidden" name="f" value="A">
+                                <button type="submit" class="icon_search" onclick="document.charset='EUC-JP'; document.rakutenSubmit.submit();"><i class="fas fa-search"></i></button>
+                            </form>
+                        </div>
+                        <a href="tel:0120617550" class="md_nav__phone head"><img src="../assets/images/icn_phone.svg" alt="お問い合わせ電話番号0120617550" width="246"></a>
+                        <a href="https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393" class="md_nav__contact"><img src="../assets/images/btn_contact.svg" alt="お問い合わせ" width="165"></a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <main role="main" id="top">
+        <div class="md_hero__wrap">
+            <div class="md_hero kinmemai"></div>
+        </div>
+        <div class="pg_process__contents">
+            <div class="pg_visionIntro__ttlWrap">
+                <h2 class="serif lt4 pg_visionIntro__ttl"><span>金芽米とは</span></h2>
+                <h3 class="serif pg_visionIntro__sttl kinme"><span>新技術で磨かれた金芽米は<br>格別の美味しさと高い栄養価をもつ<br>健康時代のお米です。</span></h3>
+            </div>
+
+            <section class="pg_kinmeSec bigining">
+                <h2 class="serif md_chapter__ttl bigining"><span>漢字に隠されたヒント</span></h2>
+                <div class="fz_18 l_innerWidth md_chapter__summary">
+                    <p>昔から日本で使われている漢字。精米機や無洗米など、米の研究を続けるうちに、気づいたことがありました。</p>
+                    <p>「糠（ぬか）」という漢字は、米へんに”康”と表す。逆に、「白米」は逆さに置き換えると、「粕（かす）」という字になる。もしかしたら、糠は人々を健康にし、糠がついていない白米を食べている私達は「かす」を食べているのではないか。</p>
+                    <p>昭和30年頃から、日本人はお米から糠を全て取り除き白くする為だけの精米技術を発達させてきたが、それと同時に健康にとって大切なものを失っていたのかもしれない。そんな仮説の元、米本来の栄養成分を残した白米の開発が始まりました。</p>
+                </div>
+            </section>
+
+            <section class="pg_kinmeSec discovery">
+                <h2 class="serif md_chapter__ttl discovery"><span>業界の常識を変える新発見<br>「亜糊粉層」</span></h2>
+                <div class="fz_18 l_innerWidth md_chapter__summary">
+                    <p>普通の白米は、糠・胚芽を取る精米がされています。しかし、研究を重ねるうちに、従来の精米過程で失われるごく薄い層に多くの旨味と栄養素が含まれていることが分かりました。</p>
+                    <p>「亜糊粉層」と呼ばれる、糠と一緒に剥がれやすい繊細な層です。</p>
+                    <figure class="md_chapter__img">
+                        <img src="../assets/images/pg_kinmemai04.png" alt="亜糊粉層">
+                    </figure>
+                </div>
+
+
+            <ul class="l_row pg_visionSec otherstory">
+                <li>
+                    <div class="l_innerWidth">
+                        <h3 class="fz_22 fw700 lt1 otherstory_ttl"><span>無洗米 こぼれ話 2</span></h3>
+                        <div class="l_flex">
+                            <p class="fz_18 otherstory_summary pr">糠皮をめくると、糠皮の裏側にあるのが「亜糊粉層」です。写真のように亜糊粉層は外側の糠皮と強くついている為、通常の精米では糠皮と一緒に取り除かれてしまいます。</p>
+                            <figure class="kinmemai_thumb">
+                                <img src="../assets/images/pg_kinmemai05.png" alt="亜糊粉層">
+                            </figure>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+
+            </section>
+
+            <section class="pg_kinmeSec feature">
+                <h2 class="serif md_chapter__ttl feature"><span>金芽米の特徴</span></h2>
+                <div class="pg_kinme__featureWrap">
+                    <ol class="pg_kinme__feature">
+                        <li>
+                            <div class="l_txt">
+                                <div class="pg_kinme__featureHead">
+                                    <div class="innr">
+                                        <div class="pg_kinme__featureHeading"><span>普通の白米と比べて</span></div>
+                                        <h3 class="fz_24 pg_kinme__featureTtl">
+                                            <span class="main">いつもと同じご飯の量でも、</span><em>カロリー17％・糖質14%カット</em>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="fz_16 pg_kinme__featureSummary">
+                                    <p>金芽米は亜糊粉層が水分をたくさん吸収するため、ごはん一粒一粒ががふっくらとふくらみ、少ないお米で、いつもと同じ量のご飯を炊くことができます。だから、いつもと同じ量のご飯でも、カロリーが17％、糖質14%カットできるのです。</p>
+                                </div>
+                                <div class="fz_12 pg_kinme__featureNote">
+                                    <p>［当社比］</p>
+                                    <p class="list">「普通の白米」のカロリーは「七訂増補日本食品標準成分表」より「水稲めし／精白米／うるち米」の数値</p>
+                                    <p class="list">金芽米のカロリーは一般財団法人食品環境検査協会調べ</p>
+                                </div>
+                            </div>
+                            <div class="l_img">
+                                <figure class="pg_kinme__featureImg">
+                                    <img src="../assets/images/pg_kinmemai12.png" alt="同じ量のご飯でも、カロリーが17％、糖質14%カットできる">
+                                </figure>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="l_txt">
+                                <div class="pg_kinme__featureHead">
+                                    <div class="innr">
+                                        <div class="pg_kinme__featureHeading"><span>普通の白米と比べて</span></div>
+                                        <h3 class="fz_24 pg_kinme__featureTtl n2">
+                                            <span class="main">食物繊維、ビタミン、オリゴ糖など</span><em>玄米の栄養が豊富！</em>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="fz_16 pg_kinme__featureSummary">
+                                    <p>金芽米は普通に精米した白米と比べてビタミンB1が約7倍、食物繊維が約1.8倍、オリゴ糖は約12倍。食べるだけで栄養が摂れる、天然のサプリメントのようなお米です。</p>
+                                </div>
+                                <div class="fz_12 pg_kinme__featureNote">
+                                    <p>［当社比］</p>
+                                    <p class="list">「普通の白米」＝金芽米と同じ原料米を従来の精米方法で精米した米、栄養価については手洗いした米で測定</p>
+                                    <p class="list">オリゴ糖類含有量は日本認証サービス（株）調べ（普通の白米／125mg 金芽米／1523mg ）両米粒の表面を均等に約1％削り２時間浸漬後の糖類を調査</p>
+                                    <p class="list">その他の栄養価は（財）食品環境検査協会調べ（普通の白米／食物繊維：0.4ｇ、ビタミンB1：0.02mg、ビタミンB6：0.06mg、ナイアシン：0.2mg、葉酸：16μg、カリウム：50mg 金芽米／食物繊維：0.7ｇ、ビタミンB1：0.14mg、ビタミンB6：0.11mg、ナイアシン：0.6mg、葉酸：22μg、カリウム：79mg ）</p>
+                                </div>
+                            </div>
+                            <div class="l_img">
+                                <figure class="pg_kinme__featureImg">
+                                    <img src="../assets/images/pg_kinmemai13.png" alt="栄養バランスのグラフ">
+                                </figure>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="l_txt">
+                                <div class="pg_kinme__featureHead">
+                                    <div class="innr">
+                                        <h3 class="fz_24 pg_kinme__featureTtl n3">
+                                            <span class="main">実証された</span><em>美味しさ</em>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="fz_16 pg_kinme__featureSummary">
+                                    <p>ヌカと白米の陰にひっそり隠れていた亜糊紛層。実はここに栄養素だけでなく、旨み成分をたっぷり蓄えています。</p>
+                                    <p>ファーストクラスの機内食や老舗料亭でも使われ、 2012年モンドセレクションでは金賞を受賞。ご家庭だけでなく、多くの飲食店からお引き合いいただいています。</p>
+                                    <p>人間の舌の感覚を再現する「味覚センサー」で実験したところ、同じ田んぼでとれた同じ銘柄のお米でも、金芽米にするとおいしさがアップすることがわかりました。</p>
+                                    <p>金芽米の美味しさは、科学的にも実証されている美味しさなのです。</p>
+                                </div>
+                            </div>
+                            <div class="l_img">
+                                <figure class="pg_kinme__featureImg">
+                                    <img src="../assets/images/pg_kinmemai14.png" alt="味覚センサーAISSY">
+                                </figure>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="l_txt">
+                                <div class="pg_kinme__featureHead">
+                                    <div class="innr">
+                                        <h3 class="fz_24 pg_kinme__featureTtl n4">
+                                            <span class="main">洗わず炊ける</span><em>無洗米仕立て</em>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="fz_16 pg_kinme__featureSummary">
+                                    <p>金芽米は「とぎ汁」の基となる肌ヌカを取り除いているので、洗わずに炊けます。とぎ汁を流すと海や川を汚す原因となる為、工場で予め取り除き、洗う必要のないお米として出荷します。</p>
+                                    <p>また、肌ヌカが表面に付着した状態だと品質の劣化を促します。つまり無洗米にすることが、美味しさ維持にも繋がります。</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+
+
+            <section class="pg_kinmeSec takikata" id="takikata">
+                <div class="pg_kinme__featureWrap">
+                    <h2 class="serif md_chapter__ttl takikata"><span>金芽米の炊き方</span></h2>
+                    <div class="fz_18 l_innerWidth pg_kinme__takikataWrap">
+                        <p class="pg_kinme__takikataRead">普通のお米より「水をたっぷり」含ませてください。</p>
+                        <div class="pg_kinme__takikata">
+                            <div class="l_txt">
+                                <p>金芽米は亜糊粉層を残している分、一粒一粒が水をたっぷり吸収してふっくら炊き上がります。そのため、金芽米を美味しく炊くコツは、お米の計量と浸水です。</p>
+                                <ol class="fz_16 pg_kinme__takikataStep">
+                                    <li>
+                                        <h4 class="ttl">お米の軽量</h4>
+                                        <p>金芽米専用カップで正確に計ります。</p>
+                                        <p class="note">※普通カップ(180cc)の場合は、1割ほど少なめに軽量してください</p>
+                                    </li>
+                                    <li>
+                                        <h4 class="ttl">水加減</h4>
+                                        <p>炊飯器のメモリ通り（白米）に水を加えます。</p>
+                                    </li>
+                                    <li>
+                                        <h4 class="ttl">お米の軽量</h4>
+                                        <p>１時間程度の浸水をしてください。</p>
+                                    </li>
+                                </ol>
+                            </div>
+                            <div class="l_img">
+                                <div class="fz_16 pg_kinme__takikataCup">
+                                    <h4 class="ttl"><span>金芽米専用カップ</span></h4>
+                                    <p>金芽米の初回購入で、金芽米専用カップをもれなくプレゼントしています。サイドの凹み（約10%）の分、少ないお米で美味しく炊ける専用カップ。美味しい金芽米のために、ご利用を推奨しています。 </p>
+                                    <p class="note">※普通カップ(180cc)の場合は、1割ほど少なめに軽量してください</p>
+                                    <figure class="pg_kinme__takikataImg">
+                                        <img src="../assets/images/pg_kinmemai16.jpg" alt="金芽米専用カップ">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+                <div class="md_contact__phone pt_lrg">
+                    <a href="tel:0120617550" class="fz_24 serif lt2"><span>お悩み・お困りの時は</span><span><img src="../assets/images/icn_phone.svg" alt="お問い合わせ電話番号0120617550" width="246"></span><span>までお問い合わせください</span></a>
+                </div>
+
+            </div><!-- pg_vision__contents -->
+        </main>
+
+
+        <nav class="md_bottomNav__wrap">
+            <div class="l_row">
+                <ul class="md_bottomNav">
+                    <li>
+                        <a href="../kinmemai/">
+                            <img src="../assets/images/foot_lplink_01.jpg" alt="金芽米">
+                            <img src="../assets/images/foot_lplink_01t.png" alt="金芽米とは" class="ttl">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../company/">
+                            <img src="../assets/images/foot_lplink_02.jpg" alt="東洋ライス工場">
+                            <img src="../assets/images/foot_lplink_02t.png" alt="東洋ライスという会社" class="ttl">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../vision/">
+                            <img src="../assets/images/foot_lplink_04.jpg" alt="すこやかに">
+                            <img src="../assets/images/foot_lplink_04t.png" alt="人も自然もすこやかに" class="ttl">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../process/">
+                            <img src="../assets/images/foot_lplink_03.jpg" alt="田園">
+                            <img src="../assets/images/foot_lplink_03t.png" alt="土作りから精米まで" class="ttl">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    <div class="md_footer" id="footer" role="contentinfo">
+        <div class="md_backtotop" id="totop">
+            <a href="#"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        <div class="l_row">
+            <footer>
+                <ul class="md_footerGuide__wrap">
+                    <li>
+                        <div class="md_footerGuide">
+                            <h3 class="fz_18 fw700 lt1 md_footerGuide_ttl payment"><span>お支払い方法</span></h3>
+                            <div class="guide_column">
+                                <p class="fz_14 creditlogo">クレジットカード<img src="../assets/images/icn_foot_05.png" alt="使えるクレジットカードブランド">
+                                </p>
+                            </div>
+                            <div class="guide_column">
+                                <p class="fz_14 shipping_company"><img src="../assets/images/icn_foot_06.png" alt="代引き手数料無償" class="daibiki_price"></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="md_footerGuide">
+                            <h3 class="fz_18 fw700 lt1 md_footerGuide_ttl shipping"><span>配送・送料について</span></h3>
+                            <div class="guide_column">
+                                <p class="fz_14 shipping_company">宅配会社<img src="../assets/images/icn_foot_06_1.png" alt="宅配会社"></p>
+                            </div>
+                            <div class="guide_column">
+                                <p class="fz_14">配達日・時間指定</p>
+                                <div class="shipping_time">
+                                    <div class="l_1st">
+                                        <img src="../assets/images/icn_foot_07.png" alt="配達日指定可能・時間指定可能" class="time_order" width="120">
+                                    </div>
+                                    <div class="l_2nd">
+                                        <img src="../assets/images/icn_foot_08.png" alt="配達日指定可能・時間指定可能" class="time_list" width="387">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="md_footerGuide">
+                            <h3 class="fz_18 fw700 lt1 md_footerGuide_ttl contact"><span>お問い合わせ窓口</span></h3>
+                            <div class="guide_line">
+                                <a href="tel:0120617550" class="md_foot__phone"><img src="../assets/images/icn_phone.svg" alt="お問い合わせ電話番号0120617550" width="246"></a>
+                                <a href="https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393" class="md_foot__contact"><img src="../assets/images/btn_contact.svg" alt="お問い合わせ" width="165"></a>
+                            </div>
+                            <p class="fz_14 guide_note">営業時間：平日9:30～17:00 (夏季・年末年始の休業日を除く)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="md_footerGuide">
+                            <h3 class="fz_18 fw700 lt1 md_footerGuide_ttl faq"><span>よくあるご質問</span></h3>
+                            <ul class="fz_14 fw700 guide_list">
+                                <li><a href="../guide/faq/#order">ご注文について</a></li>
+                                <li><a href="../guide/faq/#shipping">配送について</a></li>
+                                <li><a href="../guide/faq/#cancel">返品・キャンセル</a></li>
+                                <li><a href="../guide/faq/#items">お米について</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <section class="md_foot__copyright">
+                    <p class="fz_12 copyright">このホームページ上の写真、映像、文章、図表などの著作物を、弊社の了承なく複製、使用することを禁じます。<span class="mark">&copy; 東洋ライス株式会社 All Rights Reserved.</span></p>
+                    <a href="https://www.toyo-rice.jp/" class="md_foot__logo" targer="new"><img src="../assets/images/foot_logo.svg" alt="東洋ライス株式会社" width="252"></a>
+                </section>
+            </footer>
+        </div>
+    </div><!-- /md_footer -->
+
+    <!-- .sidr-->
+    <div class="md_drawer__cover" id="drawer_cover"></div>
+    <div id="drawer_menu" class="md_drawer__menu">
+        <div class="md_drawer__contents">
+            <div class="sidr_slide__close"><span></span><span></span></div>
+            <div class="fz_14 md_slide__totop"><a href="https://www.rakuten.co.jp/kinmemai-honpo/" >トップへ戻る</a></div>
+            <ul class="sidr_slide__nav">
+                <li>
+                    <h3 class="fz_20 serif sidr_slide__navTtl"><a href="../All_item/">商品一覧</a></h3>
+                    <ul class="fz_15 sidr_slide__navlow">
+                        <li><a href="../All_item/">商品一覧</a></li>
+                        <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/">金芽米（銘柄米）</a></li>
+                        <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/">金芽米（セレクトシリーズ)</a></li>
+                        <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/">ロウカット玄米</a></li>
+                        <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/">パックご飯</a></li>
+                        <li><a href="../All_item/recommend/" class="priority">どれを買うか迷った方に</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="fz_20 serif sidr_slide__navTtl"><a href="../kinmemai/">金芽米とは</a></h3>
+                    <ul class="fz_15 sidr_slide__navlow">
+                        <li><a href="../kinmemai/">金芽米とは</a></li>
+                        <li><a href="../company/">東洋ライスという会社</a></li>
+                        <li><a href="../vision/">人も自然もすこやかに</a></li>
+                        <li><a href="../process/">土作りから精米まで</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="fz_15 sidr_slide__navImg">
+                        <li>
+                            <a href="../kinmemai/#takikata" class="icon takikata"><h4 class="serif fz_15 ttl">お米の<br>炊き方</h4></a>
+                        </li>
+                        <li>
+                            <a href="../guide/" class="icon guide"><h4 class="serif fz_15 ttl">お買い物<br>ガイド</h4></a>
+                        </li>
+                        <li>
+                            <a href="../guide/faq/" class="icon faq"><h4 class="serif fz_15 ttl">Q&A</h4></a>
+                        </li>
+                    </ul>
+                    <div class="sidr_iconNav">
+                        <a href="https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001" class="fz_14 serif sidr_iconNav cart"><span>カートを見る</span></a>
+                    </div>
+                    <div class="md_header__search">
+                        <form method="get" action="http://esearch.rakuten.co.jp/rms/sd/esearch/vc" target="_top" accept-charset="euc-jp">
+                            <input type="hidden" name="sv" value="6">
+                            <input type="hidden" name="sid" value="363393">
+                            <input type="hidden" name="su" value="https://www.rakuten.co.jp/kinmemai-honpo/">
+                            <input type="hidden" name="sn" value="金芽米本舗">
+                            <input type="search" placeholder="検索" name="sitem" class="formtext">
+                            <input type="hidden" name="f" value="A">
+                            <button type="submit" class="icon_search" onclick="document.charset='EUC-JP'; document.rakutenSubmit.submit();"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="../assets/js/jquery.sidr.min.js"></script>
+    <script src="../assets/js/jquery.touchwipe.js"></script>
+    <!-- .sidr-->
+
+    </body>
+    </html>
+
+
+
