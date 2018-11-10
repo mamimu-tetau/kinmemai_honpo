@@ -25,11 +25,11 @@ var destDir = 'public_html/'; // Minify出力用ディレクトリ
 var assetsDir = 'assets/';    // 案件によってcommonとかassetsとかあるんでとりあえず変数
 
 var path = {
-	scss: './src/scss/**/*.scss',
-	js: './src/**/*.js',
+	scss: './src/htdocs/scss/**/*.scss',
+	js: './src/htdocs/**/*.js',
 	html: './src/**/*.html',
-	css: './src/css',
-	php: './src/**/*.php'
+	css: './src/htdocs/css',
+	php: './src/htdocs/**/*.php'
 };
 
 //Sassコンパイル + Browsersync
@@ -38,12 +38,12 @@ gulp.task('sass', function() {
 	.pipe(plumber())
 	.pipe(sourcemaps.init())
 	.pipe(sass({
-		includePaths: [
-			'./src/scss/core/',
-			'./src/scss/base/',
-			'./src/scss/page/',
-			'./src/scss/parts/'
-			],
+		// includePaths: [
+		// 	'./src/scss/core/',
+		// 	'./src/scss/base/',
+		// 	'./src/scss/page/',
+		// 	'./src/scss/parts/'
+		// 	],
 		errLogToConsole: true,
 		outputStyle: 'expanded',
 	}))
@@ -51,13 +51,13 @@ gulp.task('sass', function() {
 		browsers: ["last 2 versions", "ie 9", "android 3"], // 対応ブラウザ。案件によって変更する
 	}))
 	.pipe(sourcemaps.write('./maps'))
-	.pipe(gulp.dest('src/'+assetsDir+'css/'))
+	.pipe(gulp.dest('src/htdocs/'+assetsDir+'css/'))
 	.pipe(filter(['**', '!**/*.map']))
 	.pipe(browserSync.reload({stream: true}));
 });
 
 gulp.task('cssmin', function () {
-	gulp.src('src/'+assetsDir+'css/**/*.css')
+	gulp.src('src/htdocs/'+assetsDir+'css/**/*.css')
 		.pipe(plumber())
 		.pipe(cssmin())
 		.pipe(gulp.dest(destDir+assetsDir+'css/'));
@@ -65,14 +65,14 @@ gulp.task('cssmin', function () {
 
 
 gulp.task('jsmin', function() {
-	gulp.src('src/'+assetsDir+'js/**/*.js')
+	gulp.src('src/htdocs/'+assetsDir+'js/**/*.js')
 		.pipe(plumber())
 		.pipe(uglify())
 		.pipe(gulp.dest(destDir+assetsDir+'js/'));
 });
 
 gulp.task('imagemin', function(){
-	gulp.src(['src/'+assetsDir+'images/**/*.{jpeg,jpg,png,gif}'])
+	gulp.src(['src/htdocs/'+assetsDir+'images/**/*.{jpeg,jpg,png,gif}'])
 		.pipe(imagemin([
 				pngquant({
 					quality: '60-80',
@@ -93,15 +93,15 @@ gulp.task('imagemin', function(){
 
 gulp.task('filecopy', function() {
 	gulp.src([
-		'src/**/*',
-		'!src/_**/*',
-		'!src/**/_*',
-		'!src/scss/*',
-		'!src/assets/js/_**/*',
-		'!src/assets/js/**/*.js',
-		'!src/assets/css/_**/*',
-		'!src/assets/css/**/*.css',
-		'!src/assets/images/**/*'
+		'src/htdocs/**/*',
+		'!src/htdocs/_**/*',
+		'!src/htdocs/**/_*',
+		'!src/htdocs/scss/*',
+		'!src/htdocs/assets/js/_**/*',
+		'!src/htdocs/assets/js/**/*.js',
+		'!src/htdocs/assets/css/_**/*',
+		'!src/htdocs/assets/css/**/*.css',
+		'!src/htdocs/assets/images/**/*'
 	])
 	.pipe(gulp.dest(destDir));
 });
