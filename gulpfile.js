@@ -35,7 +35,12 @@ var path = {
 //Sassコンパイル + Browsersync
 gulp.task('sass', function() {
 	gulp.src(path.scss)
-	.pipe(plumber())
+    .pipe(plumber({
+      errorHandler: notify.onError({
+        title: "失敗してるよ！", // 任意のタイトルを表示させる
+        message: "<%= error.message %>" // エラー内容を表示させる
+        })
+    }))
 	.pipe(sourcemaps.init())
 	.pipe(sass({
 		// includePaths: [

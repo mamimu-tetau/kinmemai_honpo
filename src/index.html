@@ -27,31 +27,59 @@
                 <span class="txt">メニュー</span>
             </div>
             <div class="md_header__wrap">
-                <div class="md_header__gnav">
-                    <h1 class="md_header__logo">
-                        <a href="https://www.rakuten.ne.jp/gold/kinmemai-honpo/">
-                            <img src="htdocs/assets/images/icn_logo.svg" alt="金芽米本舗（きんめまいほんぽ）" width="188">
-                        </a>
-                    </h1>
-                    <nav class="md_header__nav">
-                        <a href="htdocs/guide/" class="fz_14 serif icon_nav shopping"><span>お買い物ガイド</span></a>
-                        <a href="https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001" class="fz_14 serif icon_nav cart"><span>カートを見る</span></a>
-                        <div class="md_header__search">
-                            <form method="get" action="http://esearch.rakuten.co.jp/rms/sd/esearch/vc" target="_top" accept-charset="euc-jp">
-                                <input type="hidden" name="sv" value="6">
-                                <input type="hidden" name="sid" value="363393">
-                                <input type="hidden" name="su" value="https://www.rakuten.co.jp/kinmemai-honpo/">
-                                <input type="hidden" name="sn" value="金芽米本舗">
-                                <input type="search" placeholder="検索" name="sitem" class="formtext">
-                                <input type="hidden" name="f" value="A">
-                                <button type="submit" class="icon_search" onclick="document.charset='EUC-JP'; document.rakutenSubmit.submit();"><i class="fas fa-search"></i></button>
-                            </form>
-                        </div>
-                        <a href="tel:0120617550" class="md_nav__phone head"><img src="htdocs/assets/images/icn_phone.svg" alt="お問い合わせ電話番号0120617550" width="246"></a>
-                        <a href="https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393" class="md_nav__contact"><img src="htdocs/assets/images/btn_contact.svg" alt="お問い合わせ" width="165"></a>
-                    </nav>
+                <div class="innr">
+                    <div class="md_header__gnav">
+                        <h1 class="md_header__logo">
+                            <a href="https://www.rakuten.ne.jp/gold/kinmemai-honpo/">
+                                <img src="htdocs/assets/images/icn_logo.svg" alt="金芽米本舗（きんめまいほんぽ）" width="188">
+                            </a>
+                        </h1>
+                        <nav class="md_header__nav">
+                            <a href="https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001" class="fz_14 serif icon_nav"><i class="icon cart"></i><span>カートを見る</span></a>
+                            <a href="htdocs/guide/" class="fz_14 serif icon_nav shopping"><i class="icon shopping"></i><span>お買い物ガイド</span></a>
+                            <a href="htdocs/guide/" class="fz_14 serif icon_nav"><i class="icon faq"></i><span>よくある質問</span></a>
+                            <a href="htdocs/guide/" class="fz_14 serif icon_nav"><i class="icon rakuten"></i><span>楽天市場</span></a>
+                            <div class="md_header__search">
+                                <form method="get" action="http://esearch.rakuten.co.jp/rms/sd/esearch/vc" target="_top" accept-charset="euc-jp">
+                                    <input type="hidden" name="sv" value="6">
+                                    <input type="hidden" name="sid" value="363393">
+                                    <input type="hidden" name="su" value="https://www.rakuten.co.jp/kinmemai-honpo/">
+                                    <input type="hidden" name="sn" value="金芽米本舗">
+                                    <input type="search" placeholder="検索" name="sitem" class="formtext">
+                                    <input type="hidden" name="f" value="A">
+                                    <button type="submit" class="icon_search" onclick="document.charset='EUC-JP'; document.rakutenSubmit.submit();"><i class="fas fa-search"></i></button>
+                                </form>
+                            </div>
+                            <a href="tel:0120617550" class="md_nav__phone head"><img src="htdocs/assets/images/icn_phone.svg" alt="お問い合わせ電話番号0120617550" width="246"></a>
+                            <a href="https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393" class="md_nav__contact"><img src="htdocs/assets/images/btn_contact.svg" alt="お問い合わせ" width="165"></a>
+                        </nav>
+                    </div>
                 </div>
             </div>
+            <nav class="fz_16 md_header__tnavWrap">
+                <ul class="md_header__tnav">
+                    <li><a href="htdocs/All_item/" class="serif lt2">商品一覧</a></li>
+                    <li class="tnav_tiriger">
+                        <span class="serif lt2 btn arrow">商品を探す</span>
+                        <ul class="fz_14 children">
+                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/">金芽米（銘柄米）</a></li>
+                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/">金芽米（セレクトシリーズ）</a></li>
+                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/">金芽ロウカット玄米</a></li>
+                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/">パックご飯</a></li>
+                            <li><a href="htdocs/All_item/recommend/">どれにするか迷った方へ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="htdocs/kinmemai/" class="serif lt2">金芽米とは</a></li>
+                    <li class="tnav_tiriger">
+                        <span class="serif lt2 btn arrow">About</span>
+                        <ul class="fz_14 children">
+                            <li><a href="htdocs/company/">東洋ライスという会社</a></li>
+                            <li><a href="htdocs/vision/">人も自然も健やかに</a></li>
+                            <li><a href="htdocs/process/">土作りから精米まで</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </header>
     </div>
 
@@ -427,7 +455,7 @@
             <div class="fz_14 md_slide__totop"><a href="https://www.rakuten.co.jp/kinmemai-honpo/" >トップへ戻る</a></div>
             <ul class="sidr_slide__nav">
                 <li>
-                    <h3 class="fz_20 serif sidr_slide__navTtl"><a href="../All_item/">商品一覧</a></h3>
+                    <h3 class="fz_20 serif sidr_slide__navTtl"><a href="htdocs//All_item/">商品一覧</a></h3>
                     <ul class="fz_15 sidr_slide__navlow">
                         <li><a href="htdocs/All_item/">商品一覧</a></li>
                         <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/">金芽米（銘柄米）</a></li>
