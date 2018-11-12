@@ -268,13 +268,18 @@ $navHeight: 56px;
             font-size: 18px;
             text-decoration: none;
             color: $base_font__color;
-            padding: 1em 1em 20px 1em;
+            padding: 1em 0 20px 0;
             margin: 0 1em;
             display: block;
             cursor: pointer;
             position: relative;
+            min-width: 140px;
+            text-align: center;
             @include media(979px) {
                 font-size: 16px;
+                min-width: inherit;
+                padding-right: 1em;
+                padding-left: 1em;
             }
             &:hover {
                 &:before {
@@ -312,6 +317,7 @@ $navHeight: 56px;
             }
         }
         &.tnav_tiriger {
+            position: relative;
             &:hover {
                 > .children {
                     opacity: 1;
@@ -323,7 +329,7 @@ $navHeight: 56px;
     .children {
         position: absolute;
         left: 50%;
-        bottom: 8px;
+        bottom: -28px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -334,8 +340,16 @@ $navHeight: 56px;
         opacity: 0;
         visibility: hidden;
         transition: all .1s linear;
+        @include media(960px) {
+            left: 0;
+            transform: translateX(-30%);
+        }
         &.tar {
-            align-items: flex-end;
+            @include media(960px) {
+                left: auto;
+                right: -45%;
+                transform: translateX(0%);
+            }
         }
         > li {
             > a {
