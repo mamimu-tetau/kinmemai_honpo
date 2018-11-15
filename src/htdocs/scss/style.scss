@@ -1493,6 +1493,7 @@ __page faq
             color: $c1;
             font-size: 24px;
             line-height: 1;
+            font-family: sans-serif;
             @include media(767px) {
                 top: 6px;
             }
@@ -1523,6 +1524,7 @@ __page faq
                 left: 30px;
                 font-size: 24px;
                 line-height: 1;
+                font-family: sans-serif;
                 @include media(767px) {
                     top: 0px;
                 }

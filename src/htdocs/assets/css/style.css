@@ -5075,6 +5075,7 @@ __page faq
   color: #B8983F;
   font-size: 24px;
   line-height: 1;
+  font-family: sans-serif;
 }
 
 @media screen and (max-width: 767px) {
@@ -5117,6 +5118,7 @@ __page faq
   left: 30px;
   font-size: 24px;
   line-height: 1;
+  font-family: sans-serif;
 }
 
 @media screen and (max-width: 767px) {
