@@ -1004,6 +1004,10 @@ __page item
     line-height: 1.4;
     letter-spacing: normal;
     white-space: nowrap;
+    @include media(480px) {
+        white-space: inherit;
+        font-size: 11px;
+    }
     a {
         display: inline-block;
         box-sizing: border-box;

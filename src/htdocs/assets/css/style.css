@@ -4389,6 +4389,13 @@ __page item
   white-space: nowrap;
 }
 
+@media screen and (max-width: 480px) {
+  .pg_item__title {
+    white-space: inherit;
+    font-size: 11px;
+  }
+}
+
 .pg_item__title a {
   display: inline-block;
   -webkit-box-sizing: border-box;
