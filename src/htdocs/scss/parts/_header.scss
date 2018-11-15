@@ -175,7 +175,8 @@ $navHeight: 56px;
 
 .md_header__search {
     position: relative;
-    display: none;
+    //display: none;
+    padding: 10px 0;
     input[type="search"] {
         border: 2px solid #ccc;
         border-radius: 5px;
@@ -186,6 +187,13 @@ $navHeight: 56px;
         width: 100%;
         transition: all .2s linear;
         display: block;
+        .sidr_slide__nav & {
+            padding: .5em 1em;
+            @include media(1280px) {
+                width: 100%;
+                padding: .5em 1em;
+            }
+        }
         @include media(1280px) {
             width: 100px;
             padding-right: 1em;
@@ -198,12 +206,19 @@ $navHeight: 56px;
     .icon_search {
         position: absolute;
         right: 10px;
-        top: 2px;
+        top: .75em;
         line-height: 30px;
         cursor: pointer;
         @include media(1280px) {
             left: 10px;
             right: auto;
+        }
+        .sidr_slide__nav & {
+            top: calc(1em + 2px);
+            @include media(1280px) {
+                left: auto;
+                right: 10px;
+            }
         }
     }
 }
