@@ -175,9 +175,7 @@ $navHeight: 56px;
 
 .md_header__search {
     position: relative;
-    @include media(1200px) {
-        display: none;
-    }
+    display: none;
     input[type="search"] {
         border: 2px solid #ccc;
         border-radius: 5px;
@@ -214,6 +212,10 @@ $navHeight: 56px;
     flex-wrap: nowrap;
     align-items: center;
     transition: all .1s linear;
+    pointer-events: none;
+    @include media(480px) {
+        pointer-events: auto;
+    }
     &:hover {
         transform: scale(1.05);
     }

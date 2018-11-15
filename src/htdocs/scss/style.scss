@@ -57,9 +57,13 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         align-items: stretch;
+        pointer-events: none;
         @include media(979px) {
             display: inline-block;
             box-sizing: border-box;
+        }
+        @include media(480px) {
+            pointer-events: auto;
         }
         span {
             display: flex;

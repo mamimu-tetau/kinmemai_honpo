@@ -713,6 +713,7 @@ __common
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  pointer-events: none;
 }
 
 @media screen and (max-width: 979px) {
@@ -720,6 +721,12 @@ __common
     display: inline-block;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .md_contact__phone a {
+    pointer-events: auto;
   }
 }
 
@@ -1036,7 +1043,6 @@ __header
 
 .md_header__nav a.icon_nav:hover {
   -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
           transform: scale(1.05);
 }
 
@@ -1053,7 +1059,6 @@ __header
   background-position: center center;
   background-size: auto 38px;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   height: 38px;
 }
@@ -1098,12 +1103,7 @@ __header
 
 .md_header__search {
   position: relative;
-}
-
-@media screen and (max-width: 1200px) {
-  .md_header__search {
-    display: none;
-  }
+  display: none;
 }
 
 .md_header__search input[type="search"] {
@@ -1156,11 +1156,17 @@ __header
           align-items: center;
   -webkit-transition: all .1s linear;
   transition: all .1s linear;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 480px) {
+  .md_nav__phone {
+    pointer-events: auto;
+  }
 }
 
 .md_nav__phone:hover {
   -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
           transform: scale(1.05);
 }
 
@@ -1207,7 +1213,6 @@ __header
 
 .md_nav__contact:hover {
   -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
           transform: scale(1.05);
 }
 
@@ -1338,7 +1343,6 @@ __header
           align-items: center;
   z-index: 99999;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
@@ -1350,7 +1354,6 @@ __header
   .md_header__tnav .children {
     left: 0;
     -webkit-transform: translateX(-30%);
-        -ms-transform: translateX(-30%);
             transform: translateX(-30%);
   }
 }
@@ -1360,7 +1363,6 @@ __header
     left: auto;
     right: -45%;
     -webkit-transform: translateX(0%);
-        -ms-transform: translateX(0%);
             transform: translateX(0%);
   }
 }
@@ -1472,7 +1474,6 @@ __header
 
 .sp-vertical .sp-arrow {
   -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
           transform: rotate(90deg);
 }
 
@@ -1500,7 +1501,6 @@ __header
   left: -20px;
   top: 0;
   -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
@@ -1512,7 +1512,6 @@ __header
   right: -20px;
   top: 0;
   -webkit-transform: skew(0deg, 0deg);
-      -ms-transform: skew(0deg, 0deg);
           transform: skew(0deg, 0deg);
 }
 
@@ -1686,7 +1685,6 @@ __header
   width: 42px;
   height: 20px;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
@@ -2267,7 +2265,6 @@ __footer
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
@@ -2312,6 +2309,7 @@ __footer
   display: block;
   -webkit-transition: all .1s linear;
   transition: all .1s linear;
+  pointer-events: none;
 }
 
 @media screen and (max-width: 767px) {
@@ -2320,9 +2318,14 @@ __footer
   }
 }
 
+@media screen and (max-width: 480px) {
+  .md_foot__phone {
+    pointer-events: auto;
+  }
+}
+
 .md_foot__phone:hover {
   -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
           transform: scale(1.05);
 }
 
@@ -2340,7 +2343,6 @@ __footer
 
 .md_foot__contact:hover {
   -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
           transform: scale(1.05);
 }
 
@@ -2965,7 +2967,6 @@ __sidr
   width: 50px;
   height: 50px;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
@@ -3043,11 +3044,32 @@ __sidr
   background-position: center top;
   background-size: auto 38px;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   background-image: url(../images/icn_head_02.svg);
   width: 34px;
   height: 38px;
+}
+
+#drawer .sidr_slide__phone {
+  padding-top: 20px;
+}
+
+#drawer .sidr_slide__phone a {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 480px) {
+  #drawer .sidr_slide__phone a {
+    pointer-events: auto;
+  }
+}
+
+#drawer .sidr_slide__phone img {
+  width: 70%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 /*--------- sidr --------*/
@@ -3131,13 +3153,11 @@ __sidr
   left: 30%;
   top: 50%;
   -webkit-transform: translateY(-50%) rotate(45deg);
-      -ms-transform: translateY(-50%) rotate(45deg);
           transform: translateY(-50%) rotate(45deg);
 }
 
 .sidr_slide__close span:last-child {
   -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
 
@@ -3214,7 +3234,6 @@ __page common
   width: 300px;
   height: 80px;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
@@ -3491,7 +3510,6 @@ __page common
   width: 20px;
   height: 26px;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
@@ -3751,7 +3769,6 @@ __page common
   width: 18px;
   height: 24px;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
@@ -3918,7 +3935,6 @@ __page common
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   left: -25%;
   background: url(../images/pg_item01.png) 0 0 no-repeat;
@@ -3948,7 +3964,6 @@ __page common
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   left: -1em;
   background: url(../images/pg_item01.png) 0 0 no-repeat;
@@ -4139,7 +4154,6 @@ __page item
   height: 36px;
   background: #fff;
   -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
@@ -4238,7 +4252,6 @@ __page item
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%) rotate(-15deg);
-      -ms-transform: translateY(-50%) rotate(-15deg);
           transform: translateY(-50%) rotate(-15deg);
   left: -30px;
   background: url(../images/md_index_come.svg) 0 0 no-repeat;
@@ -4320,7 +4333,6 @@ __page item
   height: 100%;
   background: #ec6d51;
   -webkit-transform: rotate(-30deg);
-      -ms-transform: rotate(-30deg);
           transform: rotate(-30deg);
 }
 
@@ -4328,7 +4340,6 @@ __page item
   right: 0;
   left: auto;
   -webkit-transform: rotate(30deg);
-      -ms-transform: rotate(30deg);
           transform: rotate(30deg);
 }
 
@@ -4956,7 +4967,6 @@ __page faq
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 8px;
   width: 24px;
@@ -5285,7 +5295,6 @@ __page vision
 @media screen and (max-width: 1200px) {
   .pg_visionIntro__ttl span:after {
     -webkit-transform: translateX(-85%);
-        -ms-transform: translateX(-85%);
             transform: translateX(-85%);
     width: 12%;
     right: -28%;
@@ -5521,7 +5530,6 @@ __page vision
   height: 14px;
   background: url(../images/bg_arrow__bottom.svg) 0 0 no-repeat;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 2;
 }
@@ -5963,7 +5971,6 @@ __page vision
   width: 42px;
   height: 20px;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
@@ -6147,7 +6154,6 @@ __page process
   height: 14px;
   background: url(../images/bg_arrow__bottom.svg) 0 0 no-repeat;
   -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 2;
 }

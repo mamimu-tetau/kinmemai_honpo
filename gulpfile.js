@@ -12,13 +12,15 @@ const browserSync = require('browser-sync');
 
 const path = {
     base:'./',
-    scss:'./scss/**/*.scss',
+    scss:'./src/htdocs/scss/**/*.scss',
    image:'./assets/images/**/*',
-      js:'./assets/js/**/*.js',
-     css:'./assets/css',
-    html:'./**/*.html',
-     php:'./**/*.php'
+      js:'./src/htdocs/**/*.js',
+     css:'./src/htdocs/assets/css',
+    html:'./src/**/*.html',
+     php:'./src/htdocs/**/*.php'
 };
+
+
 
 gulp.task('sass', function(){
     return gulp.src(path.scss)

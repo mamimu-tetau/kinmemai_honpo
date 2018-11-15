@@ -277,6 +277,23 @@
         }
     }
 
+    .sidr_slide__phone {
+        padding-top: 20px;
+        a {
+            pointer-events: none;
+            @include media(480px) {
+                pointer-events: auto;
+            }
+        }
+        img {
+            width: 70%;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
 
 
 

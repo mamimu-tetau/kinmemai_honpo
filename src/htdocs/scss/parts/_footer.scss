@@ -379,8 +379,12 @@
     margin-right: 30px;
     display: block;
     transition: all .1s linear;
+    pointer-events: none;
     @include media(767px) {
         margin-right: 10px;
+    }
+    @include media(480px) {
+        pointer-events: auto;
     }
     &:hover {
         transform: scale(1.05);
