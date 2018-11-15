@@ -313,11 +313,11 @@ a:hover {
 }
 
 .rms_pc__footer {
-  height: 764px;
+  height: 1350px;
 }
 
 .rms_pc__footerIframe {
-  height: 764px;
+  height: 1350px;
   z-index: 9999;
   position: absolute;
   left: 0;
