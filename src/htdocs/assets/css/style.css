@@ -2450,6 +2450,116 @@ __footer
 /*-----------------------------------------------
 __sidebar
 -----------------------------------------------*/
+.rms_pc__sidebar * {
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+
+.rms_pc__sidebar article,
+.rms_pc__sidebar aside,
+.rms_pc__sidebar details,
+.rms_pc__sidebar figcaption,
+.rms_pc__sidebar figure,
+.rms_pc__sidebar footer,
+.rms_pc__sidebar header,
+.rms_pc__sidebar main,
+.rms_pc__sidebar menu,
+.rms_pc__sidebar nav,
+.rms_pc__sidebar section,
+.rms_pc__sidebar summary {
+  display: block;
+}
+
+.rms_pc__sidebar small {
+  font-size: 80%;
+}
+
+.rms_pc__sidebar a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.rms_pc__sidebar a:active,
+.rms_pc__sidebar a:hover {
+  outline-width: 0;
+}
+
+.rms_pc__sidebar ol, .rms_pc__sidebar ul {
+  list-style: none;
+}
+
+.rms_pc__sidebar blockquote, .rms_pc__sidebar q {
+  quotes: none;
+}
+
+.rms_pc__sidebar blockquote:before, .rms_pc__sidebar blockquote:after,
+.rms_pc__sidebar q:before, .rms_pc__sidebar q:after {
+  content: '';
+  content: none;
+}
+
+.rms_pc__sidebar code,
+.rms_pc__sidebar kbd,
+.rms_pc__sidebar pre,
+.rms_pc__sidebar samp {
+  font-family: monospace, monospace;
+}
+
+.rms_pc__sidebar b,
+.rms_pc__sidebar strong {
+  font-weight: bolder;
+}
+
+.rms_pc__sidebar dfn {
+  font-style: italic;
+}
+
+.rms_pc__sidebar mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+.rms_pc__sidebar sub,
+.rms_pc__sidebar sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.rms_pc__sidebar sub {
+  bottom: -0.25em;
+}
+
+.rms_pc__sidebar sup {
+  top: -0.5em;
+}
+
+.rms_pc__sidebar legend {
+  border: 0;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  white-space: normal;
+}
+
+.rms_pc__sidebar img {
+  border-style: none;
+}
+
+.rms_pc__sidebar progress {
+  vertical-align: baseline;
+}
+
+.rms_pc__sidebar svg:not(:root) {
+  overflow: hidden;
+}
+
+.rms_pc__sidebar h1, .rms_pc__sidebar h2, .rms_pc__sidebar h3, .rms_pc__sidebar h4, .rms_pc__sidebar h5, .rms_pc__sidebar h6 {
+  font-weight: normal;
+}
+
 .rms_pc__sidebar {
   background: #f1efea;
   width: 300px;

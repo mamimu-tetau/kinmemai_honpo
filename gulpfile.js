@@ -1,132 +1,77 @@
+
 //Sassコンパイル
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
-var sourcemaps = require('gulp-sourcemaps');
-var filter = require('gulp-filter');
-var plumber = require("gulp-plumber");
-var notify = require('gulp-notify');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
+const autoprefixer = require('gulp-autoprefixer');
+const plumber = require("gulp-plumber");
+const sourcemaps = require('gulp-sourcemaps');
+const filter = require('gulp-filter');
+const notify = require('gulp-notify');
+const browserSync = require('browser-sync');
 
-//browser-sync
-var browserSync = require('browser-sync');
 
-//CSS圧縮
-var cssmin = require('gulp-cssmin');
-
-// 画像圧縮
-var imagemin = require('gulp-imagemin');
-var mozjpeg = require('imagemin-mozjpeg');
-var pngquant = require('imagemin-pngquant');
-
-//JS圧縮
-var uglify = require('gulp-uglify');
-
-var destDir = 'public_html/'; // Minify出力用ディレクトリ
-var assetsDir = 'assets/';    // 案件によってcommonとかassetsとかあるんでとりあえず変数
-
-var path = {
-	scss: './src/htdocs/scss/**/*.scss',
-	js: './src/htdocs/**/*.js',
-	html: './src/**/*.html',
-	css: './src/htdocs/css',
-	php: './src/htdocs/**/*.php'
+const path = {
+    base:'./',
+    scss:'./scss/**/*.scss',
+   image:'./assets/images/**/*',
+      js:'./assets/js/**/*.js',
+     css:'./assets/css',
+    html:'./**/*.html',
+     php:'./**/*.php'
 };
 
-//Sassコンパイル + Browsersync
-gulp.task('sass', function() {
-	gulp.src(path.scss)
+gulp.task('sass', function(){
+    return gulp.src(path.scss)
     .pipe(plumber({
       errorHandler: notify.onError({
-        title: "失敗してるよ！", // 任意のタイトルを表示させる
-        message: "<%= error.message %>" // エラー内容を表示させる
+        title: "失敗してるよ！",
+        message: "<%= error.message %>"
         })
     }))
-	.pipe(sourcemaps.init())
-	.pipe(sass({
-		// includePaths: [
-		// 	'./src/scss/core/',
-		// 	'./src/scss/base/',
-		// 	'./src/scss/page/',
-		// 	'./src/scss/parts/'
-		// 	],
-		errLogToConsole: true,
-		outputStyle: 'expanded',
-	}))
-	.pipe(autoprefixer({
-		browsers: ["last 2 versions", "ie 9", "android 3"], // 対応ブラウザ。案件によって変更する
-	}))
-	.pipe(sourcemaps.write('./maps'))
-	.pipe(gulp.dest('src/htdocs/'+assetsDir+'css/'))
-	.pipe(filter(['**', '!**/*.map']))
-	.pipe(browserSync.reload({stream: true}));
+    .pipe(sourcemaps.init())
+    .pipe(sass({
+        outputStyle: 'expanded',
+    }))
+    .pipe(autoprefixer({
+        browsers: ["last 2 versions", "Firefox ESR"],
+    }))
+    .pipe(sourcemaps.write('./maps'))
+    .pipe(gulp.dest(path.css))
+    .pipe(filter(['**', '!**/*.map']))
+    .pipe(browserSync.reload({
+        stream: true
+    }));
 });
 
-gulp.task('cssmin', function () {
-	gulp.src('src/htdocs/'+assetsDir+'css/**/*.css')
-		.pipe(plumber())
-		.pipe(cssmin())
-		.pipe(gulp.dest(destDir+assetsDir+'css/'));
+gulp.task('server', function () {
+    browserSync({
+        notify: false,
+        proxy: "http://localhost.kinmemai-honpo.jp/"
+    });
 });
 
-
-gulp.task('jsmin', function() {
-	gulp.src('src/htdocs/'+assetsDir+'js/**/*.js')
-		.pipe(plumber())
-		.pipe(uglify())
-		.pipe(gulp.dest(destDir+assetsDir+'js/'));
+gulp.task('reload', function (done) {
+    browserSync.reload();
+    done();
 });
 
-gulp.task('imagemin', function(){
-	gulp.src(['src/htdocs/'+assetsDir+'images/**/*.{jpeg,jpg,png,gif}'])
-		.pipe(imagemin([
-				pngquant({
-					quality: '60-80',
-					speed: 1,
-					floyd:0
-				}),
-				mozjpeg({
-					quality:80,
-					progressive: true
-				}),
-				imagemin.svgo(),
-				imagemin.optipng(),
-				imagemin.gifsicle()
-			]
-		))
-		.pipe(gulp.dest(destDir+assetsDir+'images/'));
+gulp.task('watch', function() {
+  gulp.watch(path.scss, gulp.series('sass'));
+  gulp.watch([path.php,path.html], gulp.series('reload'));
 });
 
-gulp.task('filecopy', function() {
-	gulp.src([
-		'src/htdocs/**/*',
-		'!src/htdocs/_**/*',
-		'!src/htdocs/**/_*',
-		'!src/htdocs/scss/*',
-		'!src/htdocs/assets/js/_**/*',
-		'!src/htdocs/assets/js/**/*.js',
-		'!src/htdocs/assets/css/_**/*',
-		'!src/htdocs/assets/css/**/*.css',
-		'!src/htdocs/assets/images/**/*'
-	])
-	.pipe(gulp.dest(destDir));
-});
+gulp.task('default',
+    gulp.parallel('server','watch')
+);
 
-gulp.task('deploy', ['filecopy', 'cssmin', 'jsmin', 'imagemin']);
 
-gulp.task('reload', function () {
-	browserSync.reload();
-});
 
-gulp.task('browser-sync', function () {
-	browserSync({
-		notify: false,
-		proxy: "http://localhost.kinmemai-honpo.jp/"
-	});
-});
 
-gulp.task('default', ['browser-sync'], function () {
-	gulp.watch([path.php,path.html,path.js], ['reload']);
-	gulp.watch(path.scss, ['sass']);
-});
 
-gulp.task('build', ['sass']);
+
+
+
+
+
+
+
