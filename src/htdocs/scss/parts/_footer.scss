@@ -49,6 +49,12 @@
             justify-content: flex-start;
             align-items: flex-start;
             position: relative;
+            &:hover {
+                img {
+                    filter: saturate(150%);
+                    opacity: .9;
+                }
+            }
         }
         &:nth-child(1) {
             flex: 0 1 47.5%;
@@ -147,6 +153,7 @@
             height: 186px;
             display: block;
             order: 2;
+            transition: all .25s linear;
             @include media(1100px) {
                 width: 74%;
                 height: auto;

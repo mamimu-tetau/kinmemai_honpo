@@ -1522,6 +1522,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+.md_bottomNav li a:hover img {
+  -webkit-filter: saturate(150%);
+          filter: saturate(150%);
+  opacity: .9;
+}
+
 .md_bottomNav li:nth-child(1) {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 47.5%;
@@ -1698,6 +1704,8 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
 }
 
 @media screen and (max-width: 1100px) {
