@@ -177,6 +177,9 @@ $navHeight: 56px;
     position: relative;
     //display: none;
     padding: 10px 0;
+    @include media(600px) {
+        display: none;
+    }
     input[type="search"] {
         border: 2px solid #ccc;
         border-radius: 5px;

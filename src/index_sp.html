@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <script src="htdocs/assets/js/jquery-3.3.1.min.js"></script>
+    <!--[if lt IE 9]><script src="htdocs/assets/js/html5shiv.js"></script><![endif]-->
+    <link href="//fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+    <link rel="stylesheet" media="all" href="htdocs/assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="htdocs/assets/css/slider-pro.min.css"/>
+    <link rel="stylesheet" media="all" href="htdocs/assets/css/style.css" />
+    <script src="htdocs/assets/js/config.js"></script>
+
+</head>
+
+<body>
+
+    <div role="banner" id="header" class="md_header gold">
+        <header>
+            <div class="md_gnav__trigger" id="drawer_trigger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="txt">メニュー</span>
+            </div>
+            <div class="md_header__wrap">
+                <div class="innr">
+                    <div class="md_header__gnav">
+                        <h1 class="md_header__logo">
+                            <a href="https://www.rakuten.ne.jp/gold/kinmemai-honpo/">
+                                <img src="htdocs/assets/images/icn_logo.svg" alt="金芽米本舗（きんめまいほんぽ）" width="188">
+                            </a>
+                        </h1>
+                        <nav class="md_header__nav">
+                            <a href="https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001" class="fz_14 serif icon_nav"><i class="icon cart"></i><span>カートを見る</span></a>
+                            <a href="htdocs/guide/" class="fz_14 serif icon_nav shopping"><i class="icon shopping"></i><span>お買い物ガイド</span></a>
+                            <a href="htdocs/guide/faq/" class="fz_14 serif icon_nav"><i class="icon faq"></i><span>よくある質問</span></a>
+                            <a href="https://www.rakuten.co.jp/" target="new" class="fz_14 serif icon_nav"><i class="icon rakuten"></i><span>楽天市場</span></a>
+                            <div class="md_header__search">
+                                <form method="get" action="http://esearch.rakuten.co.jp/rms/sd/esearch/vc" target="_top" accept-charset="euc-jp">
+                                    <input type="hidden" name="sv" value="6">
+                                    <input type="hidden" name="sid" value="363393">
+                                    <input type="hidden" name="su" value="https://www.rakuten.co.jp/kinmemai-honpo/">
+                                    <input type="hidden" name="sn" value="金芽米本舗">
+                                    <input type="search" placeholder="検索" name="sitem" class="formtext">
+                                    <input type="hidden" name="f" value="A">
+                                    <button type="submit" class="icon_search" onclick="document.charset='EUC-JP'; document.rakutenSubmit.submit();"><i class="fas fa-search"></i></button>
+                                </form>
+                            </div>
+                            <a href="tel:0120617550" class="md_nav__phone head"><img src="htdocs/assets/images/icn_phone.svg" alt="お問い合わせ電話番号0120617550" width="246"></a>
+                            <a href="https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393" class="md_nav__contact"><img src="htdocs/assets/images/btn_contact.svg" alt="お問い合わせ" width="165"></a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <nav class="fz_16 md_header__tnavWrap">
+                <ul class="md_header__tnav">
+                    <li><a href="htdocs/All_item/" class="serif lt2">商品一覧</a></li>
+                    <li class="tnav_tiriger">
+                        <span class="serif lt2 btn arrow">商品を探す</span>
+                        <ul class="fz_14 children">
+                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/">金芽米（銘柄米）</a></li>
+                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/">金芽米（セレクトシリーズ）</a></li>
+                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/">金芽ロウカット玄米</a></li>
+                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/">パックご飯</a></li>
+                            <li><a href="htdocs/All_item/recommend/">どれにするか迷った方へ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="htdocs/kinmemai/" class="serif lt2">金芽米とは</a></li>
+                    <li class="tnav_tiriger">
+                        <span class="serif lt2 btn arrow">About</span>
+                        <ul class="fz_14 children tar">
+                            <li><a href="htdocs/company/">東洋ライスという会社</a></li>
+                            <li><a href="htdocs/vision/">人も自然もすこやかに</a></li>
+                            <li><a href="htdocs/process/">土作りから精米まで</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main role="main" id="top">
+        <section class="pg_index__head">
+
+
+            <script src="htdocs/assets/js/jquery.imagesloaded.min.js"></script>
+            <script src="htdocs/assets/js/jquery.sliderPro.min.js"></script>
+            <script>
+                (function($) {
+                    $(function(){
+                        $('#slonSlider').imagesLoaded (function(){
+                            $('.home_sec__carouselSec').addClass('active');
+                            $( '#slonSlider' ).sliderPro({
+                                width: '60%',
+                                height: 400,
+                                arrows: true,
+                                buttons: false,
+                                autoplay: true,
+                                autoplayDelay: 5000,
+                                loop: true,
+                                fade: false,
+                                autoHeight: true,
+                                updateHash: false,
+                                visibleSize: '100%',
+                                forceSize: 'fullWidth',
+                                slideDistance:0,
+                                breakpoints: {
+                                    979: {
+                                        width: '75%',
+                                        height: 330,
+                                    },
+                                    767: {
+                                        width: '80%',
+                                        arrows: false,
+                                        height: 300,
+                                    },
+                                    600: {
+                                        width: '100%',
+                                        height: 200,
+                                        fade: true,
+                                        arrows: false,
+                                        fadeDuration: 1000,
+                                    },
+                                }
+                            });
+                        });
+                    });
+                })(jQuery);
+            </script>
+
+            <div id="slonSlider" class="pg_index__slider slider-pro">
+                <div class="sp-slides">
+                    <div class="sp-slide">
+                        <a href="#">
+                            <img src="htdocs/assets/images/pg_indexslide_01.jpg" alt="新米入荷しました" class="slide_img">
+                            <div class="sp-layer sp-caption-layar slide_caption" data-position="centerCenter" data-width="100%" data-show-transition="up" data-hide-transition="down" data-show-delay="500">
+                                <p class="serif lt1 fz_36 slide_txt"><span>2018年産<br>新米入荷しました</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="sp-slide">
+                        <a href="#">
+                            <img src="htdocs/assets/images/pg_indexslide_02.jpg" alt="あなたらしいお米を探してみませんか" class="slide_img">
+                            <div class="sp-layer sp-caption-layar slide_caption" data-position="bottomLeft" data-width="100%" data-show-transition="up" data-hide-transition="down" data-show-delay="500">
+                                <p class="serif lt1 fz_36 slide_txt wh"><span>あなたらしいお米を<br class="dn">探してみませんか</span></p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="sp-slide">
+                        <a href="#">
+                            <img src="htdocs/assets/images/pg_indexslide_03.jpg" alt="金芽米本舗" class="slide_img">
+                            <div class="sp-layer sp-caption-laya slide_caption" data-position="topLeft" data-width="100%" data-show-transition="down" data-hide-transition="up" data-show-delay="500">
+                                <p class="serif lt1 fz_36 slide_txt left"><span>金芽米本舗<br>2018年11月6日<br>新規開店</span></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="pg_index__nav">
+                <ul class="l_row">
+                    <li>
+                        <a href="">
+                            <figure class="pg_index__navImg">
+                                <img src="htdocs/assets/images/pg_index__bn1.jpg" alt="金芽米カップ">
+                            </figure>
+                            <h3 class="serif fz_16 pg_index__navTtl"><span>美味しく炊ける魔法のカップ<br>初回購入で無料プレゼント</span></h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="htdocs/All_item/">
+                            <figure class="pg_index__navImg">
+                                <img src="htdocs/assets/images/pg_index__bn2.jpg" alt="全商品一覧">
+                            </figure>
+                            <h3 class="serif fz_16 pg_index__navTtl"><span>全商品一覧</span></h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="htdocs/kinmemai/">
+                            <figure class="pg_index__navImg">
+                                <img src="htdocs/assets/images/pg_index__bn3.jpg" alt="金芽米とは">
+                            </figure>
+                            <h3 class="serif fz_16 pg_index__navTtl"><span>金芽米とは</span></h3>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <div class="l_row__wrap index">
+            <div class="l_row l_column__2">
+                <div class="l_column__side">
+                    <!-- ここからレフトナビゲーション -->
+                    <div class="rms_pc__sidebar">
+                        <div class="innr">
+                            <div class="rms_pc__sidebarBanner"></div>
+                            <nav class="rms_pc__sidenavWrap">
+                                <ul class="rms_pc__sideNav">
+                                    <li>
+                                        <h3 class="fz_20 serif rms_pc__sideNavTtl"><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/">カテゴリから探す</a></h3>
+                                        <ul class="fz_15 rms_pc__sideNavlow">
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000104/">金芽米（すべて）</a></li>
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/">金芽米（銘柄米）</a></li>
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/">金芽米（セレクトシリーズ)</a></li>
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/">ロウカット玄米</a></li>
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/">パックご飯</a></li>
+                                            <li><a href="htdocs/kinmemai/">金芽米とは</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h3 class="fz_20 serif rms_pc__sideNavTtl"><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000109/">内容量から探す</a></h3>
+                                        <ul class="fz_15 rms_pc__sideNavlow">
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000110/">2kg</a></li>
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000111/">4kg</a></li>
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000112/">4.5kg</a></li>
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000113/">5kg</a></li>
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000114/">6kg</a></li>
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000115/">8kg</a></li>
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000117/">9kg</a></li>
+                                            <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000116/">10kg</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- ここまでレフトナビゲーション -->
+                </div>
+
+                <div class="l_column__contents">
+                    <div class="pg_index__mainColumn">
+
+                        <section class="pg_index__cat meigara">
+                            <h2 class="pg_index__catHead">
+                                <a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/"><img src="htdocs/assets/images/pg_index__cat1.jpg" alt="金芽米 銘柄米"></a>
+                            </h2>
+                            <ul class="pg_item__lists index">
+                                <li>
+                                    <figure class="pg_item__img">
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000430200/" target="_parent"><img src="htdocs/assets/images/item_img/item_toku4.png" alt="長野県産特別栽培米コシヒカリ"></a>
+                                    </figure>
+                                    <h3 class="fz_22 pg_item__title"><a href="https://item.rakuten.co.jp/kinmemai-honpo/1000430200/" target="_parent">長野県産<br>特別栽培米コシヒカリ</a></h3>
+                                    <div class="fz_20 pg_item__weightWrap">
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000430200/" target="_parent" class="kg2">2<span class="kg">kg</span></a>
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000430400/" target="_parent" class="kg4">4<span class="kg">kg</span></a>
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000430600/" target="_parent" class="kg6">6<span class="kg">kg</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <figure class="pg_item__img">
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000320500/" target="_parent"><img src="htdocs/assets/images/item_img/item_akita5.png" alt="長野県産あきたこまち"></a>
+                                    </figure>
+                                    <h3 class="fz_22 pg_item__title"><a href="https://item.rakuten.co.jp/kinmemai-honpo/1000320500/" target="_parent">長野県産<br>あきたこまち</a></h3>
+                                    <div class="fz_20 pg_item__weightWrap">
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000320500/" target="_parent" class="kg5">5<span class="kg">kg</span></a>
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000321000/" target="_parent" class="kg10">10<span class="kg">kg</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <figure class="pg_item__img">
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000110500/" target="_parent"><img src="htdocs/assets/images/item_img/item_koshi5.png" alt="長野県産コシヒカリ"></a>
+                                    </figure>
+                                    <h3 class="fz_22 pg_item__title"><a href="https://item.rakuten.co.jp/kinmemai-honpo/1000110500/" target="_parent">長野県産<br>コシヒカリ</a></h3>
+                                    <div class="fz_20 pg_item__weightWrap">
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000110500/" target="_parent" class="kg5">5<span class="kg">kg</span></a>
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000110500/" target="_parent" class="kg10">10<span class="kg">kg</span></a>
+                                    </div>
+                                </li
+                            </ul>
+                            <div class="pg_index__catLink">
+                                <a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/" class="fz_24 lt3 fw700"><span>もっと見る</span></a>
+                            </div>
+                        </section>
+
+                        <section class="pg_index__cat select">
+                            <h2 class="pg_index__catHead">
+                                <a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/"><img src="htdocs/assets/images/pg_index__cat2.jpg" alt="金芽米 セレクトシリーズ"></a>
+                            </h2>
+                            <ul class="pg_item__lists index">
+                                <li>
+                                    <figure class="pg_item__img">
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000370450/" target="_parent"><img src="htdocs/assets/images/item_img/item_high4.5.png" alt="ハイセレクト"></a>
+                                    </figure>
+                                    <h3 class="fz_22 pg_item__title"><a href="https://item.rakuten.co.jp/kinmemai-honpo/1000370450/" target="_parent">ハイセレクト</a></h3>
+                                    <div class="fz_20 pg_item__weightWrap">
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000370450/" target="_parent" class="kg45">4.5<span class="kg">kg</span></a>
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000370900/" target="_parent" class="kg9">9<span class="kg">kg</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <figure class="pg_item__img">
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000020500/" target="_parent"><img src="htdocs/assets/images/item_img/item_best5.png" alt="ベストセレクト"></a>
+                                    </figure>
+                                    <h3 class="fz_22 pg_item__title"><a href="https://item.rakuten.co.jp/kinmemai-honpo/1000020500/" target="_parent">ベストセレクト</a></h3>
+                                    <div class="fz_20 pg_item__weightWrap">
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000020500/" target="_parent" class="kg5">5<span class="kg">kg</span></a>
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000021000/" target="_parent" class="kg10">10<span class="kg">kg</span></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <figure class="pg_item__img">
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000010500/" target="_parent"><img src="htdocs/assets/images/item_img/item_gold5.png" alt="ゴールドセレクト"></a>
+                                    </figure>
+                                    <h3 class="fz_22 pg_item__title"><a href="https://item.rakuten.co.jp/kinmemai-honpo/1000010500/" target="_parent">ゴールドセレクト</a></h3>
+                                    <div class="fz_20 pg_item__weightWrap">
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000010500/" target="_parent" class="kg5">5<span class="kg">kg</span></a>
+                                        <a href="https://item.rakuten.co.jp/kinmemai-honpo/1000011000/" target="_parent" class="kg10">10<span class="kg">kg</span></a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </section>
+
+                        <section class="pg_index__cat rowcut">
+                            <h2 class="pg_index__catHead">
+                                <a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/"><img src="htdocs/assets/images/pg_index__cat3.jpg" alt="金芽ロウカット玄米"></a>
+                            </h2>
+                            <ul class="pg_item__lists index">
+                            <li>
+                                <figure class="pg_item__img">
+                                    <a href="https://item.rakuten.co.jp/kinmemai-honpo/5000010200/" target="_parent"><img src="htdocs/assets/images/item_img/item_row2.png" alt="（長野産コシヒカリ）ロウカット玄米"></a>
+                                </figure>
+                                <h3 class="fz_22 pg_item__title"><a href="https://item.rakuten.co.jp/kinmemai-honpo/5000010200/" target="_parent">（長野産コシヒカリ）<br>ロウカット玄米</a></h3>
+                                <div class="fz_20 pg_item__weightWrap">
+                                    <a href="https://item.rakuten.co.jp/kinmemai-honpo/5000010200/" target="_parent" class="kg2">2<span class="kg">kg</span></a>
+                                    <a href="https://item.rakuten.co.jp/kinmemai-honpo/5000010400/" target="_parent" class="kg4">4<span class="kg">kg</span></a>
+                                    <a href="https://item.rakuten.co.jp/kinmemai-honpo/5000010800/" target="_parent" class="kg8">8<span class="kg">kg</span></a>
+                                </div>
+                            </li>
+                            <li>
+                                <figure class="pg_item__img">
+                                    <a href="https://item.rakuten.co.jp/kinmemai-honpo/5000010200/" target="_parent"><img src="htdocs/assets/images/item_img/item_row_e2.png" alt="（島根県産きぬむすめ）ロウカット玄米"></a>
+                                </figure>
+                                <h3 class="fz_22 pg_item__title"><a href="https://item.rakuten.co.jp/kinmemai-honpo/5000010200/" target="_parent">（島根県産きぬむすめ）<br>ロウカット玄米</a></h3>
+                                <div class="fz_20 pg_item__weightWrap">
+                                    <a href="https://item.rakuten.co.jp/kinmemai-honpo/5000030200/" target="_parent" class="kg2">2<span class="kg">kg</span></a>
+                                    <a href="https://item.rakuten.co.jp/kinmemai-honpo/5000030400/" target="_parent" class="kg4">4<span class="kg">kg</span></a>
+                                    <a href="https://item.rakuten.co.jp/kinmemai-honpo/5000030800/" target="_parent" class="kg8">8<span class="kg">kg</span></a>
+                                </div>
+                            </li>
+                            </ul>
+                        </section>
+
+
+                    </div>
+
+
+                    <div class="pg_vision__itemLink guide">
+                        <a href="https://www.rakuten.ne.jp/gold/kinmemai-honpo/htdocs/All_item/recommend/" class="fz_28 lt1 fw700"><span>どれを買うか迷った方は<br>こちらにお進みください</span></a>
+                    </div>
+
+                </div><!-- l_column__contents -->
+            </div>
+
+            <div class="md_contact__phone mb">
+                <a href="tel:0120617550" class="fz_24 serif lt2"><span>お悩み・お困りの時は</span><span><img src="htdocs/assets/images/icn_phone.svg" alt="お問い合わせ電話番号0120617550" width="246"></span><span>までお問い合わせください</span></a>
+            </div>
+        </div>
+    </main>
+
+
+    <nav class="md_bottomNav__wrap">
+        <div class="l_row">
+            <ul class="md_bottomNav">
+                <li>
+                    <a href="htdocs/kinmemai/">
+                        <img src="htdocs/assets/images/foot_lplink_01.jpg" alt="金芽米">
+                        <img src="htdocs/assets/images/foot_lplink_01t.png" alt="金芽米とは" class="ttl">
+                    </a>
+                </li>
+                <li>
+                    <a href="htdocs/company/">
+                        <img src="htdocs/assets/images/foot_lplink_02.jpg" alt="東洋ライス工場">
+                        <img src="htdocs/assets/images/foot_lplink_02t.png" alt="東洋ライスという会社" class="ttl">
+                    </a>
+                </li>
+                <li>
+                    <a href="htdocs/vision/">
+                        <img src="htdocs/assets/images/foot_lplink_04.jpg" alt="すこやかに">
+                        <img src="htdocs/assets/images/foot_lplink_04t.png" alt="人も自然もすこやかに" class="ttl">
+                    </a>
+                </li>
+                <li>
+                    <a href="htdocs/process/">
+                        <img src="htdocs/assets/images/foot_lplink_03.jpg" alt="田園">
+                        <img src="htdocs/assets/images/foot_lplink_03t.png" alt="土作りから精米まで" class="ttl">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="md_footer" id="footer" role="contentinfo">
+        <div class="md_backtotop" id="totop">
+            <a href="#"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        <div class="l_row">
+            <footer>
+                <ul class="md_footerGuide__wrap">
+                    <li>
+                        <div class="md_footerGuide">
+                            <h3 class="fz_18 fw700 lt1 md_footerGuide_ttl payment"><span>お支払い方法</span></h3>
+                            <div class="guide_column">
+                                <p class="fz_14 creditlogo">クレジットカード<img src="htdocs/assets/images/icn_foot_05.png" alt="使えるクレジットカードブランド">
+                                </p>
+                            </div>
+                            <div class="guide_column">
+                                <p class="fz_14 shipping_company"><img src="htdocs/assets/images/icn_foot_06.png" alt="代引き手数料無償" class="daibiki_price"></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="md_footerGuide">
+                            <h3 class="fz_18 fw700 lt1 md_footerGuide_ttl shipping"><span>配送・送料について</span></h3>
+                            <div class="guide_column">
+                                <p class="fz_14 shipping_company">宅配会社<img src="htdocs/assets/images/icn_foot_06_1.png" alt="宅配会社"></p>
+                            </div>
+                            <div class="guide_column">
+                                <p class="fz_14">配達日・時間指定</p>
+                                <div class="shipping_time">
+                                    <div class="l_1st">
+                                        <img src="htdocs/assets/images/icn_foot_07.png" alt="配達日指定可能・時間指定可能" class="time_order" width="120">
+                                    </div>
+                                    <div class="l_2nd">
+                                        <img src="htdocs/assets/images/icn_foot_08.png" alt="配達日指定可能・時間指定可能" class="time_list" width="387">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="md_footerGuide">
+                            <h3 class="fz_18 fw700 lt1 md_footerGuide_ttl contact"><span>お問い合わせ窓口</span></h3>
+                            <div class="guide_line">
+                                <a href="tel:0120617550" class="md_foot__phone"><img src="htdocs/assets/images/icn_phone.svg" alt="お問い合わせ電話番号0120617550" width="246"></a>
+                                <a href="https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393" class="md_foot__contact"><img src="htdocs/assets/images/btn_contact.svg" alt="お問い合わせ" width="165"></a>
+                            </div>
+                            <p class="fz_14 guide_note">営業時間：平日9:30～17:00 (夏季・年末年始の休業日を除く)</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="md_footerGuide">
+                            <h3 class="fz_18 fw700 lt1 md_footerGuide_ttl faq"><span>よくあるご質問</span></h3>
+                            <ul class="fz_14 fw700 guide_list">
+                                <li><a href="htdocs/guide/faq/#order">ご注文について</a></li>
+                                <li><a href="htdocs/guide/faq/#shipping">配送について</a></li>
+                                <li><a href="htdocs/guide/faq/#cancel">返品・キャンセル</a></li>
+                                <li><a href="htdocs/guide/faq/#items">お米について</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <section class="md_foot__copyright">
+                    <p class="fz_12 copyright">このホームページ上の写真、映像、文章、図表などの著作物を、弊社の了承なく複製、使用することを禁じます。<span class="mark">&copy; 東洋ライス株式会社 All Rights Reserved.</span></p>
+                    <a href="https://www.toyo-rice.jp/" class="md_foot__logo" targer="new"><img src="htdocs/assets/images/foot_logo.svg" alt="東洋ライス株式会社" width="252"></a>
+                </section>
+            </footer>
+        </div>
+    </div><!-- /md_footer -->
+
+    <!-- .sidr-->
+    <div class="md_drawer__cover" id="drawer_cover"></div>
+    <div id="drawer_menu" class="md_drawer__menu">
+        <div class="md_drawer__contents">
+            <div class="sidr_slide__close"><span></span><span></span></div>
+            <div class="fz_14 md_slide__totop"><a href="https://www.rakuten.co.jp/kinmemai-honpo/" >トップへ戻る</a></div>
+            <ul class="sidr_slide__nav">
+                <li>
+                    <h3 class="fz_20 serif sidr_slide__navTtl"><a href="htdocs//All_item/">商品一覧</a></h3>
+                    <ul class="fz_15 sidr_slide__navlow">
+                        <li><a href="htdocs/All_item/">商品一覧</a></li>
+                        <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/">金芽米（銘柄米）</a></li>
+                        <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/">金芽米（セレクトシリーズ)</a></li>
+                        <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/">ロウカット玄米</a></li>
+                        <li><a href="https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/">パックご飯</a></li>
+                        <li><a href="htdocs/All_item/recommend/" class="priority">どれを買うか迷った方に</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 class="fz_20 serif sidr_slide__navTtl"><a href="../kinmemai/">金芽米とは</a></h3>
+                    <ul class="fz_15 sidr_slide__navlow">
+                        <li><a href="htdocs/kinmemai/">金芽米とは</a></li>
+                        <li><a href="htdocs/company/">東洋ライスという会社</a></li>
+                        <li><a href="htdocs/vision/">人も自然もすこやかに</a></li>
+                        <li><a href="htdocs/process/">土作りから精米まで</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="fz_15 sidr_slide__navImg">
+                        <li>
+                            <a href="htdocs/kinmemai/#takikata" class="icon takikata"><h4 class="serif fz_15 ttl">お米の<br>炊き方</h4></a>
+                        </li>
+                        <li>
+                            <a href="htdocs/guide/" class="icon guide"><h4 class="serif fz_15 ttl">お買い物<br>ガイド</h4></a>
+                        </li>
+                        <li>
+                            <a href="htdocs/guide/faq/" class="icon faq"><h4 class="serif fz_15 ttl">Q&A</h4></a>
+                        </li>
+                    </ul>
+                    <div class="sidr_iconNav">
+                        <a href="https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001" class="fz_14 serif sidr_iconNav cart"><span>カートを見る</span></a>
+                    </div>
+                    <div class="md_header__search">
+                        <form method="get" action="http://esearch.rakuten.co.jp/rms/sd/esearch/vc" target="_top" accept-charset="euc-jp">
+                            <input type="hidden" name="sv" value="6">
+                            <input type="hidden" name="sid" value="363393">
+                            <input type="hidden" name="su" value="https://www.rakuten.co.jp/kinmemai-honpo/">
+                            <input type="hidden" name="sn" value="金芽米本舗">
+                            <input type="search" placeholder="検索" name="sitem" class="formtext">
+                            <input type="hidden" name="f" value="A">
+                            <button type="submit" class="icon_search" onclick="document.charset='EUC-JP'; document.rakutenSubmit.submit();"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="sidr_slide__phone">
+                        <a href="tel:0120617550"><img src="htdocs/assets/images/icn_phone.svg" alt="お問い合わせ電話番号0120617550" width="200"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="htdocs/assets/js/jquery.sidr.min.js"></script>
+    <script src="htdocs/assets/js/jquery.touchwipe.js"></script>
+    <!-- .sidr-->
+
+</body>
+</html>

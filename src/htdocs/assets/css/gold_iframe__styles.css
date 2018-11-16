@@ -845,6 +845,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0;
 }
 
+@media screen and (max-width: 600px) {
+  .md_header__search {
+    display: none;
+  }
+}
+
 .md_header__search input[type="search"] {
   border: 2px solid #ccc;
   border-radius: 5px;
