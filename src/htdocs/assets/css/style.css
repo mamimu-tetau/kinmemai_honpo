@@ -6001,6 +6001,12 @@ __page vision
   font-size: 1.8vw;
 }
 
+@media screen and (min-width: 1200px) {
+  .pg_vision__itemLink.guide span {
+    font-size: 28px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .pg_vision__itemLink.guide span {
     font-size: 16px;
