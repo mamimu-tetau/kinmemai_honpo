@@ -3811,6 +3811,7 @@ __page common
 .md_chapter__listSummary {
   text-align: justify;
   letter-spacing: .055em;
+  width: 100%;
 }
 
 @media screen and (max-width: 480px) {

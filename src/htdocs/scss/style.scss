@@ -582,6 +582,7 @@ __page common
 .md_chapter__listSummary {
     text-align: justify;
     letter-spacing: .055em;
+    width: 100%;
     @include media(480px) {
         font-size: 12px;
         padding-right: 5%;
