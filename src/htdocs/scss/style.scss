@@ -183,7 +183,6 @@ __page common
     }
     &.kinmemai {
         background-image: url(../images/md_hero__kinmemai.jpg);
-        background-position: right center;
     }
 }
 
@@ -1739,6 +1738,16 @@ __page vision
     }
     &.kinme {
         bottom: 30px;
+        @include media(1100px) {
+            left: 40%;
+        }
+        @include media(660px) {
+            bottom: auto;
+            bottom: 5%;
+            white-space: nowrap;
+            left: auto;
+            right: 5%;
+        }
     }
     span {
         display: block;

@@ -102,7 +102,7 @@ $navHeight: 56px;
     a.icon_nav {
         text-decoration: none;
         color: #000;
-        margin: 0 3px;
+        margin: 0 5px;
         transition: all .1s linear;
         height: $navHeight;
         line-height: $navHeight;
@@ -114,13 +114,26 @@ $navHeight: 56px;
         @include media(540px) {
             display: none;
         }
-        &.shopping {}
+        &.shopping {
+            span {
+                @include media(1140px) {
+                    display: none;
+                }
+            }
+        }
+        &.faq {
+            span {
+                @include media(1300px) {
+                    display: none;
+                }
+            }
+        }
         span {
             white-space: nowrap;
             overflow: hidden;
             box-sizing: border-box;
             transition: all .3s linear;
-            display: none;
+            padding-left: 5px;
         }
         &:hover {
             transform: scale(1.05);
@@ -132,11 +145,11 @@ $navHeight: 56px;
             content: '';
             position: absolute;
             top: 50%;
-            left: 0;
+            left: 50%;
             background-repeat: no-repeat;
-            background-position: center center;
+            background-position: left center;
             background-size: auto 38px;
-            transform: translateY(-50%);
+            transform: translate(-50%,-50%);
             height: 38px;
         }
         &.shopping {
@@ -144,6 +157,12 @@ $navHeight: 56px;
             &:before {
                 background-image: url(../images/icn_head_01.svg);
                 width: 26px;
+                @include media(1140px) {
+                    background-image: url(../images/icn_foot_10.svg);
+                    background-size: cover;
+                    width: 44px;
+                    height: 46px;
+                }
             }
         }
         &.cart {
@@ -159,6 +178,12 @@ $navHeight: 56px;
                 background-image: url(../images/icn_foot_03.svg);
                 background-size: auto 34px;
                 width: 40px;
+                @include media(1300px) {
+                    background-image: url(../images/icn_foot_09.svg);
+                    background-size: cover;
+                    width: 38px;
+                    height: 44px;
+                }
             }
         }
         &.rakuten {
@@ -177,7 +202,7 @@ $navHeight: 56px;
     position: relative;
     //display: none;
     padding: 10px 0;
-    @include media(600px) {
+    @include media(979px) {
         display: none;
     }
     input[type="search"] {
@@ -197,7 +222,7 @@ $navHeight: 56px;
                 padding: .5em 1em;
             }
         }
-        @include media(1280px) {
+        @include media(1300px) {
             width: 100px;
             padding-right: 1em;
             padding-left: 30px;
@@ -263,7 +288,7 @@ $navHeight: 56px;
     &:hover {
         transform: scale(1.05);
     }
-    @include media(979px) {
+    @include media(1050px) {
         display: none;
     }
 }

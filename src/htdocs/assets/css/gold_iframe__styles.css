@@ -742,7 +742,7 @@ h1, h2, h3, h4, h5, h6 {
 .md_header__nav a.icon_nav {
   text-decoration: none;
   color: #000;
-  margin: 0 3px;
+  margin: 0 5px;
   -webkit-transition: all .1s linear;
   transition: all .1s linear;
   height: 56px;
@@ -770,6 +770,18 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media screen and (max-width: 1140px) {
+  .md_header__nav a.icon_nav.shopping span {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .md_header__nav a.icon_nav.faq span {
+    display: none;
+  }
+}
+
 .md_header__nav a.icon_nav span {
   white-space: nowrap;
   overflow: hidden;
@@ -777,7 +789,7 @@ h1, h2, h3, h4, h5, h6 {
           box-sizing: border-box;
   -webkit-transition: all .3s linear;
   transition: all .3s linear;
-  display: none;
+  padding-left: 5px;
 }
 
 .md_header__nav a.icon_nav:hover {
@@ -793,12 +805,12 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 50%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: left center;
   background-size: auto 38px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   height: 38px;
 }
 
@@ -809,6 +821,15 @@ h1, h2, h3, h4, h5, h6 {
 .md_header__nav .icon.shopping:before {
   background-image: url(../images/icn_head_01.svg);
   width: 26px;
+}
+
+@media screen and (max-width: 1140px) {
+  .md_header__nav .icon.shopping:before {
+    background-image: url(../images/icn_foot_10.svg);
+    background-size: cover;
+    width: 44px;
+    height: 46px;
+  }
 }
 
 .md_header__nav .icon.cart {
@@ -830,6 +851,15 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
 }
 
+@media screen and (max-width: 1300px) {
+  .md_header__nav .icon.faq:before {
+    background-image: url(../images/icn_foot_09.svg);
+    background-size: cover;
+    width: 38px;
+    height: 44px;
+  }
+}
+
 .md_header__nav .icon.rakuten {
   padding-left: 35px;
 }
@@ -845,7 +875,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 979px) {
   .md_header__search {
     display: none;
   }
@@ -875,7 +905,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1300px) {
   .md_header__search input[type="search"] {
     width: 100px;
     padding-right: 1em;
@@ -983,7 +1013,7 @@ h1, h2, h3, h4, h5, h6 {
           transform: scale(1.05);
 }
 
-@media screen and (max-width: 979px) {
+@media screen and (max-width: 1050px) {
   .md_nav__contact {
     display: none;
   }
