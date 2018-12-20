@@ -1,0 +1,1820 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"inl",
+				"inline-block\tdisplay"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"fl",
+				"flex"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"flex",
+				"flex-end"
+			],
+			[
+				"the_ti",
+				"the_title"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"bo",
+				"border-collapse"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"sc",
+				"scroll"
+			],
+			[
+				"p",
+				"pre-wrap"
+			],
+			[
+				"fo",
+				"formcolor"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"ov",
+				"ovx\toverflow-x: ${1:hidden};"
+			],
+			[
+				"fi",
+				"first-of-type"
+			],
+			[
+				"ta",
+				"target\tAttr"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"esc",
+				"esc_url"
+			],
+			[
+				"is_si",
+				"is_single"
+			],
+			[
+				"is_sing",
+				"is_singular"
+			],
+			[
+				"has_t",
+				"has_term"
+			],
+			[
+				"base",
+				"base_font__color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"is_t",
+				"is_term"
+			],
+			[
+				"is_",
+				"is_taxonomy"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"sa",
+				"space-between"
+			],
+			[
+				"cu",
+				"cursor"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/htdocs/company/index.html",
+			"settings":
+			{
+				"buffer_size": 24909,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html dir=\"ltr\" lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title></title>\n    <script src=\"../assets/js/jquery-3.3.1.min.js\"></script>\n    <!--[if lt IE 9]><script src=\"../assets/js/html5shiv.js\"></script><![endif]-->\n    <link href=\"//fonts.googleapis.com/earlyaccess/sawarabimincho.css\" rel=\"stylesheet\" />\n    <link rel=\"stylesheet\" media=\"all\" href=\"../assets/css/fontawesome-all.min.css\" />\n    <link rel=\"stylesheet\" media=\"all\" href=\"../assets/css/style.css\" />\n    <script src=\"../assets/js/config.js\"></script>\n</head>\n\n<body>\n\n\n    <div role=\"banner\" id=\"header\" class=\"md_header gold\">\n        <header>\n            <div class=\"md_gnav__trigger\" id=\"drawer_trigger\">\n                <span class=\"line\"></span>\n                <span class=\"line\"></span>\n                <span class=\"line\"></span>\n                <span class=\"txt\">メニュー</span>\n            </div>\n            <div class=\"md_header__wrap\">\n                <div class=\"innr\">\n                    <div class=\"md_header__gnav\">\n                        <h1 class=\"md_header__logo\">\n                            <a href=\"https://www.rakuten.ne.jp/gold/kinmemai-honpo/\">\n                                <img src=\"../assets/images/icn_logo.svg\" alt=\"金芽米本舗（きんめまいほんぽ）\" width=\"188\">\n                            </a>\n                        </h1>\n                        <nav class=\"md_header__nav\">\n                            <a href=\"https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001\" class=\"fz_14 serif icon_nav\"><i class=\"icon cart\"></i><span>カートを見る</span></a>\n                            <a href=\"../guide/\" class=\"fz_14 serif icon_nav shopping\"><i class=\"icon shopping\"></i><span>お買い物ガイド</span></a>\n                            <a href=\"../guide/faq/\" class=\"fz_14 serif icon_nav\"><i class=\"icon faq\"></i><span>よくある質問</span></a>\n                            <a href=\"https://www.rakuten.co.jp/\" target=\"new\" class=\"fz_14 serif icon_nav\"><i class=\"icon rakuten\"></i><span>楽天市場</span></a>\n                            <div class=\"md_header__search\">\n                                <form method=\"get\" action=\"http://esearch.rakuten.co.jp/rms/sd/esearch/vc\" target=\"_top\" accept-charset=\"euc-jp\">\n                                    <input type=\"hidden\" name=\"sv\" value=\"6\">\n                                    <input type=\"hidden\" name=\"sid\" value=\"363393\">\n                                    <input type=\"hidden\" name=\"su\" value=\"https://www.rakuten.co.jp/kinmemai-honpo/\">\n                                    <input type=\"hidden\" name=\"sn\" value=\"金芽米本舗\">\n                                    <input type=\"search\" placeholder=\"検索\" name=\"sitem\" class=\"formtext\">\n                                    <input type=\"hidden\" name=\"f\" value=\"A\">\n                                    <button type=\"submit\" class=\"icon_search\" onclick=\"document.charset='EUC-JP'; document.rakutenSubmit.submit();\"><i class=\"fas fa-search\"></i></button>\n                                </form>\n                            </div>\n                            <a href=\"tel:0120617550\" class=\"md_nav__phone head\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></a>\n                            <a href=\"https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393\" class=\"md_nav__contact\"><img src=\"../assets/images/btn_contact.svg\" alt=\"お問い合わせ\" width=\"165\"></a>\n                        </nav>\n                    </div>\n                </div>\n            </div>\n            <nav class=\"fz_16 md_header__tnavWrap\">\n                <ul class=\"md_header__tnav\">\n                    <li><a href=\"../All_item/\" class=\"serif lt2\">商品一覧</a></li>\n                    <li class=\"tnav_tiriger\">\n                        <span class=\"serif lt2 btn arrow\">商品を探す</span>\n                        <ul class=\"fz_14 children\">\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/\">金芽米（銘柄米）</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/\">金芽米（ブレンド米）</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/\">金芽ロウカット玄米</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/\">パックご飯</a></li>\n                            <li><a href=\"../All_item/recommend/\">どれにするか迷った方へ</a></li>\n                        </ul>\n                    </li>\n                    <li><a href=\"../kinmemai/\" class=\"serif lt2\">金芽米とは</a></li>\n                    <li class=\"tnav_tiriger\">\n                        <span class=\"serif lt2 btn arrow\">About</span>\n                        <ul class=\"fz_14 children tar\">\n                            <li><a href=\"../company/\">東洋ライスという会社</a></li>\n                            <li><a href=\"../vision/\">人も自然もすこやかに</a></li>\n                            <li><a href=\"../process/\">土作りから精米まで</a></li>\n                        </ul>\n                    </li>\n                </ul>\n            </nav>\n        </header>\n    </div>\n\n    <main role=\"main\" id=\"top\">\n\n        <div class=\"pg_process__contents\">\n            <div class=\"pg_common__ttlWrap\">\n                <h2 class=\"serif lt2 pg_common__ttl\"><span><a href=\"index.html\">お買い物ガイド</a></span></h2>\n                <h3 class=\"serif lt2 pg_common__sttl\"><span>キャンセル・返品・交換について</span></h3>\n            </div>\n\n            <div class=\"pg_guide\">\n                <div class=\"l_row pd_side\">\n                    <div class=\"pg_guide__wrap\">\n                        <nav class=\"pg_guide__side\">\n                            <ul class=\"pg_guide__sidelist\">\n                                <li id=\"order\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_order.html\">ご注文・お支払いについて</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"#qa1\"><i class=\"fas fa-caret-right\"></i>初めてご利用されるお客様</a></li>\n                                        <li><a href=\"#qa2\"><i class=\"fas fa-caret-right\"></i>送料について</a></li>\n                                        <li><a href=\"#qa3\"><i class=\"fas fa-caret-right\"></i>お支払い方法について</a></li>\n                                        <li><a href=\"#qa4\"><i class=\"fas fa-caret-right\"></i>お買い上げ明細・領収書について</a></li>\n                                        <li><a href=\"#qa5\"><i class=\"fas fa-caret-right\"></i>当店からのメールが届かない場合</a></li>\n                                    </ul>\n                                </li>\n                                <li id=\"shipping\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_shipping.html\">配送について</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"guide_shipping.html#qa1\"><i class=\"fas fa-caret-right\"></i>配送業者について</a></li>\n                                        <li><a href=\"guide_shipping.html#qa2\"><i class=\"fas fa-caret-right\"></i>商品発送のタイミング</a></li>\n                                        <li><a href=\"guide_shipping.html#qa3\"><i class=\"fas fa-caret-right\"></i>日時指定でのお届け</a></li>\n                                    </ul>\n                                </li>\n                                <li id=\"cancel\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_cancel.html\">キャンセル・返品・交換について</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"guide_cancel.html#qa1\"><i class=\"fas fa-caret-right\"></i>ご注文のキャンセルについて</a></li>\n                                        <li><a href=\"guide_cancel.html#qa2\"><i class=\"fas fa-caret-right\"></i>商品の返品・交換について</a></li>\n                                        <li><a href=\"guide_cancel.html#qa3\"><i class=\"fas fa-caret-right\"></i>お支払い方法について</a></li>\n                                    </ul>\n                                </li>\n                                <li id=\"contact\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_contact.html\">お問い合わせ</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"guide_contact.html#qa1\"><i class=\"fas fa-caret-right\"></i>お問い合わせの前に</a></li>\n                                        <li><a href=\"guide_contact.html#qa2\"><i class=\"fas fa-caret-right\"></i>お問い合わせ</a></li>\n                                    </ul>\n                                </li>\n                            </ul>\n                        </nav>\n                        <section class=\"pg_guide__main\">\n                            <div class=\"innr\">\n                                <section class=\"pg_guide__mainColumn\" id=\"qa1\">\n                                    <h2 class=\"fz_24 serif title\"><span>ご注文のキャンセルについて</span></h2>\n                                    <div class=\"fz_15 answer\">\n                                        <p>原則、キャンセルは承っておりません。<br>やむをえない事情がある場合には、お客様相談室（平日9：30～17：00）までご連絡ください。ホームページのお問い合わせフォーム及びメールでのキャンセルは受付しておりませんのでご注意ください。</p>\n                                        <p>配送の手配に入りましたご注文のキャンセルは承れません。あらかじめご了承ください。</p>\n                                    </div>\n                                </section>\n\n                                <section class=\"pg_guide__mainColumn\" id=\"qa2\">\n                                    <h2 class=\"fz_24 serif title\"><span>商品の返品・交換について</span></h2>\n                                    <div class=\"fz_15 answer\">\n                                        <section class=\"subColumn no_p\">\n                                            <h3 class=\"fz_20 serif subtitle\"><span>お客様のご都合による返品・交換</span></h3>\n                                            <p>商品の性質上、お客様の都合による返品は原則としてお受けいたしかねます。</p>\n                                        </section>\n                                        <section class=\"subColumn\">\n                                            <h3 class=\"fz_20 serif subtitle\"><span>商品に不良品があった場合</span></h3>\n                                            <p>お届けする商品の品質管理には十分留意しておりますが、万が一「数量違い」「商品違い」「不良品」「商品の破損」「商品の傷み」などの問題があった場合には、良品とお取替えいたしますので、恐れ入りますが下記の注意事項をご確認の上、<strong>商品到着予定日から7日以内</strong>に電話またはメールにて弊社までご連絡下さい。</p>\n                                            <p>着払いにてご返送いただき、当店より直接お客様へ正常品を発送させて頂きます。</p>\n                                            <p>交換商品の在庫がある場合、商品到着後３営業日程度で発送させていただきます。また、 交換商品が売り切れの場合、他の商品を代替対応もしくは返金対応となりますので、予めご了承ください。</p>\n                                            <p>返金の場合、商品到着後弊社にて不具合の有無を確認し、振込み手数料弊社負担にてご返金させていただきます。また、 商品到着日から７日以降の交換・返品には、応じかねる場合がありますのでご注意ください。</p>\n                                        </section>\n                                        <section class=\"subColumn\">\n                                            <h3 class=\"fz_20 serif subtitle\"><span>ご連絡・送付先</span></h3>\n                                            <p>〒104-0061　東京都中央区銀座5-10-13<br>\n                                                東洋ライス株式会社　お客様相談室　宛<br>\n                                                TEL：0120-61-7550<br>\n                                                メールアドレス：kinmemai-honpo@shop.rakuten.co.jp\n                                            </p>\n                                            <div class=\"noteColumn\">\n                                                <strong>ご注意</strong>\n                                                <p>※商品受け取りの際、お客様のご都合による受け取りの拒否等が、 当店への連絡がなしに行われた場合、その際に発生した往復の発送料・梱包資材 などの手数料、商品代金などをご請求させていただきます。ご注意ください。</p>\n                                            </div>\n                                        </section>\n                                    </div>\n                                </section>\n\n                            </div>\n                        </section>\n                    </div>\n                    <section class=\"pg_guide__faq\">\n                        <h3 class=\"fz_24 serif pg_guide__listTtl\">よくあるご質問</h3>\n                        <p class=\"fz_15 pg_guide__read\">よくあるご質問についてまとめております。<br>ご不明な点がございましたら、こちらも一度ご覧くださいませ。</p>\n                        <nav class=\"fz_16 pg_guide__faqLink\">\n                            <ul>\n                                <li><a href=\"faq/#order\">ご注文について</a></li>\n                                <li><a href=\"faq/#shipping\">配送について</a></li>\n                                <li><a href=\"faq/#cancel\">返品・キャンセル</a></li>\n                                <li><a href=\"faq/#items\">お米について</a></li>\n                            </ul>\n                        </nav>\n                    </section>\n                </div>\n            </div>\n\n            <div class=\"md_contact__phone pt_lrg\">\n                <a href=\"tel:0120617550\" class=\"fz_24 serif lt2\"><span>お悩み・お困りの時は</span><span><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></span><span>までお問い合わせください</span></a>\n            </div>\n\n        </div><!-- pg_vision__contents -->\n    </main>\n\n\n                <nav class=\"md_bottomNav__wrap\">\n                    <div class=\"l_row\">\n                        <ul class=\"md_bottomNav\">\n                            <li>\n                                <a href=\"../kinmemai/\">\n                                    <img src=\"../assets/images/foot_lplink_01.jpg\" alt=\"金芽米\">\n                                    <img src=\"../assets/images/foot_lplink_01t.png\" alt=\"金芽米とは\" class=\"ttl\">\n                                </a>\n                            </li>\n                            <li>\n                                <a href=\"../company/\">\n                                    <img src=\"../assets/images/foot_lplink_02.jpg\" alt=\"東洋ライス工場\">\n                                    <img src=\"../assets/images/foot_lplink_02t.png\" alt=\"東洋ライスという会社\" class=\"ttl\">\n                                </a>\n                            </li>\n                            <li>\n                                <a href=\"../vision/\">\n                                    <img src=\"../assets/images/foot_lplink_04.jpg\" alt=\"すこやかに\">\n                                    <img src=\"../assets/images/foot_lplink_04t.png\" alt=\"人も自然もすこやかに\" class=\"ttl\">\n                                </a>\n                            </li>\n                            <li>\n                                <a href=\"../process/\">\n                                    <img src=\"../assets/images/foot_lplink_03.jpg\" alt=\"田園\">\n                                    <img src=\"../assets/images/foot_lplink_03t.png\" alt=\"土作りから精米まで\" class=\"ttl\">\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </nav>\n\n    <div class=\"md_footer\" id=\"footer\" role=\"contentinfo\">\n        <div class=\"md_backtotop\" id=\"totop\">\n            <a href=\"#\"><i class=\"fas fa-arrow-up\"></i></a>\n        </div>\n        <div class=\"l_row\">\n            <footer>\n                <ul class=\"md_footerGuide__wrap\">\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl payment\"><span>お支払い方法</span></h3>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 creditlogo\">クレジットカード<img src=\"../assets/images/icn_foot_05.png\" alt=\"使えるクレジットカードブランド\">\n                                </p>\n                            </div>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 shipping_company\"><img src=\"../assets/images/icn_foot_06.png\" alt=\"代引き手数料無償\" class=\"daibiki_price\"></p>\n                            </div>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl shipping\"><span>配送・送料について</span></h3>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 shipping_company\">宅配会社<img src=\"../assets/images/icn_foot_06_1.png\" alt=\"宅配会社\"></p>\n                            </div>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14\">配達日・時間指定</p>\n                                <div class=\"shipping_time\">\n                                    <div class=\"l_1st\">\n                                        <img src=\"../assets/images/icn_foot_07.png\" alt=\"配達日指定可能・時間指定可能\" class=\"time_order\" width=\"120\">\n                                    </div>\n                                    <div class=\"l_2nd\">\n                                        <img src=\"../assets/images/icn_foot_08.png\" alt=\"配達日指定可能・時間指定可能\" class=\"time_list\" width=\"387\">\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl contact\"><span>お問い合わせ窓口</span></h3>\n                            <div class=\"guide_line\">\n                                <a href=\"tel:0120617550\" class=\"md_foot__phone\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></a>\n                                <a href=\"https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393\" class=\"md_foot__contact\"><img src=\"../assets/images/btn_contact.svg\" alt=\"お問い合わせ\" width=\"165\"></a>\n                            </div>\n                            <p class=\"fz_14 guide_note\">営業時間：平日9:30～17:00 (夏季・年末年始の休業日を除く)</p>\n                            <p class=\"fz_14\">「金芽米本舗を見て」とお伝えください。</p>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl faq\"><span>よくあるご質問</span></h3>\n                            <ul class=\"fz_14 fw700 guide_list\">\n                                <li><a href=\"../guide/faq/#order\">ご注文について</a></li>\n                                <li><a href=\"../guide/faq/#shipping\">配送について</a></li>\n                                <li><a href=\"../guide/faq/#cancel\">返品・キャンセル</a></li>\n                                <li><a href=\"../guide/faq/#items\">お米について</a></li>\n                            </ul>\n                        </div>\n                    </li>\n                </ul>\n                <section class=\"md_foot__copyright\">\n                    <p class=\"fz_12 copyright\">このホームページ上の写真、映像、文章、図表などの著作物を、弊社の了承なく複製、使用することを禁じます。<span class=\"mark\">&copy; 東洋ライス株式会社 All Rights Reserved.</span></p>\n                    <a href=\"https://www.toyo-rice.jp/\" class=\"md_foot__logo\" targer=\"new\"><img src=\"../assets/images/foot_logo.svg\" alt=\"東洋ライス株式会社\" width=\"252\"></a>\n                </section>\n            </footer>\n        </div>\n    </div><!-- /md_footer -->\n\n    <!-- .sidr-->\n    <div class=\"md_drawer__cover\" id=\"drawer_cover\"></div>\n    <div id=\"drawer_menu\" class=\"md_drawer__menu\">\n        <div class=\"md_drawer__contents\">\n            <div class=\"sidr_slide__close\"><span></span><span></span></div>\n            <div class=\"fz_14 md_slide__totop\"><a href=\"https://www.rakuten.co.jp/kinmemai-honpo/\" >トップへ戻る</a></div>\n            <ul class=\"sidr_slide__nav\">\n                <li>\n                    <h3 class=\"fz_20 serif sidr_slide__navTtl\"><a href=\"../All_item/\">商品一覧</a></h3>\n                    <ul class=\"fz_15 sidr_slide__navlow\">\n                        <li><a href=\"../All_item/\">商品一覧</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/\">金芽米（銘柄米）</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/\">金芽米（ブレンド米）</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/\">ロウカット玄米</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/\">パックご飯</a></li>\n                        <li><a href=\"../All_item/recommend/\" class=\"priority\">どれを買うか迷った方に</a></li>\n                    </ul>\n                </li>\n                <li>\n                    <h3 class=\"fz_20 serif sidr_slide__navTtl\"><a href=\"../kinmemai/\">金芽米とは</a></h3>\n                    <ul class=\"fz_15 sidr_slide__navlow\">\n                        <li><a href=\"../kinmemai/\">金芽米とは</a></li>\n                        <li><a href=\"../company/\">東洋ライスという会社</a></li>\n                        <li><a href=\"../vision/\">人も自然もすこやかに</a></li>\n                        <li><a href=\"../process/\">土作りから精米まで</a></li>\n                    </ul>\n                </li>\n                <li>\n                    <ul class=\"fz_15 sidr_slide__navImg\">\n                        <li>\n                            <a href=\"../kinmemai/#takikata\" class=\"icon takikata\"><h4 class=\"serif fz_15 ttl\">お米の<br>炊き方</h4></a>\n                        </li>\n                        <li>\n                            <a href=\"../guide/\" class=\"icon guide\"><h4 class=\"serif fz_15 ttl\">お買い物<br>ガイド</h4></a>\n                        </li>\n                        <li>\n                            <a href=\"../guide/faq/\" class=\"icon faq\"><h4 class=\"serif fz_15 ttl\">Q&A</h4></a>\n                        </li>\n                    </ul>\n                    <div class=\"sidr_iconNav\">\n                        <a href=\"https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001\" class=\"fz_14 serif sidr_iconNav cart\"><span>カートを見る</span></a>\n                    </div>\n                    <div class=\"md_header__search\">\n                        <form method=\"get\" action=\"http://esearch.rakuten.co.jp/rms/sd/esearch/vc\" target=\"_top\" accept-charset=\"euc-jp\">\n                            <input type=\"hidden\" name=\"sv\" value=\"6\">\n                            <input type=\"hidden\" name=\"sid\" value=\"363393\">\n                            <input type=\"hidden\" name=\"su\" value=\"https://www.rakuten.co.jp/kinmemai-honpo/\">\n                            <input type=\"hidden\" name=\"sn\" value=\"金芽米本舗\">\n                            <input type=\"search\" placeholder=\"検索\" name=\"sitem\" class=\"formtext\">\n                            <input type=\"hidden\" name=\"f\" value=\"A\">\n                            <button type=\"submit\" class=\"icon_search\" onclick=\"document.charset='EUC-JP'; document.rakutenSubmit.submit();\"><i class=\"fas fa-search\"></i></button>\n                        </form>\n                    </div>\n                    <div class=\"sidr_slide__phone\">\n                        <a href=\"tel:0120617550\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"200\"></a>\n                    </div>\n                </li>\n            </ul>\n        </div>\n    </div>\n    <script src=\"../assets/js/jquery.sidr.min.js\"></script>\n    <script src=\"../assets/js/jquery.touchwipe.js\"></script>\n    <!-- .sidr-->\n\n\n                <script>\n                    (function($) {\n                        $(function(){\n                            $('.pg_faq__contents dt').on(\"click\", function () {\n                                $(this).next('dd').slideToggle('fast');\n                                $(this).find('.pg_faq__plusDt').toggleClass('open');\n                                $(this).parents().children('.tour_list__thumb').toggleClass('open');\n                            });\n                        });\n                    })(jQuery);\n                </script>\n\n\n            </body>\n            </html>\n\n\n\n",
+			"file": "src/htdocs/guide/guide_cancel.html",
+			"file_size": 26710,
+			"file_write_time": 131883003270000000,
+			"settings":
+			{
+				"buffer_size": 23523,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html dir=\"ltr\" lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title></title>\n    <script src=\"../assets/js/jquery-3.3.1.min.js\"></script>\n    <!--[if lt IE 9]><script src=\"../assets/js/html5shiv.js\"></script><![endif]-->\n    <link href=\"//fonts.googleapis.com/earlyaccess/sawarabimincho.css\" rel=\"stylesheet\" />\n    <link rel=\"stylesheet\" media=\"all\" href=\"../assets/css/fontawesome-all.min.css\" />\n    <link rel=\"stylesheet\" media=\"all\" href=\"../assets/css/style.css\" />\n    <script src=\"../assets/js/config.js\"></script>\n</head>\n\n<body>\n\n\n    <div role=\"banner\" id=\"header\" class=\"md_header gold\">\n        <header>\n            <div class=\"md_gnav__trigger\" id=\"drawer_trigger\">\n                <span class=\"line\"></span>\n                <span class=\"line\"></span>\n                <span class=\"line\"></span>\n                <span class=\"txt\">メニュー</span>\n            </div>\n            <div class=\"md_header__wrap\">\n                <div class=\"innr\">\n                    <div class=\"md_header__gnav\">\n                        <h1 class=\"md_header__logo\">\n                            <a href=\"https://www.rakuten.ne.jp/gold/kinmemai-honpo/\">\n                                <img src=\"../assets/images/icn_logo.svg\" alt=\"金芽米本舗（きんめまいほんぽ）\" width=\"188\">\n                            </a>\n                        </h1>\n                        <nav class=\"md_header__nav\">\n                            <a href=\"https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001\" class=\"fz_14 serif icon_nav\"><i class=\"icon cart\"></i><span>カートを見る</span></a>\n                            <a href=\"../guide/\" class=\"fz_14 serif icon_nav shopping\"><i class=\"icon shopping\"></i><span>お買い物ガイド</span></a>\n                            <a href=\"../guide/faq/\" class=\"fz_14 serif icon_nav\"><i class=\"icon faq\"></i><span>よくある質問</span></a>\n                            <a href=\"https://www.rakuten.co.jp/\" target=\"new\" class=\"fz_14 serif icon_nav\"><i class=\"icon rakuten\"></i><span>楽天市場</span></a>\n                            <div class=\"md_header__search\">\n                                <form method=\"get\" action=\"http://esearch.rakuten.co.jp/rms/sd/esearch/vc\" target=\"_top\" accept-charset=\"euc-jp\">\n                                    <input type=\"hidden\" name=\"sv\" value=\"6\">\n                                    <input type=\"hidden\" name=\"sid\" value=\"363393\">\n                                    <input type=\"hidden\" name=\"su\" value=\"https://www.rakuten.co.jp/kinmemai-honpo/\">\n                                    <input type=\"hidden\" name=\"sn\" value=\"金芽米本舗\">\n                                    <input type=\"search\" placeholder=\"検索\" name=\"sitem\" class=\"formtext\">\n                                    <input type=\"hidden\" name=\"f\" value=\"A\">\n                                    <button type=\"submit\" class=\"icon_search\" onclick=\"document.charset='EUC-JP'; document.rakutenSubmit.submit();\"><i class=\"fas fa-search\"></i></button>\n                                </form>\n                            </div>\n                            <a href=\"tel:0120617550\" class=\"md_nav__phone head\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></a>\n                            <a href=\"https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393\" class=\"md_nav__contact\"><img src=\"../assets/images/btn_contact.svg\" alt=\"お問い合わせ\" width=\"165\"></a>\n                        </nav>\n                    </div>\n                </div>\n            </div>\n            <nav class=\"fz_16 md_header__tnavWrap\">\n                <ul class=\"md_header__tnav\">\n                    <li><a href=\"../All_item/\" class=\"serif lt2\">商品一覧</a></li>\n                    <li class=\"tnav_tiriger\">\n                        <span class=\"serif lt2 btn arrow\">商品を探す</span>\n                        <ul class=\"fz_14 children\">\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/\">金芽米（銘柄米）</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/\">金芽米（ブレンド米）</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/\">金芽ロウカット玄米</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/\">パックご飯</a></li>\n                            <li><a href=\"../All_item/recommend/\">どれにするか迷った方へ</a></li>\n                        </ul>\n                    </li>\n                    <li><a href=\"../kinmemai/\" class=\"serif lt2\">金芽米とは</a></li>\n                    <li class=\"tnav_tiriger\">\n                        <span class=\"serif lt2 btn arrow\">About</span>\n                        <ul class=\"fz_14 children tar\">\n                            <li><a href=\"../company/\">東洋ライスという会社</a></li>\n                            <li><a href=\"../vision/\">人も自然もすこやかに</a></li>\n                            <li><a href=\"../process/\">土作りから精米まで</a></li>\n                        </ul>\n                    </li>\n                </ul>\n            </nav>\n        </header>\n    </div>\n\n    <main role=\"main\" id=\"top\">\n\n        <div class=\"pg_process__contents\">\n            <div class=\"pg_common__ttlWrap\">\n                <h2 class=\"serif lt2 pg_common__ttl\"><span><a href=\"index.html\">お買い物ガイド</a></span></h2>\n                <h3 class=\"serif lt2 pg_common__sttl\"><span>お問い合わせ</span></h3>\n            </div>\n\n            <div class=\"pg_guide\">\n                <div class=\"l_row pd_side\">\n                    <div class=\"pg_guide__wrap\">\n                        <nav class=\"pg_guide__side\">\n                            <ul class=\"pg_guide__sidelist\">\n                                <li id=\"order\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_order.html\">ご注文・お支払いについて</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"#qa1\"><i class=\"fas fa-caret-right\"></i>初めてご利用されるお客様</a></li>\n                                        <li><a href=\"#qa2\"><i class=\"fas fa-caret-right\"></i>送料について</a></li>\n                                        <li><a href=\"#qa3\"><i class=\"fas fa-caret-right\"></i>お支払い方法について</a></li>\n                                        <li><a href=\"#qa4\"><i class=\"fas fa-caret-right\"></i>お買い上げ明細・領収書について</a></li>\n                                        <li><a href=\"#qa5\"><i class=\"fas fa-caret-right\"></i>当店からのメールが届かない場合</a></li>\n                                    </ul>\n                                </li>\n                                <li id=\"shipping\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_shipping.html\">配送について</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"guide_shipping.html#qa1\"><i class=\"fas fa-caret-right\"></i>配送業者について</a></li>\n                                        <li><a href=\"guide_shipping.html#qa2\"><i class=\"fas fa-caret-right\"></i>商品発送のタイミング</a></li>\n                                        <li><a href=\"guide_shipping.html#qa3\"><i class=\"fas fa-caret-right\"></i>日時指定でのお届け</a></li>\n                                    </ul>\n                                </li>\n                                <li id=\"cancel\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_cancel.html\">キャンセル・返品・交換について</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"guide_cancel.html#qa1\"><i class=\"fas fa-caret-right\"></i>ご注文のキャンセルについて</a></li>\n                                        <li><a href=\"guide_cancel.html#qa2\"><i class=\"fas fa-caret-right\"></i>商品の返品・交換について</a></li>\n                                        <li><a href=\"guide_cancel.html#qa3\"><i class=\"fas fa-caret-right\"></i>お支払い方法について</a></li>\n                                    </ul>\n                                </li>\n                                <li id=\"contact\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_contact.html\">お問い合わせ</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"guide_contact.html#qa1\"><i class=\"fas fa-caret-right\"></i>お問い合わせの前に</a></li>\n                                        <li><a href=\"guide_contact.html#qa2\"><i class=\"fas fa-caret-right\"></i>お問い合わせ</a></li>\n                                    </ul>\n                                </li>\n                            </ul>\n                        </nav>\n                        <section class=\"pg_guide__main\">\n                            <div class=\"innr\">\n                                <section class=\"pg_guide__mainColumn\" id=\"qa1\">\n                                    <h2 class=\"fz_24 serif title\"><span>お問い合わせの前に</span></h2>\n                                    <div class=\"fz_15 answer\">\n                                        <p>お問い合わせ前に、よくあるご質問をまとめましたよくある<a href=\"faq/\">ご質問ページ</a>を一度ご覧ください。載っていない質問や、商品についてのお問い合わせは、下記フォームよりお願いします。</p>\n                                        <nav class=\"fz_14 co_guide__faqLink\">\n                                            <ul>\n                                                <li><a href=\"faq/#order\">ご注文について</a></li>\n                                                <li><a href=\"faq/#shipping\">配送について</a></li>\n                                                <li><a href=\"faq/#cancel\">返品・キャンセル</a></li>\n                                                <li><a href=\"faq/#items\">お米について</a></li>\n                                            </ul>\n                                        </nav>\n                                    </div>\n                                </section>\n\n                                <section class=\"pg_guide__mainColumn\" id=\"qa2\">\n                                    <h2 class=\"fz_24 serif title\"><span>お問い合わせ</span></h2>\n                                    <div class=\"fz_15 answer\">\n                                        <section class=\"subColumn no_p\">\n                                            <h3 class=\"fz_20 serif subtitle\"><span>お電話でのお問い合わせ</span></h3>\n                                            <p><a href=\"tel:0120617550\" class=\"md_foot__phone\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></a></p>\n                                            <p>受付時間：平日9:30～17:00 (夏季・年末年始の休業日を除く)</p>\n                                        </section>\n                                        <section class=\"subColumn\">\n                                            <h3 class=\"fz_20 serif subtitle\"><span>メールフォームでのお問い合わせ</span></h3>\n                                            <p>2営業日以内に返信させていただきます。<br>以下のメールフォームよりお問い合わせください。（楽天会員へのログインが必要です）</p>\n                                            <p style=\"display: inline-block;\"><a href=\"https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393\" class=\"md_foot__contact\"><img src=\"../assets/images/btn_contact.svg\" alt=\"お問い合わせ\" width=\"240\"></a></p>\n                                        </section>\n                                    </div>\n                                </section>\n\n                            </div>\n                        </section>\n                    </div>\n                    <section class=\"pg_guide__faq\">\n                        <h3 class=\"fz_24 serif pg_guide__listTtl\">よくあるご質問</h3>\n                        <p class=\"fz_15 pg_guide__read\">よくあるご質問についてまとめております。<br>ご不明な点がございましたら、こちらも一度ご覧くださいませ。</p>\n                        <nav class=\"fz_16 pg_guide__faqLink\">\n                            <ul>\n                                <li><a href=\"faq/#order\">ご注文について</a></li>\n                                <li><a href=\"faq/#shipping\">配送について</a></li>\n                                <li><a href=\"faq/#cancel\">返品・キャンセル</a></li>\n                                <li><a href=\"faq/#items\">お米について</a></li>\n                            </ul>\n                        </nav>\n                    </section>\n                </div>\n            </div>\n\n            <div class=\"md_contact__phone pt_lrg\">\n                <a href=\"tel:0120617550\" class=\"fz_24 serif lt2\"><span>お悩み・お困りの時は</span><span><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></span><span>までお問い合わせください</span></a>\n            </div>\n\n        </div><!-- pg_vision__contents -->\n    </main>\n\n\n                <nav class=\"md_bottomNav__wrap\">\n                    <div class=\"l_row\">\n                        <ul class=\"md_bottomNav\">\n                            <li>\n                                <a href=\"../kinmemai/\">\n                                    <img src=\"../assets/images/foot_lplink_01.jpg\" alt=\"金芽米\">\n                                    <img src=\"../assets/images/foot_lplink_01t.png\" alt=\"金芽米とは\" class=\"ttl\">\n                                </a>\n                            </li>\n                            <li>\n                                <a href=\"../company/\">\n                                    <img src=\"../assets/images/foot_lplink_02.jpg\" alt=\"東洋ライス工場\">\n                                    <img src=\"../assets/images/foot_lplink_02t.png\" alt=\"東洋ライスという会社\" class=\"ttl\">\n                                </a>\n                            </li>\n                            <li>\n                                <a href=\"../vision/\">\n                                    <img src=\"../assets/images/foot_lplink_04.jpg\" alt=\"すこやかに\">\n                                    <img src=\"../assets/images/foot_lplink_04t.png\" alt=\"人も自然もすこやかに\" class=\"ttl\">\n                                </a>\n                            </li>\n                            <li>\n                                <a href=\"../process/\">\n                                    <img src=\"../assets/images/foot_lplink_03.jpg\" alt=\"田園\">\n                                    <img src=\"../assets/images/foot_lplink_03t.png\" alt=\"土作りから精米まで\" class=\"ttl\">\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </nav>\n\n    <div class=\"md_footer\" id=\"footer\" role=\"contentinfo\">\n        <div class=\"md_backtotop\" id=\"totop\">\n            <a href=\"#\"><i class=\"fas fa-arrow-up\"></i></a>\n        </div>\n        <div class=\"l_row\">\n            <footer>\n                <ul class=\"md_footerGuide__wrap\">\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl payment\"><span>お支払い方法</span></h3>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 creditlogo\">クレジットカード<img src=\"../assets/images/icn_foot_05.png\" alt=\"使えるクレジットカードブランド\">\n                                </p>\n                            </div>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 shipping_company\"><img src=\"../assets/images/icn_foot_06.png\" alt=\"代引き手数料無償\" class=\"daibiki_price\"></p>\n                            </div>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl shipping\"><span>配送・送料について</span></h3>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 shipping_company\">宅配会社<img src=\"../assets/images/icn_foot_06_1.png\" alt=\"宅配会社\"></p>\n                            </div>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14\">配達日・時間指定</p>\n                                <div class=\"shipping_time\">\n                                    <div class=\"l_1st\">\n                                        <img src=\"../assets/images/icn_foot_07.png\" alt=\"配達日指定可能・時間指定可能\" class=\"time_order\" width=\"120\">\n                                    </div>\n                                    <div class=\"l_2nd\">\n                                        <img src=\"../assets/images/icn_foot_08.png\" alt=\"配達日指定可能・時間指定可能\" class=\"time_list\" width=\"387\">\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl contact\"><span>お問い合わせ窓口</span></h3>\n                            <div class=\"guide_line\">\n                                <a href=\"tel:0120617550\" class=\"md_foot__phone\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></a>\n                                <a href=\"https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393\" class=\"md_foot__contact\"><img src=\"../assets/images/btn_contact.svg\" alt=\"お問い合わせ\" width=\"165\"></a>\n                            </div>\n                            <p class=\"fz_14 guide_note\">営業時間：平日9:30～17:00 (夏季・年末年始の休業日を除く)</p>\n                            <p class=\"fz_14\">「金芽米本舗を見て」とお伝えください。</p>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl faq\"><span>よくあるご質問</span></h3>\n                            <ul class=\"fz_14 fw700 guide_list\">\n                                <li><a href=\"../guide/faq/#order\">ご注文について</a></li>\n                                <li><a href=\"../guide/faq/#shipping\">配送について</a></li>\n                                <li><a href=\"../guide/faq/#cancel\">返品・キャンセル</a></li>\n                                <li><a href=\"../guide/faq/#items\">お米について</a></li>\n                            </ul>\n                        </div>\n                    </li>\n                </ul>\n                <section class=\"md_foot__copyright\">\n                    <p class=\"fz_12 copyright\">このホームページ上の写真、映像、文章、図表などの著作物を、弊社の了承なく複製、使用することを禁じます。<span class=\"mark\">&copy; 東洋ライス株式会社 All Rights Reserved.</span></p>\n                    <a href=\"https://www.toyo-rice.jp/\" class=\"md_foot__logo\" targer=\"new\"><img src=\"../assets/images/foot_logo.svg\" alt=\"東洋ライス株式会社\" width=\"252\"></a>\n                </section>\n            </footer>\n        </div>\n    </div><!-- /md_footer -->\n\n    <!-- .sidr-->\n    <div class=\"md_drawer__cover\" id=\"drawer_cover\"></div>\n    <div id=\"drawer_menu\" class=\"md_drawer__menu\">\n        <div class=\"md_drawer__contents\">\n            <div class=\"sidr_slide__close\"><span></span><span></span></div>\n            <div class=\"fz_14 md_slide__totop\"><a href=\"https://www.rakuten.co.jp/kinmemai-honpo/\" >トップへ戻る</a></div>\n            <ul class=\"sidr_slide__nav\">\n                <li>\n                    <h3 class=\"fz_20 serif sidr_slide__navTtl\"><a href=\"../All_item/\">商品一覧</a></h3>\n                    <ul class=\"fz_15 sidr_slide__navlow\">\n                        <li><a href=\"../All_item/\">商品一覧</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/\">金芽米（銘柄米）</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/\">金芽米（ブレンド米）</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/\">ロウカット玄米</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/\">パックご飯</a></li>\n                        <li><a href=\"../All_item/recommend/\" class=\"priority\">どれを買うか迷った方に</a></li>\n                    </ul>\n                </li>\n                <li>\n                    <h3 class=\"fz_20 serif sidr_slide__navTtl\"><a href=\"../kinmemai/\">金芽米とは</a></h3>\n                    <ul class=\"fz_15 sidr_slide__navlow\">\n                        <li><a href=\"../kinmemai/\">金芽米とは</a></li>\n                        <li><a href=\"../company/\">東洋ライスという会社</a></li>\n                        <li><a href=\"../vision/\">人も自然もすこやかに</a></li>\n                        <li><a href=\"../process/\">土作りから精米まで</a></li>\n                    </ul>\n                </li>\n                <li>\n                    <ul class=\"fz_15 sidr_slide__navImg\">\n                        <li>\n                            <a href=\"../kinmemai/#takikata\" class=\"icon takikata\"><h4 class=\"serif fz_15 ttl\">お米の<br>炊き方</h4></a>\n                        </li>\n                        <li>\n                            <a href=\"../guide/\" class=\"icon guide\"><h4 class=\"serif fz_15 ttl\">お買い物<br>ガイド</h4></a>\n                        </li>\n                        <li>\n                            <a href=\"../guide/faq/\" class=\"icon faq\"><h4 class=\"serif fz_15 ttl\">Q&A</h4></a>\n                        </li>\n                    </ul>\n                    <div class=\"sidr_iconNav\">\n                        <a href=\"https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001\" class=\"fz_14 serif sidr_iconNav cart\"><span>カートを見る</span></a>\n                    </div>\n                    <div class=\"md_header__search\">\n                        <form method=\"get\" action=\"http://esearch.rakuten.co.jp/rms/sd/esearch/vc\" target=\"_top\" accept-charset=\"euc-jp\">\n                            <input type=\"hidden\" name=\"sv\" value=\"6\">\n                            <input type=\"hidden\" name=\"sid\" value=\"363393\">\n                            <input type=\"hidden\" name=\"su\" value=\"https://www.rakuten.co.jp/kinmemai-honpo/\">\n                            <input type=\"hidden\" name=\"sn\" value=\"金芽米本舗\">\n                            <input type=\"search\" placeholder=\"検索\" name=\"sitem\" class=\"formtext\">\n                            <input type=\"hidden\" name=\"f\" value=\"A\">\n                            <button type=\"submit\" class=\"icon_search\" onclick=\"document.charset='EUC-JP'; document.rakutenSubmit.submit();\"><i class=\"fas fa-search\"></i></button>\n                        </form>\n                    </div>\n                    <div class=\"sidr_slide__phone\">\n                        <a href=\"tel:0120617550\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"200\"></a>\n                    </div>\n                </li>\n            </ul>\n        </div>\n    </div>\n    <script src=\"../assets/js/jquery.sidr.min.js\"></script>\n    <script src=\"../assets/js/jquery.touchwipe.js\"></script>\n    <!-- .sidr-->\n\n\n                <script>\n                    (function($) {\n                        $(function(){\n                            $('.pg_faq__contents dt').on(\"click\", function () {\n                                $(this).next('dd').slideToggle('fast');\n                                $(this).find('.pg_faq__plusDt').toggleClass('open');\n                                $(this).parents().children('.tour_list__thumb').toggleClass('open');\n                            });\n                        });\n                    })(jQuery);\n                </script>\n\n\n            </body>\n            </html>\n\n\n\n",
+			"file": "src/htdocs/guide/guide_contact.html",
+			"file_size": 25189,
+			"file_write_time": 131883003280000000,
+			"settings":
+			{
+				"buffer_size": 23018,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html dir=\"ltr\" lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title></title>\n    <script src=\"../assets/js/jquery-3.3.1.min.js\"></script>\n    <!--[if lt IE 9]><script src=\"../assets/js/html5shiv.js\"></script><![endif]-->\n    <link href=\"//fonts.googleapis.com/earlyaccess/sawarabimincho.css\" rel=\"stylesheet\" />\n    <link rel=\"stylesheet\" media=\"all\" href=\"../assets/css/fontawesome-all.min.css\" />\n    <link rel=\"stylesheet\" media=\"all\" href=\"../assets/css/style.css\" />\n    <script src=\"../assets/js/config.js\"></script>\n</head>\n\n<body>\n\n\n    <div role=\"banner\" id=\"header\" class=\"md_header gold\">\n        <header>\n            <div class=\"md_gnav__trigger\" id=\"drawer_trigger\">\n                <span class=\"line\"></span>\n                <span class=\"line\"></span>\n                <span class=\"line\"></span>\n                <span class=\"txt\">メニュー</span>\n            </div>\n            <div class=\"md_header__wrap\">\n                <div class=\"innr\">\n                    <div class=\"md_header__gnav\">\n                        <h1 class=\"md_header__logo\">\n                            <a href=\"https://www.rakuten.ne.jp/gold/kinmemai-honpo/\">\n                                <img src=\"../assets/images/icn_logo.svg\" alt=\"金芽米本舗（きんめまいほんぽ）\" width=\"188\">\n                            </a>\n                        </h1>\n                        <nav class=\"md_header__nav\">\n                            <a href=\"https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001\" class=\"fz_14 serif icon_nav\"><i class=\"icon cart\"></i><span>カートを見る</span></a>\n                            <a href=\"../guide/\" class=\"fz_14 serif icon_nav shopping\"><i class=\"icon shopping\"></i><span>お買い物ガイド</span></a>\n                            <a href=\"../guide/faq/\" class=\"fz_14 serif icon_nav\"><i class=\"icon faq\"></i><span>よくある質問</span></a>\n                            <a href=\"https://www.rakuten.co.jp/\" target=\"new\" class=\"fz_14 serif icon_nav\"><i class=\"icon rakuten\"></i><span>楽天市場</span></a>\n                            <div class=\"md_header__search\">\n                                <form method=\"get\" action=\"http://esearch.rakuten.co.jp/rms/sd/esearch/vc\" target=\"_top\" accept-charset=\"euc-jp\">\n                                    <input type=\"hidden\" name=\"sv\" value=\"6\">\n                                    <input type=\"hidden\" name=\"sid\" value=\"363393\">\n                                    <input type=\"hidden\" name=\"su\" value=\"https://www.rakuten.co.jp/kinmemai-honpo/\">\n                                    <input type=\"hidden\" name=\"sn\" value=\"金芽米本舗\">\n                                    <input type=\"search\" placeholder=\"検索\" name=\"sitem\" class=\"formtext\">\n                                    <input type=\"hidden\" name=\"f\" value=\"A\">\n                                    <button type=\"submit\" class=\"icon_search\" onclick=\"document.charset='EUC-JP'; document.rakutenSubmit.submit();\"><i class=\"fas fa-search\"></i></button>\n                                </form>\n                            </div>\n                            <a href=\"tel:0120617550\" class=\"md_nav__phone head\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></a>\n                            <a href=\"https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393\" class=\"md_nav__contact\"><img src=\"../assets/images/btn_contact.svg\" alt=\"お問い合わせ\" width=\"165\"></a>\n                        </nav>\n                    </div>\n                </div>\n            </div>\n            <nav class=\"fz_16 md_header__tnavWrap\">\n                <ul class=\"md_header__tnav\">\n                    <li><a href=\"../All_item/\" class=\"serif lt2\">商品一覧</a></li>\n                    <li class=\"tnav_tiriger\">\n                        <span class=\"serif lt2 btn arrow\">商品を探す</span>\n                        <ul class=\"fz_14 children\">\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/\">金芽米（銘柄米）</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/\">金芽米（ブレンド米）</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/\">金芽ロウカット玄米</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/\">パックご飯</a></li>\n                            <li><a href=\"../All_item/recommend/\">どれにするか迷った方へ</a></li>\n                        </ul>\n                    </li>\n                    <li><a href=\"../kinmemai/\" class=\"serif lt2\">金芽米とは</a></li>\n                    <li class=\"tnav_tiriger\">\n                        <span class=\"serif lt2 btn arrow\">About</span>\n                        <ul class=\"fz_14 children tar\">\n                            <li><a href=\"../company/\">東洋ライスという会社</a></li>\n                            <li><a href=\"../vision/\">人も自然もすこやかに</a></li>\n                            <li><a href=\"../process/\">土作りから精米まで</a></li>\n                        </ul>\n                    </li>\n                </ul>\n            </nav>\n        </header>\n    </div>\n\n    <main role=\"main\" id=\"top\">\n\n        <div class=\"pg_process__contents\">\n            <div class=\"pg_common__ttlWrap\">\n                <h2 class=\"serif lt2 pg_common__ttl\"><span><a href=\"index.html\">お買い物ガイド</a></span></h2>\n                <h3 class=\"serif lt2 pg_common__sttl\"><span>ご注文・お支払いについて</span></h3>\n            </div>\n\n            <div class=\"pg_guide\">\n                <div class=\"l_row pd_side\">\n                    <div class=\"pg_guide__wrap\">\n                        <nav class=\"pg_guide__side\">\n                            <ul class=\"pg_guide__sidelist\">\n                                <li id=\"order\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_order.html\">ご注文・お支払いについて</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"#qa1\"><i class=\"fas fa-caret-right\"></i>初めてご利用されるお客様</a></li>\n                                        <li><a href=\"#qa2\"><i class=\"fas fa-caret-right\"></i>送料について</a></li>\n                                        <li><a href=\"#qa3\"><i class=\"fas fa-caret-right\"></i>お支払い方法について</a></li>\n                                        <li><a href=\"#qa4\"><i class=\"fas fa-caret-right\"></i>お買い上げ明細・領収書について</a></li>\n                                        <li><a href=\"#qa5\"><i class=\"fas fa-caret-right\"></i>当店からのメールが届かない場合</a></li>\n                                    </ul>\n                                </li>\n                                <li id=\"shipping\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_shipping.html\">配送について</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"guide_shipping.html#qa1\"><i class=\"fas fa-caret-right\"></i>配送業者について</a></li>\n                                        <li><a href=\"guide_shipping.html#qa2\"><i class=\"fas fa-caret-right\"></i>商品発送のタイミング</a></li>\n                                        <li><a href=\"guide_shipping.html#qa3\"><i class=\"fas fa-caret-right\"></i>日時指定でのお届け</a></li>\n                                    </ul>\n                                </li>\n                                <li id=\"cancel\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_cancel.html\">キャンセル・返品・交換について</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"guide_cancel.html#qa1\"><i class=\"fas fa-caret-right\"></i>ご注文のキャンセルについて</a></li>\n                                        <li><a href=\"guide_cancel.html#qa2\"><i class=\"fas fa-caret-right\"></i>商品の返品・交換について</a></li>\n                                        <li><a href=\"guide_cancel.html#qa3\"><i class=\"fas fa-caret-right\"></i>お支払い方法について</a></li>\n                                    </ul>\n                                </li>\n                                <li id=\"contact\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_contact.html\">お問い合わせ</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"guide_contact.html#qa1\"><i class=\"fas fa-caret-right\"></i>お問い合わせの前に</a></li>\n                                        <li><a href=\"guide_contact.html#qa2\"><i class=\"fas fa-caret-right\"></i>お問い合わせ</a></li>\n                                    </ul>\n                                </li>\n                            </ul>\n                        </nav>\n                        <section class=\"pg_guide__main\">\n                            <div class=\"innr\">\n                                <section class=\"pg_guide__mainColumn\" id=\"qa1\">\n                                    <h2 class=\"fz_24 serif title\"><span>初めてご利用されるお客様</span></h2>\n                                    <div class=\"fz_15 answer\">\n                                        <p><a href=\"https://event.rakuten.co.jp/guide/howtobuy/\" target=\"new\">楽天市場のお買い物の流れ</a>をご覧いただくことをおすすめいたします。</p>\n                                    </div>\n                                </section>\n\n                                <section class=\"pg_guide__mainColumn\" id=\"qa2\">\n                                    <h2 class=\"fz_24 serif title\"><span>送料について</span></h2>\n                                    <div class=\"fz_15 answer\">\n                                        <p>送料は商品に含まれています。<br>離島・一部地域でも追加送料がかかることはありません。</p>\n                                    </div>\n                                </section>\n\n                                <section class=\"pg_guide__mainColumn\" id=\"qa3\">\n                                    <h2 class=\"fz_24 serif title\"><span>お支払い方法について</span></h2>\n                                    <div class=\"fz_15 answer\">\n                                        <p>クレジットカード決済と代金引換に対応しています。</p>\n                                        <section class=\"subColumn\">\n                                            <h3 class=\"fz_20 serif subtitle\"><span>対応クレジットカード</span></h3>\n                                            <table class=\"fz_14 table_list\">\n                                                <tr>\n                                                    <th>カード会社</th>\n                                                    <th>支払方法</th>\n                                                </tr>\n                                                <tr>\n                                                    <td>VISA</td>\n                                                    <td>リボ,分割（3,5,6,10,12,15,18,20,24 回が可能です）</td>\n                                                </tr>\n                                                <tr>\n                                                    <td>MASTER</td>\n                                                    <td>リボ,分割（3,5,6,10,12,15,18,20,24 回が可能です）</td>\n                                                </tr>\n                                                <tr>\n                                                    <td>JCB</td>\n                                                    <td>リボ,分割（3,5,6,10,12,15,18,20,24 回が可能です）</td>\n                                                </tr>\n                                                <tr>\n                                                    <td>AMEX</td>\n                                                    <td>分割（3,5,6,10,12,15,18,20,24 回が可能です）</td>\n                                                </tr>\n                                                <tr>\n                                                    <td>Diners</td>\n                                                    <td>リボ</td>\n                                                </tr>\n                                            </table>\n\n                                            <section class=\"noteColumn\">\n                                                <h3 class=\"fz_16 notetitle\"><span>クレジットカード決済について備考</span></h3>\n                                                <ol class=\"fz_14 lt0 num_list\">\n                                                    <li>ポイントをご利用の場合等、楽天から自動で配信される確認メールの金額と異なる場合がございます。のちほど当店からお送りするメールをご確認の上、お手続きください。</li>\n                                                    <li>念のためご注文後にメールにてお支払総額をお知らせいたします。</li>\n                                                    <li>弊店ではオンライン認証を行っておりますので、 ご利用控え等の発行は行っておりません。</li>\n                                                    <li>明細につきましてはカード会社からのご利用明細をご覧ください。なお、弊社ではＳＳＬというシステムを利用しておりますので、カード番号は暗号化されて送信されます。ご安心してご利用いただけます。</li>\n                                                    <li>カード会社より決済承認を得られなかった場合、お電話もしくはメールにてご連絡しております。（決済承認エラーの場合は、予定通りに発送できない場合がございます）</li>\n                                                    <li>長期に渡りお返事がない場合は、勝手ながらキャンセル扱いとさせていただく場合もござます。</li>\n                                                    <li>お客様のご利用状態等によっては、他の決済手段に変更いただく場合がございます。</li>\n                                                </ol>\n                                            </section>\n                                        </section>\n\n                                        <section class=\"subColumn\">\n                                            <h4 class=\"fz_20 serif subtitle\"><span>代金引換</span></h4>\n                                            <p><strong>業者：クロネコヤマト宅配便</strong></p>\n                                            <p>代引手数料： 全国一律料金 0円</p>\n                                            <p>代金引換は、商品のお届け時に配達員に料金をお支払いいただくシステムです</p>\n                                            <section class=\"noteColumn\">\n                                                <h3 class=\"fz_16 lt0 notetitle\"><span>クレジットカード決済について備考</span></h3>\n                                                <ol class=\"fz_14 lt0 num_list\">\n                                                    <li><strpng>ギフト商品にはご利用いただけません</strpng></li>\n                                                    <li>ポイントをご利用の場合等、楽天から自動で配信される確認メールの金額と異なる場合がございます。のちほど当店からお送りするメールをご確認の上、お手続きください。</li>\n                                                    <li>配送業者はヤマト運輸となります。</li>\n                                                    <li>代金引換のお支払い方法は現金のみとなります</li>\n                                                    <li>念のためご注文後にメールにてお支払総額をお知らせいたします。</li>\n                                                    <li>全額ポイントを使用してのお支払いの場合、お支払い方法をクレジットカードでお願いいたします。</li>\n                                                    <li>代金は商品配送時に配送員にお支払い下さい。</li>\n                                                </ol>\n                                            </section>\n                                        </section>\n                                    </div>\n                                </section>\n\n                                <section class=\"pg_guide__mainColumn\" id=\"qa4\">\n                                    <h2 class=\"fz_24 serif title\"><span>お買い上げ明細・領収書について</span></h2>\n                                    <div class=\"fz_15 answer\">\n                                        <section class=\"subColumn no_p\">\n                                            <h4 class=\"fz_20 serif subtitle\"><span>納品書兼領収書</span></h4>\n                                            <p>お届けの商品に、納品書兼領収書を同封しております。</p>\n                                            <section class=\"noteColumn\">\n                                                <ol class=\"fz_14 lt0 num_list\">\n                                                    <li>宛名・・・【空欄】になっております。（お客様ご自身で宛名をご記入の上、ご利用ください。）</li>\n                                                    <li>但書・・・【お品代】となります。</li>\n                                                    <li>日付・・・当店から商品が発送される【発送日】となります。</li>\n                                                    <li>金額・・・【ポイント値引き後の金額】となります。</li>\n                                                </ol>\n                                                <p class=\"fz_12 atte\">※システムによる自動発行の為、領収書の内容は変更できません。予めご了承ください。 </p>\n                                            </section>\n                                        </section>\n                                        <section class=\"subColumn\">\n                                            <h4 class=\"fz_20 serif subtitle\"><span>領収書が発行されないケース</span></h4>\n                                            <p>下記のケースでは、領収書は発行されません。</p>\n                                            <section class=\"noteColumn\">\n                                                <ol class=\"fz_14 lt0 num_list\">\n                                                    <li>お支払い方法が【代金引換】の場合：配送業者様が発行する領収証をご利用ください。</li>\n                                                    <li>ご注文者様と商品受取者様が異なる場合（ギフトなど）：お客様相談室にご連絡いただければ別途発行いたします。</li>\n                                                    <li>お支払いが【全額ポイント】でお支払いの場合</li>\n                                                </ol>\n                                            </section>\n                                        </section>\n                                        <section class=\"subColumn\">\n                                            <h4 class=\"fz_20 serif subtitle\"><span>領収書サンプル</span></h4>\n                                            <p><a href=\"../assets/images/receipt.jpg\" target=\"new\">サンプル画像を見る</a></p>\n                                        </section>\n                                    </div>\n                                </section>\n\n                                <section class=\"pg_guide__mainColumn\" id=\"qa5\">\n                                    <h2 class=\"fz_24 serif title\"><span>当店からのメールが届かない場合</span></h2>\n                                    <div class=\"fz_15 answer\">\n                                        <p>ご注文時、当店からのご注文確認メール・発送メール・お問い合わせの返答メールは必ずお送りしておりますが、お客様のサーバーのエラーやメール受信の設定等により、メールをお届け出来ていない場合がございます。<br>当店からのメールが迷惑メールフォルダに振り分けられている可能性もございますので、あわせてそちらもご確認くださいませ。また、お手数をお掛けいたしますが<strong class=\"lt0 email_wrap\">【kinmemai-honpo@shop.rakuten.co.jp】</strong>を受信できるよう設定をお願いいたします。また、ご注文時の登録メールアドレスが下記に当てはまる場合、送信エラーとなりメールが不着になる可能性があります。</p>\n                                        <section class=\"noteColumn pd_b\">\n                                            <ol class=\"fz_14 lt0 num_list\">\n                                                <li>「＠」直前の「．」（ドット）</li>\n                                                <li>記号で始まる</li>\n                                                <li>「.」「-」の連続使用</li>\n                                            </ol>\n                                        </section>\n                                        <p>ご注文の際は、今一度ご確認いただきますようお願いいたします。</p>\n                                        <p>ご注文(お問い合わせ)後、<strong>2営業日</strong>経過しても当店よりメールが届かない場合は、お手数ですがお電話かお問い合わせフォームよりお問い合わせください。</p>\n                                    </div>\n                                </section>\n\n                            </div>\n                        </section>\n                    </div>\n                    <section class=\"pg_guide__faq\">\n                        <h3 class=\"fz_24 serif pg_guide__listTtl\">よくあるご質問</h3>\n                        <p class=\"fz_15 pg_guide__read\">よくあるご質問についてまとめております。<br>ご不明な点がございましたら、こちらも一度ご覧くださいませ。</p>\n                        <nav class=\"fz_16 pg_guide__faqLink\">\n                            <ul>\n                                <li><a href=\"faq/#order\">ご注文について</a></li>\n                                <li><a href=\"faq/#shipping\">配送について</a></li>\n                                <li><a href=\"faq/#cancel\">返品・キャンセル</a></li>\n                                <li><a href=\"faq/#items\">お米について</a></li>\n                            </ul>\n                        </nav>\n                    </section>\n                </div>\n            </div>\n\n            <div class=\"md_contact__phone pt_lrg\">\n                <a href=\"tel:0120617550\" class=\"fz_24 serif lt2\"><span>お悩み・お困りの時は</span><span><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></span><span>までお問い合わせください</span></a>\n            </div>\n\n        </div><!-- pg_vision__contents -->\n    </main>\n\n\n                <nav class=\"md_bottomNav__wrap\">\n                    <div class=\"l_row\">\n                        <ul class=\"md_bottomNav\">\n                            <li>\n                                <a href=\"../kinmemai/\">\n                                    <img src=\"../assets/images/foot_lplink_01.jpg\" alt=\"金芽米\">\n                                    <img src=\"../assets/images/foot_lplink_01t.png\" alt=\"金芽米とは\" class=\"ttl\">\n                                </a>\n                            </li>\n                            <li>\n                                <a href=\"../company/\">\n                                    <img src=\"../assets/images/foot_lplink_02.jpg\" alt=\"東洋ライス工場\">\n                                    <img src=\"../assets/images/foot_lplink_02t.png\" alt=\"東洋ライスという会社\" class=\"ttl\">\n                                </a>\n                            </li>\n                            <li>\n                                <a href=\"../vision/\">\n                                    <img src=\"../assets/images/foot_lplink_04.jpg\" alt=\"すこやかに\">\n                                    <img src=\"../assets/images/foot_lplink_04t.png\" alt=\"人も自然もすこやかに\" class=\"ttl\">\n                                </a>\n                            </li>\n                            <li>\n                                <a href=\"../process/\">\n                                    <img src=\"../assets/images/foot_lplink_03.jpg\" alt=\"田園\">\n                                    <img src=\"../assets/images/foot_lplink_03t.png\" alt=\"土作りから精米まで\" class=\"ttl\">\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </nav>\n\n    <div class=\"md_footer\" id=\"footer\" role=\"contentinfo\">\n        <div class=\"md_backtotop\" id=\"totop\">\n            <a href=\"#\"><i class=\"fas fa-arrow-up\"></i></a>\n        </div>\n        <div class=\"l_row\">\n            <footer>\n                <ul class=\"md_footerGuide__wrap\">\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl payment\"><span>お支払い方法</span></h3>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 creditlogo\">クレジットカード<img src=\"../assets/images/icn_foot_05.png\" alt=\"使えるクレジットカードブランド\">\n                                </p>\n                            </div>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 shipping_company\"><img src=\"../assets/images/icn_foot_06.png\" alt=\"代引き手数料無償\" class=\"daibiki_price\"></p>\n                            </div>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl shipping\"><span>配送・送料について</span></h3>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 shipping_company\">宅配会社<img src=\"../assets/images/icn_foot_06_1.png\" alt=\"宅配会社\"></p>\n                            </div>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14\">配達日・時間指定</p>\n                                <div class=\"shipping_time\">\n                                    <div class=\"l_1st\">\n                                        <img src=\"../assets/images/icn_foot_07.png\" alt=\"配達日指定可能・時間指定可能\" class=\"time_order\" width=\"120\">\n                                    </div>\n                                    <div class=\"l_2nd\">\n                                        <img src=\"../assets/images/icn_foot_08.png\" alt=\"配達日指定可能・時間指定可能\" class=\"time_list\" width=\"387\">\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl contact\"><span>お問い合わせ窓口</span></h3>\n                            <div class=\"guide_line\">\n                                <a href=\"tel:0120617550\" class=\"md_foot__phone\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></a>\n                                <a href=\"https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393\" class=\"md_foot__contact\"><img src=\"../assets/images/btn_contact.svg\" alt=\"お問い合わせ\" width=\"165\"></a>\n                            </div>\n                            <p class=\"fz_14 guide_note\">営業時間：平日9:30～17:00 (夏季・年末年始の休業日を除く)</p>\n                            <p class=\"fz_14\">「金芽米本舗を見て」とお伝えください。</p>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl faq\"><span>よくあるご質問</span></h3>\n                            <ul class=\"fz_14 fw700 guide_list\">\n                                <li><a href=\"../guide/faq/#order\">ご注文について</a></li>\n                                <li><a href=\"../guide/faq/#shipping\">配送について</a></li>\n                                <li><a href=\"../guide/faq/#cancel\">返品・キャンセル</a></li>\n                                <li><a href=\"../guide/faq/#items\">お米について</a></li>\n                            </ul>\n                        </div>\n                    </li>\n                </ul>\n                <section class=\"md_foot__copyright\">\n                    <p class=\"fz_12 copyright\">このホームページ上の写真、映像、文章、図表などの著作物を、弊社の了承なく複製、使用することを禁じます。<span class=\"mark\">&copy; 東洋ライス株式会社 All Rights Reserved.</span></p>\n                    <a href=\"https://www.toyo-rice.jp/\" class=\"md_foot__logo\" targer=\"new\"><img src=\"../assets/images/foot_logo.svg\" alt=\"東洋ライス株式会社\" width=\"252\"></a>\n                </section>\n            </footer>\n        </div>\n    </div><!-- /md_footer -->\n\n    <!-- .sidr-->\n    <div class=\"md_drawer__cover\" id=\"drawer_cover\"></div>\n    <div id=\"drawer_menu\" class=\"md_drawer__menu\">\n        <div class=\"md_drawer__contents\">\n            <div class=\"sidr_slide__close\"><span></span><span></span></div>\n            <div class=\"fz_14 md_slide__totop\"><a href=\"https://www.rakuten.co.jp/kinmemai-honpo/\" >トップへ戻る</a></div>\n            <ul class=\"sidr_slide__nav\">\n                <li>\n                    <h3 class=\"fz_20 serif sidr_slide__navTtl\"><a href=\"../All_item/\">商品一覧</a></h3>\n                    <ul class=\"fz_15 sidr_slide__navlow\">\n                        <li><a href=\"../All_item/\">商品一覧</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/\">金芽米（銘柄米）</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/\">金芽米（ブレンド米）</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/\">ロウカット玄米</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/\">パックご飯</a></li>\n                        <li><a href=\"../All_item/recommend/\" class=\"priority\">どれを買うか迷った方に</a></li>\n                    </ul>\n                </li>\n                <li>\n                    <h3 class=\"fz_20 serif sidr_slide__navTtl\"><a href=\"../kinmemai/\">金芽米とは</a></h3>\n                    <ul class=\"fz_15 sidr_slide__navlow\">\n                        <li><a href=\"../kinmemai/\">金芽米とは</a></li>\n                        <li><a href=\"../company/\">東洋ライスという会社</a></li>\n                        <li><a href=\"../vision/\">人も自然もすこやかに</a></li>\n                        <li><a href=\"../process/\">土作りから精米まで</a></li>\n                    </ul>\n                </li>\n                <li>\n                    <ul class=\"fz_15 sidr_slide__navImg\">\n                        <li>\n                            <a href=\"../kinmemai/#takikata\" class=\"icon takikata\"><h4 class=\"serif fz_15 ttl\">お米の<br>炊き方</h4></a>\n                        </li>\n                        <li>\n                            <a href=\"../guide/\" class=\"icon guide\"><h4 class=\"serif fz_15 ttl\">お買い物<br>ガイド</h4></a>\n                        </li>\n                        <li>\n                            <a href=\"../guide/faq/\" class=\"icon faq\"><h4 class=\"serif fz_15 ttl\">Q&A</h4></a>\n                        </li>\n                    </ul>\n                    <div class=\"sidr_iconNav\">\n                        <a href=\"https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001\" class=\"fz_14 serif sidr_iconNav cart\"><span>カートを見る</span></a>\n                    </div>\n                    <div class=\"md_header__search\">\n                        <form method=\"get\" action=\"http://esearch.rakuten.co.jp/rms/sd/esearch/vc\" target=\"_top\" accept-charset=\"euc-jp\">\n                            <input type=\"hidden\" name=\"sv\" value=\"6\">\n                            <input type=\"hidden\" name=\"sid\" value=\"363393\">\n                            <input type=\"hidden\" name=\"su\" value=\"https://www.rakuten.co.jp/kinmemai-honpo/\">\n                            <input type=\"hidden\" name=\"sn\" value=\"金芽米本舗\">\n                            <input type=\"search\" placeholder=\"検索\" name=\"sitem\" class=\"formtext\">\n                            <input type=\"hidden\" name=\"f\" value=\"A\">\n                            <button type=\"submit\" class=\"icon_search\" onclick=\"document.charset='EUC-JP'; document.rakutenSubmit.submit();\"><i class=\"fas fa-search\"></i></button>\n                        </form>\n                    </div>\n                    <div class=\"sidr_slide__phone\">\n                        <a href=\"tel:0120617550\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"200\"></a>\n                    </div>\n                </li>\n            </ul>\n        </div>\n    </div>\n    <script src=\"../assets/js/jquery.sidr.min.js\"></script>\n    <script src=\"../assets/js/jquery.touchwipe.js\"></script>\n    <!-- .sidr-->\n\n\n                <script>\n                    (function($) {\n                        $(function(){\n                            $('.pg_faq__contents dt').on(\"click\", function () {\n                                $(this).next('dd').slideToggle('fast');\n                                $(this).find('.pg_faq__plusDt').toggleClass('open');\n                                $(this).parents().children('.tour_list__thumb').toggleClass('open');\n                            });\n                        });\n                    })(jQuery);\n                </script>\n\n\n            </body>\n            </html>\n\n\n\n",
+			"file": "src/htdocs/guide/guide_order.html",
+			"file_size": 35448,
+			"file_write_time": 131883003280000000,
+			"settings":
+			{
+				"buffer_size": 30421,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html dir=\"ltr\" lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title></title>\n    <script src=\"../assets/js/jquery-3.3.1.min.js\"></script>\n    <!--[if lt IE 9]><script src=\"../assets/js/html5shiv.js\"></script><![endif]-->\n    <link href=\"//fonts.googleapis.com/earlyaccess/sawarabimincho.css\" rel=\"stylesheet\" />\n    <link rel=\"stylesheet\" media=\"all\" href=\"../assets/css/fontawesome-all.min.css\" />\n    <link rel=\"stylesheet\" media=\"all\" href=\"../assets/css/style.css\" />\n    <script src=\"../assets/js/config.js\"></script>\n</head>\n\n<body>\n\n\n    <div role=\"banner\" id=\"header\" class=\"md_header gold\">\n        <header>\n            <div class=\"md_gnav__trigger\" id=\"drawer_trigger\">\n                <span class=\"line\"></span>\n                <span class=\"line\"></span>\n                <span class=\"line\"></span>\n                <span class=\"txt\">メニュー</span>\n            </div>\n            <div class=\"md_header__wrap\">\n                <div class=\"innr\">\n                    <div class=\"md_header__gnav\">\n                        <h1 class=\"md_header__logo\">\n                            <a href=\"https://www.rakuten.ne.jp/gold/kinmemai-honpo/\">\n                                <img src=\"../assets/images/icn_logo.svg\" alt=\"金芽米本舗（きんめまいほんぽ）\" width=\"188\">\n                            </a>\n                        </h1>\n                        <nav class=\"md_header__nav\">\n                            <a href=\"https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001\" class=\"fz_14 serif icon_nav\"><i class=\"icon cart\"></i><span>カートを見る</span></a>\n                            <a href=\"../guide/\" class=\"fz_14 serif icon_nav shopping\"><i class=\"icon shopping\"></i><span>お買い物ガイド</span></a>\n                            <a href=\"../guide/faq/\" class=\"fz_14 serif icon_nav\"><i class=\"icon faq\"></i><span>よくある質問</span></a>\n                            <a href=\"https://www.rakuten.co.jp/\" target=\"new\" class=\"fz_14 serif icon_nav\"><i class=\"icon rakuten\"></i><span>楽天市場</span></a>\n                            <div class=\"md_header__search\">\n                                <form method=\"get\" action=\"http://esearch.rakuten.co.jp/rms/sd/esearch/vc\" target=\"_top\" accept-charset=\"euc-jp\">\n                                    <input type=\"hidden\" name=\"sv\" value=\"6\">\n                                    <input type=\"hidden\" name=\"sid\" value=\"363393\">\n                                    <input type=\"hidden\" name=\"su\" value=\"https://www.rakuten.co.jp/kinmemai-honpo/\">\n                                    <input type=\"hidden\" name=\"sn\" value=\"金芽米本舗\">\n                                    <input type=\"search\" placeholder=\"検索\" name=\"sitem\" class=\"formtext\">\n                                    <input type=\"hidden\" name=\"f\" value=\"A\">\n                                    <button type=\"submit\" class=\"icon_search\" onclick=\"document.charset='EUC-JP'; document.rakutenSubmit.submit();\"><i class=\"fas fa-search\"></i></button>\n                                </form>\n                            </div>\n                            <a href=\"tel:0120617550\" class=\"md_nav__phone head\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></a>\n                            <a href=\"https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393\" class=\"md_nav__contact\"><img src=\"../assets/images/btn_contact.svg\" alt=\"お問い合わせ\" width=\"165\"></a>\n                        </nav>\n                    </div>\n                </div>\n            </div>\n            <nav class=\"fz_16 md_header__tnavWrap\">\n                <ul class=\"md_header__tnav\">\n                    <li><a href=\"../All_item/\" class=\"serif lt2\">商品一覧</a></li>\n                    <li class=\"tnav_tiriger\">\n                        <span class=\"serif lt2 btn arrow\">商品を探す</span>\n                        <ul class=\"fz_14 children\">\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/\">金芽米（銘柄米）</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/\">金芽米（ブレンド米）</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/\">金芽ロウカット玄米</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/\">パックご飯</a></li>\n                            <li><a href=\"../All_item/recommend/\">どれにするか迷った方へ</a></li>\n                        </ul>\n                    </li>\n                    <li><a href=\"../kinmemai/\" class=\"serif lt2\">金芽米とは</a></li>\n                    <li class=\"tnav_tiriger\">\n                        <span class=\"serif lt2 btn arrow\">About</span>\n                        <ul class=\"fz_14 children tar\">\n                            <li><a href=\"../company/\">東洋ライスという会社</a></li>\n                            <li><a href=\"../vision/\">人も自然もすこやかに</a></li>\n                            <li><a href=\"../process/\">土作りから精米まで</a></li>\n                        </ul>\n                    </li>\n                </ul>\n            </nav>\n        </header>\n    </div>\n\n    <main role=\"main\" id=\"top\">\n\n        <div class=\"pg_process__contents\">\n            <div class=\"pg_common__ttlWrap\">\n                <h2 class=\"serif lt2 pg_common__ttl\"><span><a href=\"index.html\">お買い物ガイド</a></span></h2>\n                <h3 class=\"serif lt2 pg_common__sttl\"><span>配送について</span></h3>\n            </div>\n\n            <div class=\"pg_guide\">\n                <div class=\"l_row pd_side\">\n                    <div class=\"pg_guide__wrap\">\n                        <nav class=\"pg_guide__side\">\n                            <ul class=\"pg_guide__sidelist\">\n                                <li id=\"order\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_order.html\">ご注文・お支払いについて</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"#qa1\"><i class=\"fas fa-caret-right\"></i>初めてご利用されるお客様</a></li>\n                                        <li><a href=\"#qa2\"><i class=\"fas fa-caret-right\"></i>送料について</a></li>\n                                        <li><a href=\"#qa3\"><i class=\"fas fa-caret-right\"></i>お支払い方法について</a></li>\n                                        <li><a href=\"#qa4\"><i class=\"fas fa-caret-right\"></i>お買い上げ明細・領収書について</a></li>\n                                        <li><a href=\"#qa5\"><i class=\"fas fa-caret-right\"></i>当店からのメールが届かない場合</a></li>\n                                    </ul>\n                                </li>\n                                <li id=\"shipping\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_shipping.html\">配送について</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"guide_shipping.html#qa1\"><i class=\"fas fa-caret-right\"></i>配送業者について</a></li>\n                                        <li><a href=\"guide_shipping.html#qa2\"><i class=\"fas fa-caret-right\"></i>商品発送のタイミング</a></li>\n                                        <li><a href=\"guide_shipping.html#qa3\"><i class=\"fas fa-caret-right\"></i>日時指定でのお届け</a></li>\n                                    </ul>\n                                </li>\n                                <li id=\"cancel\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_cancel.html\">キャンセル・返品・交換について</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"guide_cancel.html#qa1\"><i class=\"fas fa-caret-right\"></i>ご注文のキャンセルについて</a></li>\n                                        <li><a href=\"guide_cancel.html#qa2\"><i class=\"fas fa-caret-right\"></i>商品の返品・交換について</a></li>\n                                        <li><a href=\"guide_cancel.html#qa3\"><i class=\"fas fa-caret-right\"></i>お支払い方法について</a></li>\n                                    </ul>\n                                </li>\n                                <li id=\"contact\">\n                                    <h3 class=\"fz_18 serif pg_guide__listTtl\"><a href=\"guide_contact.html\">お問い合わせ</a></h3>\n                                    <ul class=\"fz_14 pg_guide__slist\">\n                                        <li><a href=\"guide_contact.html#qa1\"><i class=\"fas fa-caret-right\"></i>お問い合わせの前に</a></li>\n                                        <li><a href=\"guide_contact.html#qa2\"><i class=\"fas fa-caret-right\"></i>お問い合わせ</a></li>\n                                    </ul>\n                                </li>\n                            </ul>\n                        </nav>\n                        <section class=\"pg_guide__main\">\n                            <div class=\"innr\">\n                                <section class=\"pg_guide__mainColumn\" id=\"qa1\">\n                                    <h2 class=\"fz_24 serif title\"><span>配送業者について</span></h2>\n                                    <div class=\"fz_15 answer\">\n                                        <h3 class=\"fz_20 serif subtitle\"><span>宅急便</span></h3>\n                                        <p>配送はヤマト運輸でのお届けとなります。<br>（他の配送業者での配送には対応しておりません）</p>\n                                        <p>また現在、海外発送や宅急便以外での配送は承っておりません。予めご了承ください。</p>\n                                        <p>送料は商品に含まれています。<br>\n                                        離島・一部地域でも追加送料がかかることはありません。</p>\n                                        <p>複数の商品を同一箇所にお届けする場合には、基本的に一つの箱にまとめて、お送りさせて頂いております。</p>\n                                    </div>\n                                </section>\n\n                                <section class=\"pg_guide__mainColumn\" id=\"qa2\">\n                                    <h2 class=\"fz_24 serif title\"><span>商品発送のタイミング</span></h2>\n                                    <div class=\"fz_15 answer\">\n                                        <p>在庫のある場合は、ご注文確認後の翌営業日に発送いたします（代金引換・クレジットカード払いのみ）。\n                                        <p>日時指定のある商品の場合は、ご指定の日時に合わせまして発送いたします。また、在庫のない場合は、ご注文確認後、商品在庫を確認次第、営業日に発送いたします。</p>\n                                    </div>\n                                </section>\n\n\n                                <section class=\"pg_guide__mainColumn\" id=\"qa3\">\n                                    <h2 class=\"fz_24 serif title\"><span>日時指定でのお届け</span></h2>\n                                    <div class=\"fz_15 answer\">\n                                        <section class=\"subColumn no_p\">\n                                            <h3 class=\"fz_20 serif subtitle\"><span>お届け希望日</span></h3>\n                                            <p>お届け希望日時はご注文日の1週間後からご指定いただけます。<br>急ぎお届けをご希望の場合は、配送日時を指定されずに、通信欄に「なるべく早く」と記載願います。</p>\n                                        </section>\n                                        <section class=\"subColumn\">\n                                            <h3 class=\"fz_20 serif subtitle\"><span>お届け希望時間</span></h3>\n                                            <p>配送時間帯は、午前中、14～16時、16～18時、18～20時、19～21時からお選びいただけます。</p>\n                                        </section>\n                                        <section class=\"subColumn\">\n                                            <h3 class=\"fz_20 serif subtitle\"><span>ご注意</span></h3>\n                                            <div class=\"noteColumn\">\n                                                <ol class=\"fz_14 lt0 num_list\">\n                                                    <li>お支払い方法が【代金引換】の場合：配送業者様が発行する領収証をご利用ください。</li>\n                                                    <li>ご注文者様と商品受取者様が異なる場合（ギフトなど）：お客様相談室にご連絡いただければ別途発行いたします。</li>\n                                                    <li>お支払いが【全額ポイント】でお支払いの場合</li>\n                                                </ol>\n                                            </div>\n                                        </section>\n                                    </div>\n                                </section>\n\n                            </div>\n                        </section>\n                    </div>\n                    <section class=\"pg_guide__faq\">\n                        <h3 class=\"fz_24 serif pg_guide__listTtl\">よくあるご質問</h3>\n                        <p class=\"fz_15 pg_guide__read\">よくあるご質問についてまとめております。<br>ご不明な点がございましたら、こちらも一度ご覧くださいませ。</p>\n                        <nav class=\"fz_16 pg_guide__faqLink\">\n                            <ul>\n                                <li><a href=\"faq/#order\">ご注文について</a></li>\n                                <li><a href=\"faq/#shipping\">配送について</a></li>\n                                <li><a href=\"faq/#cancel\">返品・キャンセル</a></li>\n                                <li><a href=\"faq/#items\">お米について</a></li>\n                            </ul>\n                        </nav>\n                    </section>\n                </div>\n            </div>\n\n            <div class=\"md_contact__phone pt_lrg\">\n                <a href=\"tel:0120617550\" class=\"fz_24 serif lt2\"><span>お悩み・お困りの時は</span><span><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></span><span>までお問い合わせください</span></a>\n            </div>\n\n        </div><!-- pg_vision__contents -->\n    </main>\n\n\n                <nav class=\"md_bottomNav__wrap\">\n                    <div class=\"l_row\">\n                        <ul class=\"md_bottomNav\">\n                            <li>\n                                <a href=\"../kinmemai/\">\n                                    <img src=\"../assets/images/foot_lplink_01.jpg\" alt=\"金芽米\">\n                                    <img src=\"../assets/images/foot_lplink_01t.png\" alt=\"金芽米とは\" class=\"ttl\">\n                                </a>\n                            </li>\n                            <li>\n                                <a href=\"../company/\">\n                                    <img src=\"../assets/images/foot_lplink_02.jpg\" alt=\"東洋ライス工場\">\n                                    <img src=\"../assets/images/foot_lplink_02t.png\" alt=\"東洋ライスという会社\" class=\"ttl\">\n                                </a>\n                            </li>\n                            <li>\n                                <a href=\"../vision/\">\n                                    <img src=\"../assets/images/foot_lplink_04.jpg\" alt=\"すこやかに\">\n                                    <img src=\"../assets/images/foot_lplink_04t.png\" alt=\"人も自然もすこやかに\" class=\"ttl\">\n                                </a>\n                            </li>\n                            <li>\n                                <a href=\"../process/\">\n                                    <img src=\"../assets/images/foot_lplink_03.jpg\" alt=\"田園\">\n                                    <img src=\"../assets/images/foot_lplink_03t.png\" alt=\"土作りから精米まで\" class=\"ttl\">\n                                </a>\n                            </li>\n                        </ul>\n                    </div>\n                </nav>\n\n    <div class=\"md_footer\" id=\"footer\" role=\"contentinfo\">\n        <div class=\"md_backtotop\" id=\"totop\">\n            <a href=\"#\"><i class=\"fas fa-arrow-up\"></i></a>\n        </div>\n        <div class=\"l_row\">\n            <footer>\n                <ul class=\"md_footerGuide__wrap\">\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl payment\"><span>お支払い方法</span></h3>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 creditlogo\">クレジットカード<img src=\"../assets/images/icn_foot_05.png\" alt=\"使えるクレジットカードブランド\">\n                                </p>\n                            </div>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 shipping_company\"><img src=\"../assets/images/icn_foot_06.png\" alt=\"代引き手数料無償\" class=\"daibiki_price\"></p>\n                            </div>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl shipping\"><span>配送・送料について</span></h3>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 shipping_company\">宅配会社<img src=\"../assets/images/icn_foot_06_1.png\" alt=\"宅配会社\"></p>\n                            </div>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14\">配達日・時間指定</p>\n                                <div class=\"shipping_time\">\n                                    <div class=\"l_1st\">\n                                        <img src=\"../assets/images/icn_foot_07.png\" alt=\"配達日指定可能・時間指定可能\" class=\"time_order\" width=\"120\">\n                                    </div>\n                                    <div class=\"l_2nd\">\n                                        <img src=\"../assets/images/icn_foot_08.png\" alt=\"配達日指定可能・時間指定可能\" class=\"time_list\" width=\"387\">\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl contact\"><span>お問い合わせ窓口</span></h3>\n                            <div class=\"guide_line\">\n                                <a href=\"tel:0120617550\" class=\"md_foot__phone\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></a>\n                                <a href=\"https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393\" class=\"md_foot__contact\"><img src=\"../assets/images/btn_contact.svg\" alt=\"お問い合わせ\" width=\"165\"></a>\n                            </div>\n                            <p class=\"fz_14 guide_note\">営業時間：平日9:30～17:00 (夏季・年末年始の休業日を除く)</p>\n                            <p class=\"fz_14\">「金芽米本舗を見て」とお伝えください。</p>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl faq\"><span>よくあるご質問</span></h3>\n                            <ul class=\"fz_14 fw700 guide_list\">\n                                <li><a href=\"../guide/faq/#order\">ご注文について</a></li>\n                                <li><a href=\"../guide/faq/#shipping\">配送について</a></li>\n                                <li><a href=\"../guide/faq/#cancel\">返品・キャンセル</a></li>\n                                <li><a href=\"../guide/faq/#items\">お米について</a></li>\n                            </ul>\n                        </div>\n                    </li>\n                </ul>\n                <section class=\"md_foot__copyright\">\n                    <p class=\"fz_12 copyright\">このホームページ上の写真、映像、文章、図表などの著作物を、弊社の了承なく複製、使用することを禁じます。<span class=\"mark\">&copy; 東洋ライス株式会社 All Rights Reserved.</span></p>\n                    <a href=\"https://www.toyo-rice.jp/\" class=\"md_foot__logo\" targer=\"new\"><img src=\"../assets/images/foot_logo.svg\" alt=\"東洋ライス株式会社\" width=\"252\"></a>\n                </section>\n            </footer>\n        </div>\n    </div><!-- /md_footer -->\n\n    <!-- .sidr-->\n    <div class=\"md_drawer__cover\" id=\"drawer_cover\"></div>\n    <div id=\"drawer_menu\" class=\"md_drawer__menu\">\n        <div class=\"md_drawer__contents\">\n            <div class=\"sidr_slide__close\"><span></span><span></span></div>\n            <div class=\"fz_14 md_slide__totop\"><a href=\"https://www.rakuten.co.jp/kinmemai-honpo/\" >トップへ戻る</a></div>\n            <ul class=\"sidr_slide__nav\">\n                <li>\n                    <h3 class=\"fz_20 serif sidr_slide__navTtl\"><a href=\"../All_item/\">商品一覧</a></h3>\n                    <ul class=\"fz_15 sidr_slide__navlow\">\n                        <li><a href=\"../All_item/\">商品一覧</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/\">金芽米（銘柄米）</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/\">金芽米（ブレンド米）</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/\">ロウカット玄米</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/\">パックご飯</a></li>\n                        <li><a href=\"../All_item/recommend/\" class=\"priority\">どれを買うか迷った方に</a></li>\n                    </ul>\n                </li>\n                <li>\n                    <h3 class=\"fz_20 serif sidr_slide__navTtl\"><a href=\"../kinmemai/\">金芽米とは</a></h3>\n                    <ul class=\"fz_15 sidr_slide__navlow\">\n                        <li><a href=\"../kinmemai/\">金芽米とは</a></li>\n                        <li><a href=\"../company/\">東洋ライスという会社</a></li>\n                        <li><a href=\"../vision/\">人も自然もすこやかに</a></li>\n                        <li><a href=\"../process/\">土作りから精米まで</a></li>\n                    </ul>\n                </li>\n                <li>\n                    <ul class=\"fz_15 sidr_slide__navImg\">\n                        <li>\n                            <a href=\"../kinmemai/#takikata\" class=\"icon takikata\"><h4 class=\"serif fz_15 ttl\">お米の<br>炊き方</h4></a>\n                        </li>\n                        <li>\n                            <a href=\"../guide/\" class=\"icon guide\"><h4 class=\"serif fz_15 ttl\">お買い物<br>ガイド</h4></a>\n                        </li>\n                        <li>\n                            <a href=\"../guide/faq/\" class=\"icon faq\"><h4 class=\"serif fz_15 ttl\">Q&A</h4></a>\n                        </li>\n                    </ul>\n                    <div class=\"sidr_iconNav\">\n                        <a href=\"https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001\" class=\"fz_14 serif sidr_iconNav cart\"><span>カートを見る</span></a>\n                    </div>\n                    <div class=\"md_header__search\">\n                        <form method=\"get\" action=\"http://esearch.rakuten.co.jp/rms/sd/esearch/vc\" target=\"_top\" accept-charset=\"euc-jp\">\n                            <input type=\"hidden\" name=\"sv\" value=\"6\">\n                            <input type=\"hidden\" name=\"sid\" value=\"363393\">\n                            <input type=\"hidden\" name=\"su\" value=\"https://www.rakuten.co.jp/kinmemai-honpo/\">\n                            <input type=\"hidden\" name=\"sn\" value=\"金芽米本舗\">\n                            <input type=\"search\" placeholder=\"検索\" name=\"sitem\" class=\"formtext\">\n                            <input type=\"hidden\" name=\"f\" value=\"A\">\n                            <button type=\"submit\" class=\"icon_search\" onclick=\"document.charset='EUC-JP'; document.rakutenSubmit.submit();\"><i class=\"fas fa-search\"></i></button>\n                        </form>\n                    </div>\n                    <div class=\"sidr_slide__phone\">\n                        <a href=\"tel:0120617550\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"200\"></a>\n                    </div>\n                </li>\n            </ul>\n        </div>\n    </div>\n    <script src=\"../assets/js/jquery.sidr.min.js\"></script>\n    <script src=\"../assets/js/jquery.touchwipe.js\"></script>\n    <!-- .sidr-->\n\n\n                <script>\n                    (function($) {\n                        $(function(){\n                            $('.pg_faq__contents dt').on(\"click\", function () {\n                                $(this).next('dd').slideToggle('fast');\n                                $(this).find('.pg_faq__plusDt').toggleClass('open');\n                                $(this).parents().children('.tour_list__thumb').toggleClass('open');\n                            });\n                        });\n                    })(jQuery);\n                </script>\n\n\n            </body>\n            </html>\n\n\n\n",
+			"file": "src/htdocs/guide/guide_shipping.html",
+			"file_size": 26481,
+			"file_write_time": 131883003290000000,
+			"settings":
+			{
+				"buffer_size": 23684,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html dir=\"ltr\" lang=\"ja\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"viewport\" content=\"width=device-width\">\n    <title></title>\n    <script src=\"../assets/js/jquery-3.3.1.min.js\"></script>\n    <!--[if lt IE 9]><script src=\"../assets/js/html5shiv.js\"></script><![endif]-->\n    <link href=\"//fonts.googleapis.com/earlyaccess/sawarabimincho.css\" rel=\"stylesheet\" />\n    <link rel=\"stylesheet\" media=\"all\" href=\"../assets/css/fontawesome-all.min.css\" />\n    <link rel=\"stylesheet\" media=\"all\" href=\"../assets/css/style.css\" />\n    <script src=\"../assets/js/config.js\"></script>\n</head>\n\n<body>\n\n\n    <div role=\"banner\" id=\"header\" class=\"md_header gold\">\n        <header>\n            <div class=\"md_gnav__trigger\" id=\"drawer_trigger\">\n                <span class=\"line\"></span>\n                <span class=\"line\"></span>\n                <span class=\"line\"></span>\n                <span class=\"txt\">メニュー</span>\n            </div>\n            <div class=\"md_header__wrap\">\n                <div class=\"innr\">\n                    <div class=\"md_header__gnav\">\n                        <h1 class=\"md_header__logo\">\n                            <a href=\"https://www.rakuten.ne.jp/gold/kinmemai-honpo/\">\n                                <img src=\"../assets/images/icn_logo.svg\" alt=\"金芽米本舗（きんめまいほんぽ）\" width=\"188\">\n                            </a>\n                        </h1>\n                        <nav class=\"md_header__nav\">\n                            <a href=\"https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001\" class=\"fz_14 serif icon_nav\"><i class=\"icon cart\"></i><span>カートを見る</span></a>\n                            <a href=\"../guide/\" class=\"fz_14 serif icon_nav shopping\"><i class=\"icon shopping\"></i><span>お買い物ガイド</span></a>\n                            <a href=\"../guide/faq/\" class=\"fz_14 serif icon_nav\"><i class=\"icon faq\"></i><span>よくある質問</span></a>\n                            <a href=\"https://www.rakuten.co.jp/\" target=\"new\" class=\"fz_14 serif icon_nav\"><i class=\"icon rakuten\"></i><span>楽天市場</span></a>\n                            <div class=\"md_header__search\">\n                                <form method=\"get\" action=\"http://esearch.rakuten.co.jp/rms/sd/esearch/vc\" target=\"_top\" accept-charset=\"euc-jp\">\n                                    <input type=\"hidden\" name=\"sv\" value=\"6\">\n                                    <input type=\"hidden\" name=\"sid\" value=\"363393\">\n                                    <input type=\"hidden\" name=\"su\" value=\"https://www.rakuten.co.jp/kinmemai-honpo/\">\n                                    <input type=\"hidden\" name=\"sn\" value=\"金芽米本舗\">\n                                    <input type=\"search\" placeholder=\"検索\" name=\"sitem\" class=\"formtext\">\n                                    <input type=\"hidden\" name=\"f\" value=\"A\">\n                                    <button type=\"submit\" class=\"icon_search\" onclick=\"document.charset='EUC-JP'; document.rakutenSubmit.submit();\"><i class=\"fas fa-search\"></i></button>\n                                </form>\n                            </div>\n                            <a href=\"tel:0120617550\" class=\"md_nav__phone head\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></a>\n                            <a href=\"https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393\" class=\"md_nav__contact\"><img src=\"../assets/images/btn_contact.svg\" alt=\"お問い合わせ\" width=\"165\"></a>\n                        </nav>\n                    </div>\n                </div>\n            </div>\n            <nav class=\"fz_16 md_header__tnavWrap\">\n                <ul class=\"md_header__tnav\">\n                    <li><a href=\"../All_item/\" class=\"serif lt2\">商品一覧</a></li>\n                    <li class=\"tnav_tiriger\">\n                        <span class=\"serif lt2 btn arrow\">商品を探す</span>\n                        <ul class=\"fz_14 children\">\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/\">金芽米（銘柄米）</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/\">金芽米（ブレンド米）</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/\">金芽ロウカット玄米</a></li>\n                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/\">パックご飯</a></li>\n                            <li><a href=\"../All_item/recommend/\">どれにするか迷った方へ</a></li>\n                        </ul>\n                    </li>\n                    <li><a href=\"../kinmemai/\" class=\"serif lt2\">金芽米とは</a></li>\n                    <li class=\"tnav_tiriger\">\n                        <span class=\"serif lt2 btn arrow\">About</span>\n                        <ul class=\"fz_14 children tar\">\n                            <li><a href=\"../company/\">東洋ライスという会社</a></li>\n                            <li><a href=\"../vision/\">人も自然もすこやかに</a></li>\n                            <li><a href=\"../process/\">土作りから精米まで</a></li>\n                        </ul>\n                    </li>\n                </ul>\n            </nav>\n        </header>\n    </div>\n\n    <main role=\"main\" id=\"top\">\n\n        <div class=\"pg_process__contents\">\n            <div class=\"pg_common__ttlWrap\">\n                <h2 class=\"serif lt2 pg_common__ttl\"><span>お買い物ガイド</span></h2>\n            </div>\n\n            <div class=\"pg_guide\">\n                <div class=\"l_row pd_side\">\n                    <div class=\"fz_15 pg_guide__guide\"><p>金芽米本舗で商品をお買い求めいただく際のご案内を項目ごとに掲載しております。<br>お買い物の方法など、分からない事がございましたらこちらよりお調べ下さい。</p></div>\n                    <ul class=\"pg_guide__listWrap\">\n                        <li id=\"order\">\n                            <h3 class=\"fz_24 serif pg_guide__listTtl\"><a href=\"guide_order.html\">ご注文・お支払いについて</a></h3>\n                            <ul class=\"fz_16 serif pg_guide__list\">\n                                <li><a href=\"guide_order.html#qa1\"><i class=\"fas fa-caret-right\"></i>初めてご利用されるお客様</a></li>\n                                <li><a href=\"guide_order.html#qa2\"><i class=\"fas fa-caret-right\"></i>送料について</a></li>\n                                <li><a href=\"guide_order.html#qa3\"><i class=\"fas fa-caret-right\"></i>お支払い方法について</a></li>\n                                <li><a href=\"guide_order.html#qa4\"><i class=\"fas fa-caret-right\"></i>お買い上げ明細・領収書について</a></li>\n                                <li><a href=\"guide_order.html#qa5\"><i class=\"fas fa-caret-right\"></i>当店からのメールが届かない場合</a></li>\n                            </ul>\n                        </li>\n                        <li id=\"shipping\">\n                            <h3 class=\"fz_24 serif pg_guide__listTtl\"><a href=\"guide_shipping.html\">配送について</a></h3>\n                            <ul class=\"fz_16 serif pg_guide__list\">\n                                <li><a href=\"guide_shipping.html#qa1\"><i class=\"fas fa-caret-right\"></i>配送業者について</a></li>\n                                <li><a href=\"guide_shipping.html#qa2\"><i class=\"fas fa-caret-right\"></i>商品発送のタイミング</a></li>\n                                <li><a href=\"guide_shipping.html#qa3\"><i class=\"fas fa-caret-right\"></i>日時指定でのお届け</a></li>\n                            </ul>\n                        </li>\n                        <li id=\"cancel\">\n                            <h3 class=\"fz_24 serif pg_guide__listTtl\"><a href=\"guide_cancel.html\">キャンセル・返品・交換について</a></h3>\n                            <ul class=\"fz_16 serif pg_guide__list\">\n                                <li><a href=\"guide_cancel.html#qa1\"><i class=\"fas fa-caret-right\"></i>ご注文のキャンセルについて</a></li>\n                                <li><a href=\"guide_cancel.html#qa2\"><i class=\"fas fa-caret-right\"></i>商品の返品・交換について</a></li>\n                                <li><a href=\"guide_cancel.html#qa3\"><i class=\"fas fa-caret-right\"></i>お支払い方法について</a></li>\n                            </ul>\n                        </li>\n                        <li id=\"contact\">\n                            <h3 class=\"fz_24 serif pg_guide__listTtl\"><a href=\"guide_contact.html\">お問い合わせ</a></h3>\n                            <ul class=\"fz_16 serif pg_guide__list\">\n                                <li><a href=\"guide_contact.html#qa1\"><i class=\"fas fa-caret-right\"></i>お問い合わせの前に</a></li>\n                                <li><a href=\"guide_contact.html#qa2\"><i class=\"fas fa-caret-right\"></i>お問い合わせ</a></li>\n                            </ul>\n                        </li>\n                    </ul>\n                    <section class=\"pg_guide__faq\">\n                        <h3 class=\"fz_24 serif pg_guide__listTtl\"><a href=\"faq/\">よくあるご質問</a></h3>\n                        <p class=\"fz_15 pg_guide__read\">よくあるご質問についてまとめております。<br>ご不明な点がございましたら、こちらも一度ご覧くださいませ。</p>\n                        <nav class=\"fz_16 pg_guide__faqLink\">\n                            <ul>\n                                <li><a href=\"faq/#order\">ご注文について</a></li>\n                                <li><a href=\"faq/#shipping\">配送について</a></li>\n                                <li><a href=\"faq/#cancel\">返品・キャンセル</a></li>\n                                <li><a href=\"faq/#items\">お米について</a></li>\n                            </ul>\n                        </nav>\n                    </section>\n                </div>\n            </div>\n\n            <div class=\"md_contact__phone pt_lrg\">\n                <a href=\"tel:0120617550\" class=\"fz_24 serif lt2\"><span>お悩み・お困りの時は</span><span><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></span><span>までお問い合わせください</span></a>\n            </div>\n\n        </div><!-- pg_vision__contents -->\n    </main>\n\n\n    <nav class=\"md_bottomNav__wrap\">\n        <div class=\"l_row\">\n            <ul class=\"md_bottomNav\">\n                <li>\n                    <a href=\"../kinmemai/\">\n                        <img src=\"../assets/images/foot_lplink_01.jpg\" alt=\"金芽米\">\n                        <img src=\"../assets/images/foot_lplink_01t.png\" alt=\"金芽米とは\" class=\"ttl\">\n                    </a>\n                </li>\n                <li>\n                    <a href=\"../company/\">\n                        <img src=\"../assets/images/foot_lplink_02.jpg\" alt=\"東洋ライス工場\">\n                        <img src=\"../assets/images/foot_lplink_02t.png\" alt=\"東洋ライスという会社\" class=\"ttl\">\n                    </a>\n                </li>\n                <li>\n                    <a href=\"../vision/\">\n                        <img src=\"../assets/images/foot_lplink_04.jpg\" alt=\"すこやかに\">\n                        <img src=\"../assets/images/foot_lplink_04t.png\" alt=\"人も自然もすこやかに\" class=\"ttl\">\n                    </a>\n                </li>\n                <li>\n                    <a href=\"../process/\">\n                        <img src=\"../assets/images/foot_lplink_03.jpg\" alt=\"田園\">\n                        <img src=\"../assets/images/foot_lplink_03t.png\" alt=\"土作りから精米まで\" class=\"ttl\">\n                    </a>\n                </li>\n            </ul>\n        </div>\n    </nav>\n\n    <div class=\"md_footer\" id=\"footer\" role=\"contentinfo\">\n        <div class=\"md_backtotop\" id=\"totop\">\n            <a href=\"#\"><i class=\"fas fa-arrow-up\"></i></a>\n        </div>\n        <div class=\"l_row\">\n            <footer>\n                <ul class=\"md_footerGuide__wrap\">\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl payment\"><span>お支払い方法</span></h3>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 creditlogo\">クレジットカード<img src=\"../assets/images/icn_foot_05.png\" alt=\"使えるクレジットカードブランド\">\n                                </p>\n                            </div>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 shipping_company\"><img src=\"../assets/images/icn_foot_06.png\" alt=\"代引き手数料無償\" class=\"daibiki_price\"></p>\n                            </div>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl shipping\"><span>配送・送料について</span></h3>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14 shipping_company\">宅配会社<img src=\"../assets/images/icn_foot_06_1.png\" alt=\"宅配会社\"></p>\n                            </div>\n                            <div class=\"guide_column\">\n                                <p class=\"fz_14\">配達日・時間指定</p>\n                                <div class=\"shipping_time\">\n                                    <div class=\"l_1st\">\n                                        <img src=\"../assets/images/icn_foot_07.png\" alt=\"配達日指定可能・時間指定可能\" class=\"time_order\" width=\"120\">\n                                    </div>\n                                    <div class=\"l_2nd\">\n                                        <img src=\"../assets/images/icn_foot_08.png\" alt=\"配達日指定可能・時間指定可能\" class=\"time_list\" width=\"387\">\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl contact\"><span>お問い合わせ窓口</span></h3>\n                            <div class=\"guide_line\">\n                                <a href=\"tel:0120617550\" class=\"md_foot__phone\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"246\"></a>\n                                <a href=\"https://ask.step.rakuten.co.jp/inquiry-form/?shop_id=363393\" class=\"md_foot__contact\"><img src=\"../assets/images/btn_contact.svg\" alt=\"お問い合わせ\" width=\"165\"></a>\n                            </div>\n                            <p class=\"fz_14 guide_note\">営業時間：平日9:30～17:00 (夏季・年末年始の休業日を除く)</p>\n                            <p class=\"fz_14\">「金芽米本舗を見て」とお伝えください。</p>\n                        </div>\n                    </li>\n                    <li>\n                        <div class=\"md_footerGuide\">\n                            <h3 class=\"fz_18 fw700 lt1 md_footerGuide_ttl faq\"><span>よくあるご質問</span></h3>\n                            <ul class=\"fz_14 fw700 guide_list\">\n                                <li><a href=\"../guide/faq/#order\">ご注文について</a></li>\n                                <li><a href=\"../guide/faq/#shipping\">配送について</a></li>\n                                <li><a href=\"../guide/faq/#cancel\">返品・キャンセル</a></li>\n                                <li><a href=\"../guide/faq/#items\">お米について</a></li>\n                            </ul>\n                        </div>\n                    </li>\n                </ul>\n                <section class=\"md_foot__copyright\">\n                    <p class=\"fz_12 copyright\">このホームページ上の写真、映像、文章、図表などの著作物を、弊社の了承なく複製、使用することを禁じます。<span class=\"mark\">&copy; 東洋ライス株式会社 All Rights Reserved.</span></p>\n                    <a href=\"https://www.toyo-rice.jp/\" class=\"md_foot__logo\" targer=\"new\"><img src=\"../assets/images/foot_logo.svg\" alt=\"東洋ライス株式会社\" width=\"252\"></a>\n                </section>\n            </footer>\n        </div>\n    </div><!-- /md_footer -->\n\n    <!-- .sidr-->\n    <div class=\"md_drawer__cover\" id=\"drawer_cover\"></div>\n    <div id=\"drawer_menu\" class=\"md_drawer__menu\">\n        <div class=\"md_drawer__contents\">\n            <div class=\"sidr_slide__close\"><span></span><span></span></div>\n            <div class=\"fz_14 md_slide__totop\"><a href=\"https://www.rakuten.co.jp/kinmemai-honpo/\" >トップへ戻る</a></div>\n            <ul class=\"sidr_slide__nav\">\n                <li>\n                    <h3 class=\"fz_20 serif sidr_slide__navTtl\"><a href=\"../All_item/\">商品一覧</a></h3>\n                    <ul class=\"fz_15 sidr_slide__navlow\">\n                        <li><a href=\"../All_item/\">商品一覧</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000107/\">金芽米（銘柄米）</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000108/\">金芽米（ブレンド米）</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000105/\">ロウカット玄米</a></li>\n                        <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/\">パックご飯</a></li>\n                        <li><a href=\"../All_item/recommend/\" class=\"priority\">どれを買うか迷った方に</a></li>\n                    </ul>\n                </li>\n                <li>\n                    <h3 class=\"fz_20 serif sidr_slide__navTtl\"><a href=\"../kinmemai/\">金芽米とは</a></h3>\n                    <ul class=\"fz_15 sidr_slide__navlow\">\n                        <li><a href=\"../kinmemai/\">金芽米とは</a></li>\n                        <li><a href=\"../company/\">東洋ライスという会社</a></li>\n                        <li><a href=\"../vision/\">人も自然もすこやかに</a></li>\n                        <li><a href=\"../process/\">土作りから精米まで</a></li>\n                    </ul>\n                </li>\n                <li>\n                    <ul class=\"fz_15 sidr_slide__navImg\">\n                        <li>\n                            <a href=\"../kinmemai/#takikata\" class=\"icon takikata\"><h4 class=\"serif fz_15 ttl\">お米の<br>炊き方</h4></a>\n                        </li>\n                        <li>\n                            <a href=\"../guide/\" class=\"icon guide\"><h4 class=\"serif fz_15 ttl\">お買い物<br>ガイド</h4></a>\n                        </li>\n                        <li>\n                            <a href=\"../guide/faq/\" class=\"icon faq\"><h4 class=\"serif fz_15 ttl\">Q&A</h4></a>\n                        </li>\n                    </ul>\n                    <div class=\"sidr_iconNav\">\n                        <a href=\"https://basket.step.rakuten.co.jp/rms/mall/bs/cart/?shop_bid=363393&__event=ES01_003_001\" class=\"fz_14 serif sidr_iconNav cart\"><span>カートを見る</span></a>\n                    </div>\n                    <div class=\"md_header__search\">\n                        <form method=\"get\" action=\"http://esearch.rakuten.co.jp/rms/sd/esearch/vc\" target=\"_top\" accept-charset=\"euc-jp\">\n                            <input type=\"hidden\" name=\"sv\" value=\"6\">\n                            <input type=\"hidden\" name=\"sid\" value=\"363393\">\n                            <input type=\"hidden\" name=\"su\" value=\"https://www.rakuten.co.jp/kinmemai-honpo/\">\n                            <input type=\"hidden\" name=\"sn\" value=\"金芽米本舗\">\n                            <input type=\"search\" placeholder=\"検索\" name=\"sitem\" class=\"formtext\">\n                            <input type=\"hidden\" name=\"f\" value=\"A\">\n                            <button type=\"submit\" class=\"icon_search\" onclick=\"document.charset='EUC-JP'; document.rakutenSubmit.submit();\"><i class=\"fas fa-search\"></i></button>\n                        </form>\n                    </div>\n                    <div class=\"sidr_slide__phone\">\n                        <a href=\"tel:0120617550\"><img src=\"../assets/images/icn_phone.svg\" alt=\"お問い合わせ電話番号0120617550\" width=\"200\"></a>\n                    </div>\n                </li>\n            </ul>\n        </div>\n    </div>\n    <script src=\"../assets/js/jquery.sidr.min.js\"></script>\n    <script src=\"../assets/js/jquery.touchwipe.js\"></script>\n    <!-- .sidr-->\n\n    <script>\n        (function($) {\n            $(function(){\n                $('.pg_faq__contents dt').on(\"click\", function () {\n                    $(this).next('dd').slideToggle('fast');\n                    $(this).find('.pg_faq__plusDt').toggleClass('open');\n                    $(this).parents().children('.tour_list__thumb').toggleClass('open');\n                });\n            });\n        })(jQuery);\n    </script>\n\n</body>\n</html>\n\n\n\n",
+			"file": "src/htdocs/guide/index.html",
+			"file_size": 21381,
+			"file_write_time": 131883003290000000,
+			"settings":
+			{
+				"buffer_size": 19568,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/htdocs/vision/index.html",
+			"settings":
+			{
+				"buffer_size": 19929,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/htdocs/scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 66247,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/User/Gulp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Gulp_create.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Gulp_ejs_OSX.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Gulp_OSX.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Packages/User/Gulp.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Packages/User/Gulp_create.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Packages/User/Gulp_ejs_OSX.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Packages/User/Gulp_OSX.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Gulp.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo//src",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo//src/htdocs",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo//src/htdocs/All_item",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo//src/htdocs/All_item/recommend",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo//src/htdocs/company",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo//src/htdocs/guide",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo//src/htdocs/guide/faq",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo//src/htdocs/kinmemai",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo//src/htdocs/process",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo//src/htdocs/scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo//src/htdocs/scss/base",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo//src/htdocs/vision"
+	],
+	"file_history":
+	[
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/_footer.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/index_sp.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/All_item/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/All_item/recommend/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/kinmemai/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/process/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/guide/faq/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/_sidebar.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/company/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/vision/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/guide/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/guide/guide_shipping.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/guide/guide_order.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/guide/guide_contact.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/guide/guide_cancel.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/_header.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/scss/parts/_footer.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/scss/parts/_header.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/scss/rms_pc__styles.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/scss/parts/_rms_pc__stylesImport.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/scss/parts/_sidr.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/scss/style.scss",
+		"/src/index_sp.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/gulpfile.js",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/htdocs/scss/base/_base_setting.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/index2.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/rms_pc__styles.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/style.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/guide/faq/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/parts/_header.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/parts/_footer.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/process/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/parts/_sidr.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/_sidebar.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/_footer.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/All_item/recommend/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/All_item/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/company/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/guide/guide_order.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/guide/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/kinmemai/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/vision/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/assets/js/config.js",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/base/_base_setting.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/parts/_rms_pc__stylesImport.scss",
+		"/Users/hacca/Library/Application Support/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/All_item/recomend/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/All_item/reccomend/index.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/_header.html",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/gold_iframe__styles.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/_rms_pc__stylesImport.scss",
+		"/src/scss/gold_iframe__styles.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/base/_font_setting__extend.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/assets/css/rms_pc__styles.css",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/base/_font_setting.scss",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/base/_default.scss",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/Users/hacca/Dropbox/mac_host/htdocs/kinmemai_honpo/src/scss/default.scss",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/taxonomy-tourcat.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/taxonomy-tourtag.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-charter.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/taxonomy-tourcat-soldout.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/modules/fun_posttype.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/taxonomy-newscat.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/_modules_tourpost__finish.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/single-news.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/_page-tour.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/scss/common.scss",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/scss/modules/_postEntry.scss",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/scss/modules/_footer.scss",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/archive-news.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/archive-faq.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/scss/modules/_contact.scss",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/modules/fun_init.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/functions.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/_modules_tourpost.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/archive-tour.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/single-tour.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/index.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/header.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/modules/fun_admin.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/modules/fun_form.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/modules/fun_getpost.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/modules/fun_java-css.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/modules/fun_other.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/modules/fun_output-ext.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/modules/fun_plugins.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/assets/js/common.js",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/taxonomy-tour_destination.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/scss/modules/_pagenav.scss",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/footer.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-tour_reservation.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/archive-journey.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-bus_salonlrg.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-bus_micro.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-bus_med.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-bus_lrg.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-bus_charge.php",
+		"/Users/hacca/Dropbox/mac_host/htdocs/lp.leaf-web.com/src/index.html",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/single-journey.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-information.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/taxonomy-journeycat.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/_modules_ogp.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/_modules_meta.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/assets/js/jquery.dependent-selects.js",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/scss/default.scss",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/single.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/scss/base/_base_setting.scss",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-tour.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-safe_and_secure.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/assets/css/slider-pro.min.css",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-tour_lp.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-recruit.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-contact.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/scss/modules/_header.scss",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-journey.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/scss/modules/_sidr.scss",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-bus_flow.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/scss/modules/_post.scss",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/assets/js/gmap.js",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-privacypolicy.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/scss/modules/_page.scss",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-123456-2.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-j1234.php",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/gulpfile.js",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/assets/js/slider_config.js",
+		"/Users/hacca/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/page-safty.php"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"                            <p class=\"fz_14 guide_note\">営業時間：平日9:30～17:00 (夏季・年末年始の休業日を除く)</p>\n                        </div>",
+			"送料無料",
+			"軽量",
+			"                                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/\">パックご飯</a></li>\n                                            <li><a href=\"../kinmemai/\">金芽米とは</a></li>",
+			"（セレクトシリーズ)",
+			"（セレクトシリーズ）",
+			"htdocs/",
+			"https://item.rakuten.co.jp/kinmemai-honpo/1000370450/",
+			"ゴールド",
+			"1000480400",
+			"../assets/",
+			"<a href=\"\"",
+			"/\" class=\"k",
+			"/\">",
+			"htdocs/src/",
+			"src/",
+			"https://www.rakuten.ne.jp/gold/kinmemai-honpo/",
+			"src=\"https://www.rakuten.ne.jp/gold/kinmemai-honpo/htdocs/",
+			"https://www.rakuten.ne.jp/gold/kinmemai-honpo/htdocs/",
+			"src=\"assets/",
+			"../",
+			"初めてご利用されるお客様",
+			"当店からのメールが届かない場合",
+			"お買い上げ明細・領収書について",
+			"お支払い方法について",
+			"送料について",
+			"初めてご利用されるお客様",
+			"div",
+			"<li>",
+			"h3",
+			"                                            ",
+			"th",
+			"</h2>",
+			"<h2>",
+			"src=\"../assets/",
+			"footer",
+			"500",
+			"$('#totop')",
+			"md_icon__comeg",
+			"md_icon__comeg.svg",
+			"m",
+			"../assets/images/item_img/",
+			"allitem",
+			"40",
+			"60",
+			"6px",
+			"Nav",
+			"rms_pc",
+			"60",
+			"40",
+			"20",
+			"30",
+			"../",
+			"100",
+			"6",
+			"<a href=\"",
+			"<h3 class=\"fz_24 serif pg_guide__listTtl\">",
+			"</h3>",
+			"5",
+			"10",
+			"5",
+			"fz_24",
+			"ゴールドセレクト",
+			"ベストセレクト",
+			"6",
+			"ハイ",
+			"ハイセレクト",
+			"5",
+			";\n        }",
+			"}",
+			"background-color",
+			"45",
+			"$",
+			"ec6d51",
+			"div",
+			"pg_guide__list\">",
+			"pg_guide__list",
+			"fz_24",
+			"pg_guide__list\">",
+			"pg_guide__list",
+			"serif",
+			"div",
+			"</a></li>",
+			"div",
+			"#77A47B",
+			"<a href=\"\">",
+			"</li>",
+			"<li>",
+			" ",
+			"dl",
+			"../../",
+			"../",
+			"24",
+			"https://ichiba.faq.rakuten.co.jp/app/answers/detail/a_id/69",
+			"<dd><div>",
+			"30",
+			"bigining",
+			"kineme",
+			"5",
+			"base_font__color",
+			"div",
+			"8",
+			"</h3>",
+			"<h3 class=\"fz_22 md_chapter__listTtl\">",
+			"src=\"../",
+			"5",
+			"div",
+			"860px",
+			".2",
+			"15",
+			"md_visionSec__summary",
+			"md_visionSec__ttl",
+			"pg_visionSec__summary",
+			"pg_visionSec__ttl",
+			"pg_visionSec__summary",
+			"pg_visionSec__ttl",
+			"span",
+			"40",
+			".3",
+			".4",
+			"serif lt4 pg_visionSec__ttl",
+			"4",
+			"<a href=\"../",
+			"60",
+			".png",
+			"<img",
+			"</a></li>",
+			"<li>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"                            <p class=\"fz_14 guide_note\">営業時間：平日9:30～17:00 (夏季・年末年始の休業日を除く)</p>\n                            <p class=\"fz_14\">「金芽米本舗を見て」とお伝えください。</p>\n                        </div>",
+			"                                            <li><a href=\"https://item.rakuten.co.jp/kinmemai-honpo/c/0000000106/\">パックご飯</a></li>",
+			"（ブレンド米）"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/htdocs/company/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19703,
+								19578
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": 172,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7836.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/htdocs/guide/guide_cancel.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/htdocs/guide/guide_contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/htdocs/guide/guide_order.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/htdocs/guide/guide_shipping.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/htdocs/guide/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/htdocs/vision/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19929,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14724,
+								14530
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"region.orangish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5706.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "src/htdocs/scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64540,
+								64540
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										64616,
+										64617
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										64489,
+										64490
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"class_or_id": "pg_kinme__takikata",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 59546.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 66.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.512704050317,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Gulp.sublime-build",
+	"project": "kinmemai_honpo.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/mac_host/vccw/tk-bus.jp/wordpress/wp-content/themes/tk-bus/tk-bus.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 318.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
