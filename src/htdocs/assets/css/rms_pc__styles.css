@@ -456,6 +456,10 @@ a:hover {
     width: 100%;
     margin-right: 0;
   }
+  .rms_pc__sidebar#rms {
+    width: 300px;
+    margin-right: 30px;
+  }
 }
 
 .rms_pc__sidebar .innr {
@@ -499,6 +503,9 @@ a:hover {
         -ms-flex-align: start;
             align-items: flex-start;
   }
+  #rms .rms_pc__sideNav {
+    display: block;
+  }
 }
 
 .rms_pc__sideNav > li {
@@ -510,6 +517,11 @@ a:hover {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 48%;
             flex: 0 1 48%;
+  }
+  #rms .rms_pc__sideNav > li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
   }
 }
 
