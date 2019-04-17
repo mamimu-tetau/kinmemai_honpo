@@ -25,6 +25,7 @@ $navHeight: 56px;
     padding-bottom: 30px;
     padding-left: 3%;
     padding-right: 90px;
+    box-sizing: border-box;
     @include media(540px) {
         padding-top: 10px;
     }
@@ -76,7 +77,6 @@ $navHeight: 56px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: flex-end;
     align-items: stretch;
 }
 .md_header__logo {
@@ -212,9 +212,11 @@ $navHeight: 56px;
         padding: 0 1em;
         padding-right: 25px;
         line-height: 30px;
+        max-width: 180px;
         width: 100%;
         transition: all .2s linear;
         display: block;
+        box-sizing: border-box;
         .sidr_slide__nav & {
             padding: .5em 1em;
             @include media(1280px) {
@@ -237,13 +239,13 @@ $navHeight: 56px;
         top: .75em;
         line-height: 30px;
         cursor: pointer;
-        @include media(1280px) {
+        @include media(1300px) {
             left: 10px;
             right: auto;
         }
         .sidr_slide__nav & {
             top: calc(1em + 2px);
-            @include media(1280px) {
+            @include media(1300px) {
                 left: auto;
                 right: 10px;
             }

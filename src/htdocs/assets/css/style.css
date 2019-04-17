@@ -879,6 +879,8 @@ __header
   padding-bottom: 30px;
   padding-left: 3%;
   padding-right: 90px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media screen and (max-width: 540px) {
@@ -952,9 +954,6 @@ __header
           flex-direction: row;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
@@ -1149,10 +1148,13 @@ __header
   padding: 0 1em;
   padding-right: 25px;
   line-height: 30px;
+  max-width: 180px;
   width: 100%;
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
   display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .sidr_slide__nav .md_header__search input[type="search"] {
@@ -1185,7 +1187,7 @@ __header
   cursor: pointer;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1300px) {
   .md_header__search .icon_search {
     left: 10px;
     right: auto;
@@ -1196,7 +1198,7 @@ __header
   top: calc(1em + 2px);
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1300px) {
   .sidr_slide__nav .md_header__search .icon_search {
     left: auto;
     right: 10px;
@@ -5047,7 +5049,7 @@ __page guide
 }
 
 .pg_guide__mainColumn .num_list {
-  list-style-type: decimal;
+  list-style-type: disc;
   padding-left: 1.25em;
 }
 
@@ -5059,6 +5061,10 @@ __page guide
 
 .pg_guide__mainColumn .num_list li:last-child {
   margin-bottom: 0;
+}
+
+.pg_guide__mainColumn .num_list li strong {
+  font-weight: bold;
 }
 
 .pg_guide__mainColumn .atte {
